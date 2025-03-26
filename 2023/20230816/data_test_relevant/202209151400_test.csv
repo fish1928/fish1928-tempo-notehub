@@ -1,0 +1,701 @@
+id,name,raw,category,processed,solution,target,version,targetnew,label
+5533,log-3963,"2022-09-06 09:57:02,006 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-06 09:57:02,006 | TASK [gosc_sanity_dhcp][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,machine,relevant
+5529,log-3949,"2022-09-06 09:36:32,006 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-06 09:36:32,006 | TASK [gosc_sanity_dhcp][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp check vm test vm ip address task path home worker workspace ansible windows number b it number ga sata bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,machine,relevant
+5531,log-3952,"2022-09-06 07:07:18,006 | Failed at Play [check_ip_address] **************************
+2022-09-06 07:07:18,006 | TASK [check_ip_address][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play check ip address timestamp task check ip address check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,machine,relevant
+5532,log-3954,"2022-09-06 07:25:43,006 | Failed at Play [mouse_driver_vmtools] **********************
+2022-09-06 07:25:43,006 | TASK [mouse_driver_vmtools][Check VM 'test_vm' IP address] *
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play mouse driver vm tools timestamp task mouse driver vm tools check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,machine,relevant
+5530,log-3951,"2022-09-06 06:50:40,006 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-06 06:50:40,006 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,machine,relevant
+5536,log-3982,"2022-09-07 05:22:52,007 | Failed at Play [nvme_vhba_device_ops] **********************
+2022-09-07 05:22:52,007 | TASK [nvme_vhba_device_ops][Check VM 'test_vm' IP address] *
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play nvme v hba device ops timestamp task nvme v hba device ops check vm test vm ip address task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,machine,relevant
+5527,log-3914,"2022-09-06 01:18:25,006 | Failed at Play [wintools_uninstall_verify] *****************
+2022-09-06 01:18:25,006 | TASK [wintools_uninstall_verify][Check no problem device listed] 
+task path: /home/worker/workspace/dw_win11_70u3_existing/ansible-vsphere-gos-validation/windows/utils/win_check_problem_device.yml:16
+fatal: [localhost]: FAILED! => No 'No devices were found on the system' in output, please check listed problem devices.",,timestamp failed at play win tools un install verify timestamp task win tools un install verify check no problem device listed task path home worker workspace dw existing ansible vsphere gos validation windows utilities win check problem device yml number fatal localhost failed no no devices were found on the system in output please check listed problem devices,deepdive,targetvm,202209151400,machine,relevant
+5528,log-3938,"2022-09-06 06:57:55,006 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-06 06:57:55,006 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible windows number b it number ga sata bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,machine,relevant
+5534,log-4097,"2022-09-13 03:42:21,013 | Failed at Play [check_inbox_driver] ************************
+2022-09-13 03:42:21,013 | TASK [check_inbox_driver][Check inbox driver's filename is valid] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/linux/check_inbox_driver/get_inbox_drivers.yml:141
+failed: [localhost] => (item=vsock is (builtin)) => Invalid inbox driver vsock filename: (builtin) and vsock is (builtin)",,timestamp failed at play check inbox driver timestamp task check inbox driver check inbox driver s filename is valid task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation linux check inbox driver get inbox drivers yml number failed localhost item vsock is builtin invalid inbox driver vsock filename builtin and vsock is builtin,deepdive,targetvm,202209151400,machine,relevant
+5535,log-3974,"2022-09-07 04:46:17,007 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-07 04:46:17,007 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,machine,relevant
+5537,log-4069,"2022-09-09 04:23:05,009 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-09 04:23:05,009 | TASK [gosc_sanity_dhcp][Customize Windows guest OS] ********
+task path: /home/worker/workspace/Ansible_Cycle_Windows_11_64/ansible-vsphere-gos-validation/windows/guest_customization/win_gosc_execution.yml:4
+fatal: [localhost]: FAILED! => Customization failed. For detailed information see warnings Waiting for customization result event timed out.",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp customize windows guest os task path home worker workspace ansible cycle windows number ansible vsphere gos validation windows guest customization win go sc execution yml number fatal localhost failed customization failed for detailed information see warnings waiting for customization result event timed out,deepdive,targetvm,202209151400,machine,relevant
+5538,log-4058,"2022-09-09 02:33:46,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:33:46,009 | TASK [e1000e_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_11.x_64/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.186.86.173]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,machine,relevant
+5539,log-4059,"2022-09-09 02:37:24,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 02:37:24,009 | TASK [vmxnet3_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_11.x_64/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.186.86.173]: FAILED! =>  when ip",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops get network interface status task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,machine,relevant
+5540,log-4061,"2022-09-09 02:34:38,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:34:38,009 | TASK [e1000e_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_22.04_Server_ISO/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.187.154.92]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression ubuntu number server iso ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,machine,relevant
+5541,log-4064,"2022-09-09 02:22:15,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:22:15,009 | TASK [e1000e_network_device_ops][Get network interface 'ens224' status] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_22.04_Server_OVA/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.182.0.161]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression ubuntu number server ova ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,machine,relevant
+5542,log-4072,"2022-09-09 05:09:26,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 05:09:26,009 | TASK [e1000e_network_device_ops][Remove a network adapter from VM 'test_rockylinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_remove_network_adapter.yml:4
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play network device ops timestamp task network device ops remove a network adapter from vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm remove network adapter yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,targetvm,202209151400,machine,relevant
+5543,log-4075,"2022-09-09 05:07:35,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 05:07:35,009 | TASK [e1000e_network_device_ops][Reconfigure network adapter to test_rockylinux9] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_configure_network_adapter.yml:5
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play network device ops timestamp task network device ops re configure network adapter to test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm configure network adapter yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,targetvm,202209151400,machine,relevant
+5544,log-4080,"2022-09-09 08:39:45,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 08:39:45,009 | TASK [vmxnet3_network_device_ops][Add a new 'vmxnet3' adapter in 'vSwitch2022-09-09-08-33-46_PG' to VM 'test_debian10_32'] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/common/vm_add_network_adapter.yml:4
+exception in /vmware_guest_network.py when _nic_present in /vmware.py when wait_for_task
+fatal: [localhost]: FAILED! => ('The available Memory resources in the parent resource pool are insufficient for the operation.', None)",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops add a new vmxnet number adapter in vswitch timestamp number page to vm test debian number task path home worker workspace ansible regression debian number x number ansible vsphere gos validation common vm add network adapter yml number exception in vmware guest network python when nic present in vmware python when wait for task fatal localhost failed the available memory resources in the parent resource pool are insufficient for the operation none,retry,nimbus,202209151400,environment,relevant
+5545,log-4081,"2022-09-09 08:38:01,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 08:38:01,009 | TASK [e1000e_network_device_ops][Assert new e1000e adapter interface is removed] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/linux/network_device_ops/network_status_validate.yml:155
+fatal: [localhost]: FAILED! => After hot removing the new network adapter, guest OS still can detect it",,timestamp failed at play network device ops timestamp task network device ops assert new adapter interface is removed task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux network device ops network status validate yml number fatal localhost failed after hot removing the new network adapter guest os still can detect it,deepdive,targetvm,202209151400,machine,relevant
+5546,log-4082,"2022-09-09 08:42:23,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 08:42:23,009 | TASK [vmxnet3_network_device_ops][Waiting for network interface 'ens35' status up] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.212.28.189]: FAILED! =>  when ip",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops waiting for network interface status up task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,machine,relevant
+5547,log-4084,"2022-09-09 21:12:30,009 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2022-09-09 21:12:30,009 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Wait for message 'Autoinstall is completed.' appear in VM log serial-20220909200020.log] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/common/vm_wait_log_msg.yml:35
+fatal: [localhost]: FAILED! => {
+    ""attempts"": 720,
+    ""censored"": ""the output has been hidden due to the fact that 'no_log: true' was specified for this result"",
+    ""changed"": false
+}
+2022-09-09 21:13:01,009 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Testing exit due to failure] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/common/test_rescue.yml:57
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_vmxnet3",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number wait for message auto install is completed appear in vm log serial timestamp log task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation common vm wait log message yml number fatal localhost failed attempts number censored the output has been hidden due to the fact that no log true was specified for this result changed false timestamp task deploy vm efi para virtual vmxnet number testing exit due to failure task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi para virtual vmxnet number,retry,targetvm,202209151400,machine,relevant
+5548,log-4099,"2022-09-13 09:50:35,013 | Failed at Play [wintools_uninstall_verify] *****************
+2022-09-13 09:50:35,013 | TASK [wintools_uninstall_verify][Check no problem device listed] 
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/utils/win_check_problem_device.yml:16
+fatal: [localhost]: FAILED! => No 'No devices were found on the system' in output, please check listed problem devices.",,timestamp failed at play win tools un install verify timestamp task win tools un install verify check no problem device listed task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows utilities win check problem device yml number fatal localhost failed no no devices were found on the system in output please check listed problem devices,deepdive,targetvm,202209151400,machine,relevant
+5533,log-3963,"2022-09-06 09:57:02,006 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-06 09:57:02,006 | TASK [gosc_sanity_dhcp][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,environment,irrelevant
+5533,log-3963,"2022-09-06 09:57:02,006 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-06 09:57:02,006 | TASK [gosc_sanity_dhcp][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,component,irrelevant
+5533,log-3963,"2022-09-06 09:57:02,006 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-06 09:57:02,006 | TASK [gosc_sanity_dhcp][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5533,log-3963,"2022-09-06 09:57:02,006 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-06 09:57:02,006 | TASK [gosc_sanity_dhcp][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,user,irrelevant
+5533,log-3963,"2022-09-06 09:57:02,006 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-06 09:57:02,006 | TASK [gosc_sanity_dhcp][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,test,irrelevant
+5533,log-3963,"2022-09-06 09:57:02,006 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-06 09:57:02,006 | TASK [gosc_sanity_dhcp][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,product,irrelevant
+5529,log-3949,"2022-09-06 09:36:32,006 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-06 09:36:32,006 | TASK [gosc_sanity_dhcp][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp check vm test vm ip address task path home worker workspace ansible windows number b it number ga sata bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,environment,irrelevant
+5529,log-3949,"2022-09-06 09:36:32,006 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-06 09:36:32,006 | TASK [gosc_sanity_dhcp][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp check vm test vm ip address task path home worker workspace ansible windows number b it number ga sata bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,component,irrelevant
+5529,log-3949,"2022-09-06 09:36:32,006 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-06 09:36:32,006 | TASK [gosc_sanity_dhcp][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp check vm test vm ip address task path home worker workspace ansible windows number b it number ga sata bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5529,log-3949,"2022-09-06 09:36:32,006 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-06 09:36:32,006 | TASK [gosc_sanity_dhcp][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp check vm test vm ip address task path home worker workspace ansible windows number b it number ga sata bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,user,irrelevant
+5529,log-3949,"2022-09-06 09:36:32,006 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-06 09:36:32,006 | TASK [gosc_sanity_dhcp][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp check vm test vm ip address task path home worker workspace ansible windows number b it number ga sata bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,test,irrelevant
+5529,log-3949,"2022-09-06 09:36:32,006 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-06 09:36:32,006 | TASK [gosc_sanity_dhcp][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp check vm test vm ip address task path home worker workspace ansible windows number b it number ga sata bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,product,irrelevant
+5531,log-3952,"2022-09-06 07:07:18,006 | Failed at Play [check_ip_address] **************************
+2022-09-06 07:07:18,006 | TASK [check_ip_address][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play check ip address timestamp task check ip address check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,environment,irrelevant
+5531,log-3952,"2022-09-06 07:07:18,006 | Failed at Play [check_ip_address] **************************
+2022-09-06 07:07:18,006 | TASK [check_ip_address][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play check ip address timestamp task check ip address check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,component,irrelevant
+5531,log-3952,"2022-09-06 07:07:18,006 | Failed at Play [check_ip_address] **************************
+2022-09-06 07:07:18,006 | TASK [check_ip_address][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play check ip address timestamp task check ip address check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5531,log-3952,"2022-09-06 07:07:18,006 | Failed at Play [check_ip_address] **************************
+2022-09-06 07:07:18,006 | TASK [check_ip_address][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play check ip address timestamp task check ip address check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,user,irrelevant
+5531,log-3952,"2022-09-06 07:07:18,006 | Failed at Play [check_ip_address] **************************
+2022-09-06 07:07:18,006 | TASK [check_ip_address][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play check ip address timestamp task check ip address check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,test,irrelevant
+5531,log-3952,"2022-09-06 07:07:18,006 | Failed at Play [check_ip_address] **************************
+2022-09-06 07:07:18,006 | TASK [check_ip_address][Check VM 'test_vm' IP address] *****
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play check ip address timestamp task check ip address check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,product,irrelevant
+5532,log-3954,"2022-09-06 07:25:43,006 | Failed at Play [mouse_driver_vmtools] **********************
+2022-09-06 07:25:43,006 | TASK [mouse_driver_vmtools][Check VM 'test_vm' IP address] *
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play mouse driver vm tools timestamp task mouse driver vm tools check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,environment,irrelevant
+5532,log-3954,"2022-09-06 07:25:43,006 | Failed at Play [mouse_driver_vmtools] **********************
+2022-09-06 07:25:43,006 | TASK [mouse_driver_vmtools][Check VM 'test_vm' IP address] *
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play mouse driver vm tools timestamp task mouse driver vm tools check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,component,irrelevant
+5532,log-3954,"2022-09-06 07:25:43,006 | Failed at Play [mouse_driver_vmtools] **********************
+2022-09-06 07:25:43,006 | TASK [mouse_driver_vmtools][Check VM 'test_vm' IP address] *
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play mouse driver vm tools timestamp task mouse driver vm tools check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5532,log-3954,"2022-09-06 07:25:43,006 | Failed at Play [mouse_driver_vmtools] **********************
+2022-09-06 07:25:43,006 | TASK [mouse_driver_vmtools][Check VM 'test_vm' IP address] *
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play mouse driver vm tools timestamp task mouse driver vm tools check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,user,irrelevant
+5532,log-3954,"2022-09-06 07:25:43,006 | Failed at Play [mouse_driver_vmtools] **********************
+2022-09-06 07:25:43,006 | TASK [mouse_driver_vmtools][Check VM 'test_vm' IP address] *
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play mouse driver vm tools timestamp task mouse driver vm tools check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,test,irrelevant
+5532,log-3954,"2022-09-06 07:25:43,006 | Failed at Play [mouse_driver_vmtools] **********************
+2022-09-06 07:25:43,006 | TASK [mouse_driver_vmtools][Check VM 'test_vm' IP address] *
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play mouse driver vm tools timestamp task mouse driver vm tools check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,product,irrelevant
+5530,log-3951,"2022-09-06 06:50:40,006 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-06 06:50:40,006 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,environment,irrelevant
+5530,log-3951,"2022-09-06 06:50:40,006 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-06 06:50:40,006 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,component,irrelevant
+5530,log-3951,"2022-09-06 06:50:40,006 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-06 06:50:40,006 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5530,log-3951,"2022-09-06 06:50:40,006 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-06 06:50:40,006 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,user,irrelevant
+5530,log-3951,"2022-09-06 06:50:40,006 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-06 06:50:40,006 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,test,irrelevant
+5530,log-3951,"2022-09-06 06:50:40,006 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-06 06:50:40,006 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,product,irrelevant
+5536,log-3982,"2022-09-07 05:22:52,007 | Failed at Play [nvme_vhba_device_ops] **********************
+2022-09-07 05:22:52,007 | TASK [nvme_vhba_device_ops][Check VM 'test_vm' IP address] *
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play nvme v hba device ops timestamp task nvme v hba device ops check vm test vm ip address task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,environment,irrelevant
+5536,log-3982,"2022-09-07 05:22:52,007 | Failed at Play [nvme_vhba_device_ops] **********************
+2022-09-07 05:22:52,007 | TASK [nvme_vhba_device_ops][Check VM 'test_vm' IP address] *
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play nvme v hba device ops timestamp task nvme v hba device ops check vm test vm ip address task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,component,irrelevant
+5536,log-3982,"2022-09-07 05:22:52,007 | Failed at Play [nvme_vhba_device_ops] **********************
+2022-09-07 05:22:52,007 | TASK [nvme_vhba_device_ops][Check VM 'test_vm' IP address] *
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play nvme v hba device ops timestamp task nvme v hba device ops check vm test vm ip address task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5536,log-3982,"2022-09-07 05:22:52,007 | Failed at Play [nvme_vhba_device_ops] **********************
+2022-09-07 05:22:52,007 | TASK [nvme_vhba_device_ops][Check VM 'test_vm' IP address] *
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play nvme v hba device ops timestamp task nvme v hba device ops check vm test vm ip address task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,user,irrelevant
+5536,log-3982,"2022-09-07 05:22:52,007 | Failed at Play [nvme_vhba_device_ops] **********************
+2022-09-07 05:22:52,007 | TASK [nvme_vhba_device_ops][Check VM 'test_vm' IP address] *
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play nvme v hba device ops timestamp task nvme v hba device ops check vm test vm ip address task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,test,irrelevant
+5536,log-3982,"2022-09-07 05:22:52,007 | Failed at Play [nvme_vhba_device_ops] **********************
+2022-09-07 05:22:52,007 | TASK [nvme_vhba_device_ops][Check VM 'test_vm' IP address] *
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play nvme v hba device ops timestamp task nvme v hba device ops check vm test vm ip address task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,product,irrelevant
+5527,log-3914,"2022-09-06 01:18:25,006 | Failed at Play [wintools_uninstall_verify] *****************
+2022-09-06 01:18:25,006 | TASK [wintools_uninstall_verify][Check no problem device listed] 
+task path: /home/worker/workspace/dw_win11_70u3_existing/ansible-vsphere-gos-validation/windows/utils/win_check_problem_device.yml:16
+fatal: [localhost]: FAILED! => No 'No devices were found on the system' in output, please check listed problem devices.",,timestamp failed at play win tools un install verify timestamp task win tools un install verify check no problem device listed task path home worker workspace dw existing ansible vsphere gos validation windows utilities win check problem device yml number fatal localhost failed no no devices were found on the system in output please check listed problem devices,deepdive,targetvm,202209151400,environment,irrelevant
+5527,log-3914,"2022-09-06 01:18:25,006 | Failed at Play [wintools_uninstall_verify] *****************
+2022-09-06 01:18:25,006 | TASK [wintools_uninstall_verify][Check no problem device listed] 
+task path: /home/worker/workspace/dw_win11_70u3_existing/ansible-vsphere-gos-validation/windows/utils/win_check_problem_device.yml:16
+fatal: [localhost]: FAILED! => No 'No devices were found on the system' in output, please check listed problem devices.",,timestamp failed at play win tools un install verify timestamp task win tools un install verify check no problem device listed task path home worker workspace dw existing ansible vsphere gos validation windows utilities win check problem device yml number fatal localhost failed no no devices were found on the system in output please check listed problem devices,deepdive,targetvm,202209151400,component,irrelevant
+5527,log-3914,"2022-09-06 01:18:25,006 | Failed at Play [wintools_uninstall_verify] *****************
+2022-09-06 01:18:25,006 | TASK [wintools_uninstall_verify][Check no problem device listed] 
+task path: /home/worker/workspace/dw_win11_70u3_existing/ansible-vsphere-gos-validation/windows/utils/win_check_problem_device.yml:16
+fatal: [localhost]: FAILED! => No 'No devices were found on the system' in output, please check listed problem devices.",,timestamp failed at play win tools un install verify timestamp task win tools un install verify check no problem device listed task path home worker workspace dw existing ansible vsphere gos validation windows utilities win check problem device yml number fatal localhost failed no no devices were found on the system in output please check listed problem devices,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5527,log-3914,"2022-09-06 01:18:25,006 | Failed at Play [wintools_uninstall_verify] *****************
+2022-09-06 01:18:25,006 | TASK [wintools_uninstall_verify][Check no problem device listed] 
+task path: /home/worker/workspace/dw_win11_70u3_existing/ansible-vsphere-gos-validation/windows/utils/win_check_problem_device.yml:16
+fatal: [localhost]: FAILED! => No 'No devices were found on the system' in output, please check listed problem devices.",,timestamp failed at play win tools un install verify timestamp task win tools un install verify check no problem device listed task path home worker workspace dw existing ansible vsphere gos validation windows utilities win check problem device yml number fatal localhost failed no no devices were found on the system in output please check listed problem devices,deepdive,targetvm,202209151400,user,irrelevant
+5527,log-3914,"2022-09-06 01:18:25,006 | Failed at Play [wintools_uninstall_verify] *****************
+2022-09-06 01:18:25,006 | TASK [wintools_uninstall_verify][Check no problem device listed] 
+task path: /home/worker/workspace/dw_win11_70u3_existing/ansible-vsphere-gos-validation/windows/utils/win_check_problem_device.yml:16
+fatal: [localhost]: FAILED! => No 'No devices were found on the system' in output, please check listed problem devices.",,timestamp failed at play win tools un install verify timestamp task win tools un install verify check no problem device listed task path home worker workspace dw existing ansible vsphere gos validation windows utilities win check problem device yml number fatal localhost failed no no devices were found on the system in output please check listed problem devices,deepdive,targetvm,202209151400,test,irrelevant
+5527,log-3914,"2022-09-06 01:18:25,006 | Failed at Play [wintools_uninstall_verify] *****************
+2022-09-06 01:18:25,006 | TASK [wintools_uninstall_verify][Check no problem device listed] 
+task path: /home/worker/workspace/dw_win11_70u3_existing/ansible-vsphere-gos-validation/windows/utils/win_check_problem_device.yml:16
+fatal: [localhost]: FAILED! => No 'No devices were found on the system' in output, please check listed problem devices.",,timestamp failed at play win tools un install verify timestamp task win tools un install verify check no problem device listed task path home worker workspace dw existing ansible vsphere gos validation windows utilities win check problem device yml number fatal localhost failed no no devices were found on the system in output please check listed problem devices,deepdive,targetvm,202209151400,product,irrelevant
+5528,log-3938,"2022-09-06 06:57:55,006 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-06 06:57:55,006 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible windows number b it number ga sata bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,environment,irrelevant
+5528,log-3938,"2022-09-06 06:57:55,006 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-06 06:57:55,006 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible windows number b it number ga sata bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,component,irrelevant
+5528,log-3938,"2022-09-06 06:57:55,006 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-06 06:57:55,006 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible windows number b it number ga sata bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5528,log-3938,"2022-09-06 06:57:55,006 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-06 06:57:55,006 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible windows number b it number ga sata bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,user,irrelevant
+5528,log-3938,"2022-09-06 06:57:55,006 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-06 06:57:55,006 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible windows number b it number ga sata bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,test,irrelevant
+5528,log-3938,"2022-09-06 06:57:55,006 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-06 06:57:55,006 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible windows number b it number ga sata bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,product,irrelevant
+5534,log-4097,"2022-09-13 03:42:21,013 | Failed at Play [check_inbox_driver] ************************
+2022-09-13 03:42:21,013 | TASK [check_inbox_driver][Check inbox driver's filename is valid] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/linux/check_inbox_driver/get_inbox_drivers.yml:141
+failed: [localhost] => (item=vsock is (builtin)) => Invalid inbox driver vsock filename: (builtin) and vsock is (builtin)",,timestamp failed at play check inbox driver timestamp task check inbox driver check inbox driver s filename is valid task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation linux check inbox driver get inbox drivers yml number failed localhost item vsock is builtin invalid inbox driver vsock filename builtin and vsock is builtin,deepdive,targetvm,202209151400,environment,irrelevant
+5534,log-4097,"2022-09-13 03:42:21,013 | Failed at Play [check_inbox_driver] ************************
+2022-09-13 03:42:21,013 | TASK [check_inbox_driver][Check inbox driver's filename is valid] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/linux/check_inbox_driver/get_inbox_drivers.yml:141
+failed: [localhost] => (item=vsock is (builtin)) => Invalid inbox driver vsock filename: (builtin) and vsock is (builtin)",,timestamp failed at play check inbox driver timestamp task check inbox driver check inbox driver s filename is valid task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation linux check inbox driver get inbox drivers yml number failed localhost item vsock is builtin invalid inbox driver vsock filename builtin and vsock is builtin,deepdive,targetvm,202209151400,component,irrelevant
+5534,log-4097,"2022-09-13 03:42:21,013 | Failed at Play [check_inbox_driver] ************************
+2022-09-13 03:42:21,013 | TASK [check_inbox_driver][Check inbox driver's filename is valid] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/linux/check_inbox_driver/get_inbox_drivers.yml:141
+failed: [localhost] => (item=vsock is (builtin)) => Invalid inbox driver vsock filename: (builtin) and vsock is (builtin)",,timestamp failed at play check inbox driver timestamp task check inbox driver check inbox driver s filename is valid task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation linux check inbox driver get inbox drivers yml number failed localhost item vsock is builtin invalid inbox driver vsock filename builtin and vsock is builtin,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5534,log-4097,"2022-09-13 03:42:21,013 | Failed at Play [check_inbox_driver] ************************
+2022-09-13 03:42:21,013 | TASK [check_inbox_driver][Check inbox driver's filename is valid] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/linux/check_inbox_driver/get_inbox_drivers.yml:141
+failed: [localhost] => (item=vsock is (builtin)) => Invalid inbox driver vsock filename: (builtin) and vsock is (builtin)",,timestamp failed at play check inbox driver timestamp task check inbox driver check inbox driver s filename is valid task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation linux check inbox driver get inbox drivers yml number failed localhost item vsock is builtin invalid inbox driver vsock filename builtin and vsock is builtin,deepdive,targetvm,202209151400,user,irrelevant
+5534,log-4097,"2022-09-13 03:42:21,013 | Failed at Play [check_inbox_driver] ************************
+2022-09-13 03:42:21,013 | TASK [check_inbox_driver][Check inbox driver's filename is valid] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/linux/check_inbox_driver/get_inbox_drivers.yml:141
+failed: [localhost] => (item=vsock is (builtin)) => Invalid inbox driver vsock filename: (builtin) and vsock is (builtin)",,timestamp failed at play check inbox driver timestamp task check inbox driver check inbox driver s filename is valid task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation linux check inbox driver get inbox drivers yml number failed localhost item vsock is builtin invalid inbox driver vsock filename builtin and vsock is builtin,deepdive,targetvm,202209151400,test,irrelevant
+5534,log-4097,"2022-09-13 03:42:21,013 | Failed at Play [check_inbox_driver] ************************
+2022-09-13 03:42:21,013 | TASK [check_inbox_driver][Check inbox driver's filename is valid] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/linux/check_inbox_driver/get_inbox_drivers.yml:141
+failed: [localhost] => (item=vsock is (builtin)) => Invalid inbox driver vsock filename: (builtin) and vsock is (builtin)",,timestamp failed at play check inbox driver timestamp task check inbox driver check inbox driver s filename is valid task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation linux check inbox driver get inbox drivers yml number failed localhost item vsock is builtin invalid inbox driver vsock filename builtin and vsock is builtin,deepdive,targetvm,202209151400,product,irrelevant
+5535,log-3974,"2022-09-07 04:46:17,007 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-07 04:46:17,007 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,environment,irrelevant
+5535,log-3974,"2022-09-07 04:46:17,007 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-07 04:46:17,007 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,component,irrelevant
+5535,log-3974,"2022-09-07 04:46:17,007 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-07 04:46:17,007 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5535,log-3974,"2022-09-07 04:46:17,007 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-07 04:46:17,007 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,user,irrelevant
+5535,log-3974,"2022-09-07 04:46:17,007 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-07 04:46:17,007 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,test,irrelevant
+5535,log-3974,"2022-09-07 04:46:17,007 | Failed at Play [wintools_complete_install_verify] **********
+2022-09-07 04:46:17,007 | TASK [wintools_complete_install_verify][Check VM 'test_vm' IP address] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vm test vm ip address task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address,deepdive,targetvm,202209151400,product,irrelevant
+5537,log-4069,"2022-09-09 04:23:05,009 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-09 04:23:05,009 | TASK [gosc_sanity_dhcp][Customize Windows guest OS] ********
+task path: /home/worker/workspace/Ansible_Cycle_Windows_11_64/ansible-vsphere-gos-validation/windows/guest_customization/win_gosc_execution.yml:4
+fatal: [localhost]: FAILED! => Customization failed. For detailed information see warnings Waiting for customization result event timed out.",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp customize windows guest os task path home worker workspace ansible cycle windows number ansible vsphere gos validation windows guest customization win go sc execution yml number fatal localhost failed customization failed for detailed information see warnings waiting for customization result event timed out,deepdive,targetvm,202209151400,environment,irrelevant
+5537,log-4069,"2022-09-09 04:23:05,009 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-09 04:23:05,009 | TASK [gosc_sanity_dhcp][Customize Windows guest OS] ********
+task path: /home/worker/workspace/Ansible_Cycle_Windows_11_64/ansible-vsphere-gos-validation/windows/guest_customization/win_gosc_execution.yml:4
+fatal: [localhost]: FAILED! => Customization failed. For detailed information see warnings Waiting for customization result event timed out.",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp customize windows guest os task path home worker workspace ansible cycle windows number ansible vsphere gos validation windows guest customization win go sc execution yml number fatal localhost failed customization failed for detailed information see warnings waiting for customization result event timed out,deepdive,targetvm,202209151400,component,irrelevant
+5537,log-4069,"2022-09-09 04:23:05,009 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-09 04:23:05,009 | TASK [gosc_sanity_dhcp][Customize Windows guest OS] ********
+task path: /home/worker/workspace/Ansible_Cycle_Windows_11_64/ansible-vsphere-gos-validation/windows/guest_customization/win_gosc_execution.yml:4
+fatal: [localhost]: FAILED! => Customization failed. For detailed information see warnings Waiting for customization result event timed out.",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp customize windows guest os task path home worker workspace ansible cycle windows number ansible vsphere gos validation windows guest customization win go sc execution yml number fatal localhost failed customization failed for detailed information see warnings waiting for customization result event timed out,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5537,log-4069,"2022-09-09 04:23:05,009 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-09 04:23:05,009 | TASK [gosc_sanity_dhcp][Customize Windows guest OS] ********
+task path: /home/worker/workspace/Ansible_Cycle_Windows_11_64/ansible-vsphere-gos-validation/windows/guest_customization/win_gosc_execution.yml:4
+fatal: [localhost]: FAILED! => Customization failed. For detailed information see warnings Waiting for customization result event timed out.",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp customize windows guest os task path home worker workspace ansible cycle windows number ansible vsphere gos validation windows guest customization win go sc execution yml number fatal localhost failed customization failed for detailed information see warnings waiting for customization result event timed out,deepdive,targetvm,202209151400,user,irrelevant
+5537,log-4069,"2022-09-09 04:23:05,009 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-09 04:23:05,009 | TASK [gosc_sanity_dhcp][Customize Windows guest OS] ********
+task path: /home/worker/workspace/Ansible_Cycle_Windows_11_64/ansible-vsphere-gos-validation/windows/guest_customization/win_gosc_execution.yml:4
+fatal: [localhost]: FAILED! => Customization failed. For detailed information see warnings Waiting for customization result event timed out.",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp customize windows guest os task path home worker workspace ansible cycle windows number ansible vsphere gos validation windows guest customization win go sc execution yml number fatal localhost failed customization failed for detailed information see warnings waiting for customization result event timed out,deepdive,targetvm,202209151400,test,irrelevant
+5537,log-4069,"2022-09-09 04:23:05,009 | Failed at Play [gosc_sanity_dhcp] **************************
+2022-09-09 04:23:05,009 | TASK [gosc_sanity_dhcp][Customize Windows guest OS] ********
+task path: /home/worker/workspace/Ansible_Cycle_Windows_11_64/ansible-vsphere-gos-validation/windows/guest_customization/win_gosc_execution.yml:4
+fatal: [localhost]: FAILED! => Customization failed. For detailed information see warnings Waiting for customization result event timed out.",,timestamp failed at play go sc sanity dhcp timestamp task go sc sanity dhcp customize windows guest os task path home worker workspace ansible cycle windows number ansible vsphere gos validation windows guest customization win go sc execution yml number fatal localhost failed customization failed for detailed information see warnings waiting for customization result event timed out,deepdive,targetvm,202209151400,product,irrelevant
+5538,log-4058,"2022-09-09 02:33:46,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:33:46,009 | TASK [e1000e_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_11.x_64/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.186.86.173]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,environment,irrelevant
+5538,log-4058,"2022-09-09 02:33:46,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:33:46,009 | TASK [e1000e_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_11.x_64/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.186.86.173]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,component,irrelevant
+5538,log-4058,"2022-09-09 02:33:46,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:33:46,009 | TASK [e1000e_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_11.x_64/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.186.86.173]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5538,log-4058,"2022-09-09 02:33:46,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:33:46,009 | TASK [e1000e_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_11.x_64/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.186.86.173]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,user,irrelevant
+5538,log-4058,"2022-09-09 02:33:46,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:33:46,009 | TASK [e1000e_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_11.x_64/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.186.86.173]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,test,irrelevant
+5538,log-4058,"2022-09-09 02:33:46,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:33:46,009 | TASK [e1000e_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_11.x_64/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.186.86.173]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,product,irrelevant
+5539,log-4059,"2022-09-09 02:37:24,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 02:37:24,009 | TASK [vmxnet3_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_11.x_64/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.186.86.173]: FAILED! =>  when ip",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops get network interface status task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,environment,irrelevant
+5539,log-4059,"2022-09-09 02:37:24,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 02:37:24,009 | TASK [vmxnet3_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_11.x_64/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.186.86.173]: FAILED! =>  when ip",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops get network interface status task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,component,irrelevant
+5539,log-4059,"2022-09-09 02:37:24,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 02:37:24,009 | TASK [vmxnet3_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_11.x_64/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.186.86.173]: FAILED! =>  when ip",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops get network interface status task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5539,log-4059,"2022-09-09 02:37:24,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 02:37:24,009 | TASK [vmxnet3_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_11.x_64/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.186.86.173]: FAILED! =>  when ip",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops get network interface status task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,user,irrelevant
+5539,log-4059,"2022-09-09 02:37:24,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 02:37:24,009 | TASK [vmxnet3_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_11.x_64/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.186.86.173]: FAILED! =>  when ip",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops get network interface status task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,test,irrelevant
+5539,log-4059,"2022-09-09 02:37:24,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 02:37:24,009 | TASK [vmxnet3_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_11.x_64/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.186.86.173]: FAILED! =>  when ip",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops get network interface status task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,product,irrelevant
+5540,log-4061,"2022-09-09 02:34:38,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:34:38,009 | TASK [e1000e_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_22.04_Server_ISO/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.187.154.92]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression ubuntu number server iso ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,environment,irrelevant
+5540,log-4061,"2022-09-09 02:34:38,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:34:38,009 | TASK [e1000e_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_22.04_Server_ISO/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.187.154.92]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression ubuntu number server iso ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,component,irrelevant
+5540,log-4061,"2022-09-09 02:34:38,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:34:38,009 | TASK [e1000e_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_22.04_Server_ISO/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.187.154.92]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression ubuntu number server iso ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5540,log-4061,"2022-09-09 02:34:38,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:34:38,009 | TASK [e1000e_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_22.04_Server_ISO/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.187.154.92]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression ubuntu number server iso ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,user,irrelevant
+5540,log-4061,"2022-09-09 02:34:38,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:34:38,009 | TASK [e1000e_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_22.04_Server_ISO/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.187.154.92]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression ubuntu number server iso ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,test,irrelevant
+5540,log-4061,"2022-09-09 02:34:38,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:34:38,009 | TASK [e1000e_network_device_ops][Get network interface 'ens35' status] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_22.04_Server_ISO/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.187.154.92]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression ubuntu number server iso ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,product,irrelevant
+5541,log-4064,"2022-09-09 02:22:15,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:22:15,009 | TASK [e1000e_network_device_ops][Get network interface 'ens224' status] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_22.04_Server_OVA/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.182.0.161]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression ubuntu number server ova ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,environment,irrelevant
+5541,log-4064,"2022-09-09 02:22:15,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:22:15,009 | TASK [e1000e_network_device_ops][Get network interface 'ens224' status] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_22.04_Server_OVA/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.182.0.161]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression ubuntu number server ova ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,component,irrelevant
+5541,log-4064,"2022-09-09 02:22:15,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:22:15,009 | TASK [e1000e_network_device_ops][Get network interface 'ens224' status] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_22.04_Server_OVA/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.182.0.161]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression ubuntu number server ova ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5541,log-4064,"2022-09-09 02:22:15,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:22:15,009 | TASK [e1000e_network_device_ops][Get network interface 'ens224' status] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_22.04_Server_OVA/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.182.0.161]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression ubuntu number server ova ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,user,irrelevant
+5541,log-4064,"2022-09-09 02:22:15,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:22:15,009 | TASK [e1000e_network_device_ops][Get network interface 'ens224' status] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_22.04_Server_OVA/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.182.0.161]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression ubuntu number server ova ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,test,irrelevant
+5541,log-4064,"2022-09-09 02:22:15,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 02:22:15,009 | TASK [e1000e_network_device_ops][Get network interface 'ens224' status] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_22.04_Server_OVA/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.182.0.161]: FAILED! =>  when ip",,timestamp failed at play network device ops timestamp task network device ops get network interface status task path home worker workspace ansible regression ubuntu number server ova ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,product,irrelevant
+5542,log-4072,"2022-09-09 05:09:26,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 05:09:26,009 | TASK [e1000e_network_device_ops][Remove a network adapter from VM 'test_rockylinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_remove_network_adapter.yml:4
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play network device ops timestamp task network device ops remove a network adapter from vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm remove network adapter yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,targetvm,202209151400,environment,irrelevant
+5542,log-4072,"2022-09-09 05:09:26,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 05:09:26,009 | TASK [e1000e_network_device_ops][Remove a network adapter from VM 'test_rockylinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_remove_network_adapter.yml:4
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play network device ops timestamp task network device ops remove a network adapter from vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm remove network adapter yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,targetvm,202209151400,component,irrelevant
+5542,log-4072,"2022-09-09 05:09:26,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 05:09:26,009 | TASK [e1000e_network_device_ops][Remove a network adapter from VM 'test_rockylinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_remove_network_adapter.yml:4
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play network device ops timestamp task network device ops remove a network adapter from vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm remove network adapter yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,targetvm,202209151400,infrastructure,irrelevant
+5542,log-4072,"2022-09-09 05:09:26,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 05:09:26,009 | TASK [e1000e_network_device_ops][Remove a network adapter from VM 'test_rockylinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_remove_network_adapter.yml:4
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play network device ops timestamp task network device ops remove a network adapter from vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm remove network adapter yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,targetvm,202209151400,user,irrelevant
+5542,log-4072,"2022-09-09 05:09:26,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 05:09:26,009 | TASK [e1000e_network_device_ops][Remove a network adapter from VM 'test_rockylinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_remove_network_adapter.yml:4
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play network device ops timestamp task network device ops remove a network adapter from vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm remove network adapter yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,targetvm,202209151400,test,irrelevant
+5542,log-4072,"2022-09-09 05:09:26,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 05:09:26,009 | TASK [e1000e_network_device_ops][Remove a network adapter from VM 'test_rockylinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_remove_network_adapter.yml:4
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play network device ops timestamp task network device ops remove a network adapter from vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm remove network adapter yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,targetvm,202209151400,product,irrelevant
+5543,log-4075,"2022-09-09 05:07:35,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 05:07:35,009 | TASK [e1000e_network_device_ops][Reconfigure network adapter to test_rockylinux9] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_configure_network_adapter.yml:5
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play network device ops timestamp task network device ops re configure network adapter to test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm configure network adapter yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,targetvm,202209151400,environment,irrelevant
+5543,log-4075,"2022-09-09 05:07:35,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 05:07:35,009 | TASK [e1000e_network_device_ops][Reconfigure network adapter to test_rockylinux9] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_configure_network_adapter.yml:5
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play network device ops timestamp task network device ops re configure network adapter to test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm configure network adapter yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,targetvm,202209151400,component,irrelevant
+5543,log-4075,"2022-09-09 05:07:35,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 05:07:35,009 | TASK [e1000e_network_device_ops][Reconfigure network adapter to test_rockylinux9] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_configure_network_adapter.yml:5
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play network device ops timestamp task network device ops re configure network adapter to test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm configure network adapter yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,targetvm,202209151400,infrastructure,irrelevant
+5543,log-4075,"2022-09-09 05:07:35,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 05:07:35,009 | TASK [e1000e_network_device_ops][Reconfigure network adapter to test_rockylinux9] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_configure_network_adapter.yml:5
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play network device ops timestamp task network device ops re configure network adapter to test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm configure network adapter yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,targetvm,202209151400,user,irrelevant
+5543,log-4075,"2022-09-09 05:07:35,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 05:07:35,009 | TASK [e1000e_network_device_ops][Reconfigure network adapter to test_rockylinux9] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_configure_network_adapter.yml:5
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play network device ops timestamp task network device ops re configure network adapter to test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm configure network adapter yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,targetvm,202209151400,test,irrelevant
+5543,log-4075,"2022-09-09 05:07:35,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 05:07:35,009 | TASK [e1000e_network_device_ops][Reconfigure network adapter to test_rockylinux9] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_configure_network_adapter.yml:5
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play network device ops timestamp task network device ops re configure network adapter to test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm configure network adapter yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,targetvm,202209151400,product,irrelevant
+5544,log-4080,"2022-09-09 08:39:45,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 08:39:45,009 | TASK [vmxnet3_network_device_ops][Add a new 'vmxnet3' adapter in 'vSwitch2022-09-09-08-33-46_PG' to VM 'test_debian10_32'] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/common/vm_add_network_adapter.yml:4
+exception in /vmware_guest_network.py when _nic_present in /vmware.py when wait_for_task
+fatal: [localhost]: FAILED! => ('The available Memory resources in the parent resource pool are insufficient for the operation.', None)",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops add a new vmxnet number adapter in vswitch timestamp number page to vm test debian number task path home worker workspace ansible regression debian number x number ansible vsphere gos validation common vm add network adapter yml number exception in vmware guest network python when nic present in vmware python when wait for task fatal localhost failed the available memory resources in the parent resource pool are insufficient for the operation none,retry,nimbus,202209151400,component,irrelevant
+5544,log-4080,"2022-09-09 08:39:45,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 08:39:45,009 | TASK [vmxnet3_network_device_ops][Add a new 'vmxnet3' adapter in 'vSwitch2022-09-09-08-33-46_PG' to VM 'test_debian10_32'] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/common/vm_add_network_adapter.yml:4
+exception in /vmware_guest_network.py when _nic_present in /vmware.py when wait_for_task
+fatal: [localhost]: FAILED! => ('The available Memory resources in the parent resource pool are insufficient for the operation.', None)",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops add a new vmxnet number adapter in vswitch timestamp number page to vm test debian number task path home worker workspace ansible regression debian number x number ansible vsphere gos validation common vm add network adapter yml number exception in vmware guest network python when nic present in vmware python when wait for task fatal localhost failed the available memory resources in the parent resource pool are insufficient for the operation none,retry,nimbus,202209151400,infrastructure,irrelevant
+5544,log-4080,"2022-09-09 08:39:45,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 08:39:45,009 | TASK [vmxnet3_network_device_ops][Add a new 'vmxnet3' adapter in 'vSwitch2022-09-09-08-33-46_PG' to VM 'test_debian10_32'] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/common/vm_add_network_adapter.yml:4
+exception in /vmware_guest_network.py when _nic_present in /vmware.py when wait_for_task
+fatal: [localhost]: FAILED! => ('The available Memory resources in the parent resource pool are insufficient for the operation.', None)",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops add a new vmxnet number adapter in vswitch timestamp number page to vm test debian number task path home worker workspace ansible regression debian number x number ansible vsphere gos validation common vm add network adapter yml number exception in vmware guest network python when nic present in vmware python when wait for task fatal localhost failed the available memory resources in the parent resource pool are insufficient for the operation none,retry,nimbus,202209151400,user,irrelevant
+5544,log-4080,"2022-09-09 08:39:45,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 08:39:45,009 | TASK [vmxnet3_network_device_ops][Add a new 'vmxnet3' adapter in 'vSwitch2022-09-09-08-33-46_PG' to VM 'test_debian10_32'] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/common/vm_add_network_adapter.yml:4
+exception in /vmware_guest_network.py when _nic_present in /vmware.py when wait_for_task
+fatal: [localhost]: FAILED! => ('The available Memory resources in the parent resource pool are insufficient for the operation.', None)",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops add a new vmxnet number adapter in vswitch timestamp number page to vm test debian number task path home worker workspace ansible regression debian number x number ansible vsphere gos validation common vm add network adapter yml number exception in vmware guest network python when nic present in vmware python when wait for task fatal localhost failed the available memory resources in the parent resource pool are insufficient for the operation none,retry,nimbus,202209151400,test,irrelevant
+5544,log-4080,"2022-09-09 08:39:45,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 08:39:45,009 | TASK [vmxnet3_network_device_ops][Add a new 'vmxnet3' adapter in 'vSwitch2022-09-09-08-33-46_PG' to VM 'test_debian10_32'] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/common/vm_add_network_adapter.yml:4
+exception in /vmware_guest_network.py when _nic_present in /vmware.py when wait_for_task
+fatal: [localhost]: FAILED! => ('The available Memory resources in the parent resource pool are insufficient for the operation.', None)",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops add a new vmxnet number adapter in vswitch timestamp number page to vm test debian number task path home worker workspace ansible regression debian number x number ansible vsphere gos validation common vm add network adapter yml number exception in vmware guest network python when nic present in vmware python when wait for task fatal localhost failed the available memory resources in the parent resource pool are insufficient for the operation none,retry,nimbus,202209151400,machine,irrelevant
+5544,log-4080,"2022-09-09 08:39:45,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 08:39:45,009 | TASK [vmxnet3_network_device_ops][Add a new 'vmxnet3' adapter in 'vSwitch2022-09-09-08-33-46_PG' to VM 'test_debian10_32'] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/common/vm_add_network_adapter.yml:4
+exception in /vmware_guest_network.py when _nic_present in /vmware.py when wait_for_task
+fatal: [localhost]: FAILED! => ('The available Memory resources in the parent resource pool are insufficient for the operation.', None)",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops add a new vmxnet number adapter in vswitch timestamp number page to vm test debian number task path home worker workspace ansible regression debian number x number ansible vsphere gos validation common vm add network adapter yml number exception in vmware guest network python when nic present in vmware python when wait for task fatal localhost failed the available memory resources in the parent resource pool are insufficient for the operation none,retry,nimbus,202209151400,product,irrelevant
+5545,log-4081,"2022-09-09 08:38:01,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 08:38:01,009 | TASK [e1000e_network_device_ops][Assert new e1000e adapter interface is removed] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/linux/network_device_ops/network_status_validate.yml:155
+fatal: [localhost]: FAILED! => After hot removing the new network adapter, guest OS still can detect it",,timestamp failed at play network device ops timestamp task network device ops assert new adapter interface is removed task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux network device ops network status validate yml number fatal localhost failed after hot removing the new network adapter guest os still can detect it,deepdive,targetvm,202209151400,environment,irrelevant
+5545,log-4081,"2022-09-09 08:38:01,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 08:38:01,009 | TASK [e1000e_network_device_ops][Assert new e1000e adapter interface is removed] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/linux/network_device_ops/network_status_validate.yml:155
+fatal: [localhost]: FAILED! => After hot removing the new network adapter, guest OS still can detect it",,timestamp failed at play network device ops timestamp task network device ops assert new adapter interface is removed task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux network device ops network status validate yml number fatal localhost failed after hot removing the new network adapter guest os still can detect it,deepdive,targetvm,202209151400,component,irrelevant
+5545,log-4081,"2022-09-09 08:38:01,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 08:38:01,009 | TASK [e1000e_network_device_ops][Assert new e1000e adapter interface is removed] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/linux/network_device_ops/network_status_validate.yml:155
+fatal: [localhost]: FAILED! => After hot removing the new network adapter, guest OS still can detect it",,timestamp failed at play network device ops timestamp task network device ops assert new adapter interface is removed task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux network device ops network status validate yml number fatal localhost failed after hot removing the new network adapter guest os still can detect it,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5545,log-4081,"2022-09-09 08:38:01,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 08:38:01,009 | TASK [e1000e_network_device_ops][Assert new e1000e adapter interface is removed] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/linux/network_device_ops/network_status_validate.yml:155
+fatal: [localhost]: FAILED! => After hot removing the new network adapter, guest OS still can detect it",,timestamp failed at play network device ops timestamp task network device ops assert new adapter interface is removed task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux network device ops network status validate yml number fatal localhost failed after hot removing the new network adapter guest os still can detect it,deepdive,targetvm,202209151400,user,irrelevant
+5545,log-4081,"2022-09-09 08:38:01,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 08:38:01,009 | TASK [e1000e_network_device_ops][Assert new e1000e adapter interface is removed] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/linux/network_device_ops/network_status_validate.yml:155
+fatal: [localhost]: FAILED! => After hot removing the new network adapter, guest OS still can detect it",,timestamp failed at play network device ops timestamp task network device ops assert new adapter interface is removed task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux network device ops network status validate yml number fatal localhost failed after hot removing the new network adapter guest os still can detect it,deepdive,targetvm,202209151400,test,irrelevant
+5545,log-4081,"2022-09-09 08:38:01,009 | Failed at Play [e1000e_network_device_ops] *****************
+2022-09-09 08:38:01,009 | TASK [e1000e_network_device_ops][Assert new e1000e adapter interface is removed] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/linux/network_device_ops/network_status_validate.yml:155
+fatal: [localhost]: FAILED! => After hot removing the new network adapter, guest OS still can detect it",,timestamp failed at play network device ops timestamp task network device ops assert new adapter interface is removed task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux network device ops network status validate yml number fatal localhost failed after hot removing the new network adapter guest os still can detect it,deepdive,targetvm,202209151400,product,irrelevant
+5546,log-4082,"2022-09-09 08:42:23,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 08:42:23,009 | TASK [vmxnet3_network_device_ops][Waiting for network interface 'ens35' status up] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.212.28.189]: FAILED! =>  when ip",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops waiting for network interface status up task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,environment,irrelevant
+5546,log-4082,"2022-09-09 08:42:23,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 08:42:23,009 | TASK [vmxnet3_network_device_ops][Waiting for network interface 'ens35' status up] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.212.28.189]: FAILED! =>  when ip",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops waiting for network interface status up task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,component,irrelevant
+5546,log-4082,"2022-09-09 08:42:23,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 08:42:23,009 | TASK [vmxnet3_network_device_ops][Waiting for network interface 'ens35' status up] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.212.28.189]: FAILED! =>  when ip",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops waiting for network interface status up task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5546,log-4082,"2022-09-09 08:42:23,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 08:42:23,009 | TASK [vmxnet3_network_device_ops][Waiting for network interface 'ens35' status up] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.212.28.189]: FAILED! =>  when ip",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops waiting for network interface status up task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,user,irrelevant
+5546,log-4082,"2022-09-09 08:42:23,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 08:42:23,009 | TASK [vmxnet3_network_device_ops][Waiting for network interface 'ens35' status up] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.212.28.189]: FAILED! =>  when ip",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops waiting for network interface status up task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,test,irrelevant
+5546,log-4082,"2022-09-09 08:42:23,009 | Failed at Play [vmxnet3_network_device_ops] ****************
+2022-09-09 08:42:23,009 | TASK [vmxnet3_network_device_ops][Waiting for network interface 'ens35' status up] 
+task path: /home/worker/workspace/Ansible_Regression_Debian_10.x_32/ansible-vsphere-gos-validation/linux/utils/set_network_adapter_status.yml:62
+fatal: [localhost -> 10.212.28.189]: FAILED! =>  when ip",,timestamp failed at play vmxnet number network device ops timestamp task vmxnet number network device ops waiting for network interface status up task path home worker workspace ansible regression debian number x number ansible vsphere gos validation linux utilities set network adapter status yml number fatal localhost ip address failed when ip,deepdive,targetvm,202209151400,product,irrelevant
+5547,log-4084,"2022-09-09 21:12:30,009 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2022-09-09 21:12:30,009 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Wait for message 'Autoinstall is completed.' appear in VM log serial-20220909200020.log] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/common/vm_wait_log_msg.yml:35
+fatal: [localhost]: FAILED! => {
+    ""attempts"": 720,
+    ""censored"": ""the output has been hidden due to the fact that 'no_log: true' was specified for this result"",
+    ""changed"": false
+}
+2022-09-09 21:13:01,009 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Testing exit due to failure] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/common/test_rescue.yml:57
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_vmxnet3",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number wait for message auto install is completed appear in vm log serial timestamp log task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation common vm wait log message yml number fatal localhost failed attempts number censored the output has been hidden due to the fact that no log true was specified for this result changed false timestamp task deploy vm efi para virtual vmxnet number testing exit due to failure task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi para virtual vmxnet number,retry,targetvm,202209151400,environment,irrelevant
+5547,log-4084,"2022-09-09 21:12:30,009 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2022-09-09 21:12:30,009 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Wait for message 'Autoinstall is completed.' appear in VM log serial-20220909200020.log] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/common/vm_wait_log_msg.yml:35
+fatal: [localhost]: FAILED! => {
+    ""attempts"": 720,
+    ""censored"": ""the output has been hidden due to the fact that 'no_log: true' was specified for this result"",
+    ""changed"": false
+}
+2022-09-09 21:13:01,009 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Testing exit due to failure] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/common/test_rescue.yml:57
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_vmxnet3",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number wait for message auto install is completed appear in vm log serial timestamp log task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation common vm wait log message yml number fatal localhost failed attempts number censored the output has been hidden due to the fact that no log true was specified for this result changed false timestamp task deploy vm efi para virtual vmxnet number testing exit due to failure task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi para virtual vmxnet number,retry,targetvm,202209151400,component,irrelevant
+5547,log-4084,"2022-09-09 21:12:30,009 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2022-09-09 21:12:30,009 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Wait for message 'Autoinstall is completed.' appear in VM log serial-20220909200020.log] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/common/vm_wait_log_msg.yml:35
+fatal: [localhost]: FAILED! => {
+    ""attempts"": 720,
+    ""censored"": ""the output has been hidden due to the fact that 'no_log: true' was specified for this result"",
+    ""changed"": false
+}
+2022-09-09 21:13:01,009 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Testing exit due to failure] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/common/test_rescue.yml:57
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_vmxnet3",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number wait for message auto install is completed appear in vm log serial timestamp log task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation common vm wait log message yml number fatal localhost failed attempts number censored the output has been hidden due to the fact that no log true was specified for this result changed false timestamp task deploy vm efi para virtual vmxnet number testing exit due to failure task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi para virtual vmxnet number,retry,targetvm,202209151400,infrastructure,irrelevant
+5547,log-4084,"2022-09-09 21:12:30,009 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2022-09-09 21:12:30,009 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Wait for message 'Autoinstall is completed.' appear in VM log serial-20220909200020.log] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/common/vm_wait_log_msg.yml:35
+fatal: [localhost]: FAILED! => {
+    ""attempts"": 720,
+    ""censored"": ""the output has been hidden due to the fact that 'no_log: true' was specified for this result"",
+    ""changed"": false
+}
+2022-09-09 21:13:01,009 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Testing exit due to failure] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/common/test_rescue.yml:57
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_vmxnet3",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number wait for message auto install is completed appear in vm log serial timestamp log task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation common vm wait log message yml number fatal localhost failed attempts number censored the output has been hidden due to the fact that no log true was specified for this result changed false timestamp task deploy vm efi para virtual vmxnet number testing exit due to failure task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi para virtual vmxnet number,retry,targetvm,202209151400,user,irrelevant
+5547,log-4084,"2022-09-09 21:12:30,009 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2022-09-09 21:12:30,009 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Wait for message 'Autoinstall is completed.' appear in VM log serial-20220909200020.log] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/common/vm_wait_log_msg.yml:35
+fatal: [localhost]: FAILED! => {
+    ""attempts"": 720,
+    ""censored"": ""the output has been hidden due to the fact that 'no_log: true' was specified for this result"",
+    ""changed"": false
+}
+2022-09-09 21:13:01,009 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Testing exit due to failure] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/common/test_rescue.yml:57
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_vmxnet3",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number wait for message auto install is completed appear in vm log serial timestamp log task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation common vm wait log message yml number fatal localhost failed attempts number censored the output has been hidden due to the fact that no log true was specified for this result changed false timestamp task deploy vm efi para virtual vmxnet number testing exit due to failure task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi para virtual vmxnet number,retry,targetvm,202209151400,test,irrelevant
+5547,log-4084,"2022-09-09 21:12:30,009 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2022-09-09 21:12:30,009 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Wait for message 'Autoinstall is completed.' appear in VM log serial-20220909200020.log] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/common/vm_wait_log_msg.yml:35
+fatal: [localhost]: FAILED! => {
+    ""attempts"": 720,
+    ""censored"": ""the output has been hidden due to the fact that 'no_log: true' was specified for this result"",
+    ""changed"": false
+}
+2022-09-09 21:13:01,009 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Testing exit due to failure] 
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_9.x/ansible-vsphere-gos-validation/common/test_rescue.yml:57
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_vmxnet3",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number wait for message auto install is completed appear in vm log serial timestamp log task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation common vm wait log message yml number fatal localhost failed attempts number censored the output has been hidden due to the fact that no log true was specified for this result changed false timestamp task deploy vm efi para virtual vmxnet number testing exit due to failure task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi para virtual vmxnet number,retry,targetvm,202209151400,product,irrelevant
+5548,log-4099,"2022-09-13 09:50:35,013 | Failed at Play [wintools_uninstall_verify] *****************
+2022-09-13 09:50:35,013 | TASK [wintools_uninstall_verify][Check no problem device listed] 
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/utils/win_check_problem_device.yml:16
+fatal: [localhost]: FAILED! => No 'No devices were found on the system' in output, please check listed problem devices.",,timestamp failed at play win tools un install verify timestamp task win tools un install verify check no problem device listed task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows utilities win check problem device yml number fatal localhost failed no no devices were found on the system in output please check listed problem devices,deepdive,targetvm,202209151400,environment,irrelevant
+5548,log-4099,"2022-09-13 09:50:35,013 | Failed at Play [wintools_uninstall_verify] *****************
+2022-09-13 09:50:35,013 | TASK [wintools_uninstall_verify][Check no problem device listed] 
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/utils/win_check_problem_device.yml:16
+fatal: [localhost]: FAILED! => No 'No devices were found on the system' in output, please check listed problem devices.",,timestamp failed at play win tools un install verify timestamp task win tools un install verify check no problem device listed task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows utilities win check problem device yml number fatal localhost failed no no devices were found on the system in output please check listed problem devices,deepdive,targetvm,202209151400,component,irrelevant
+5548,log-4099,"2022-09-13 09:50:35,013 | Failed at Play [wintools_uninstall_verify] *****************
+2022-09-13 09:50:35,013 | TASK [wintools_uninstall_verify][Check no problem device listed] 
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/utils/win_check_problem_device.yml:16
+fatal: [localhost]: FAILED! => No 'No devices were found on the system' in output, please check listed problem devices.",,timestamp failed at play win tools un install verify timestamp task win tools un install verify check no problem device listed task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows utilities win check problem device yml number fatal localhost failed no no devices were found on the system in output please check listed problem devices,deepdive,targetvm,202209151400,infrastructure,irrelevant
+5548,log-4099,"2022-09-13 09:50:35,013 | Failed at Play [wintools_uninstall_verify] *****************
+2022-09-13 09:50:35,013 | TASK [wintools_uninstall_verify][Check no problem device listed] 
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/utils/win_check_problem_device.yml:16
+fatal: [localhost]: FAILED! => No 'No devices were found on the system' in output, please check listed problem devices.",,timestamp failed at play win tools un install verify timestamp task win tools un install verify check no problem device listed task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows utilities win check problem device yml number fatal localhost failed no no devices were found on the system in output please check listed problem devices,deepdive,targetvm,202209151400,user,irrelevant
+5548,log-4099,"2022-09-13 09:50:35,013 | Failed at Play [wintools_uninstall_verify] *****************
+2022-09-13 09:50:35,013 | TASK [wintools_uninstall_verify][Check no problem device listed] 
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/utils/win_check_problem_device.yml:16
+fatal: [localhost]: FAILED! => No 'No devices were found on the system' in output, please check listed problem devices.",,timestamp failed at play win tools un install verify timestamp task win tools un install verify check no problem device listed task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows utilities win check problem device yml number fatal localhost failed no no devices were found on the system in output please check listed problem devices,deepdive,targetvm,202209151400,test,irrelevant
+5548,log-4099,"2022-09-13 09:50:35,013 | Failed at Play [wintools_uninstall_verify] *****************
+2022-09-13 09:50:35,013 | TASK [wintools_uninstall_verify][Check no problem device listed] 
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/utils/win_check_problem_device.yml:16
+fatal: [localhost]: FAILED! => No 'No devices were found on the system' in output, please check listed problem devices.",,timestamp failed at play win tools un install verify timestamp task win tools un install verify check no problem device listed task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows utilities win check problem device yml number fatal localhost failed no no devices were found on the system in output please check listed problem devices,deepdive,targetvm,202209151400,product,irrelevant

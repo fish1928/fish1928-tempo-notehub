@@ -1,0 +1,99 @@
+id,name,raw,category,processed,solution,target,version,targetnew,label
+5832,8258,"2023-02-06 14:54:08,006 | Failed at Play [check_quiesce_snapshot] ********************
+2023-02-06 14:54:08,006 | TASK [check_quiesce_snapshot][Check VM snapshot took is quiesced snapshot] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_take_snapshot.yml:36
+fatal: [localhost]: FAILED! => Snapshot 'quiesce_2023-02-06-14-53-06' quiesced status is false.
+error message:
+Snapshot 'quiesce_2023-02-06-14-53-06' quiesced status is false.",,timestamp failed at play check quiesce snapshot timestamp task check quiesce snapshot check vm snapshot took is quiesced snapshot task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm take snapshot yml number fatal localhost failed snapshot quiesce timestamp number quiesced status is false error message snapshot quiesce timestamp number quiesced status is false,deepdive,targetvm,202302071150,machine,relevant
+5831,8268,"2023-02-06 18:19:19,006 | Failed at Play [gosc_cloudinit_dhcp] ***********************
+2023-02-06 18:19:19,006 | TASK [gosc_cloudinit_dhcp][Get installed packages on Ubuntu] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_20.04_Server_ISO/ansible-vsphere-gos-validation/linux/utils/install_uninstall_package.yml:36
+fatal: [localhost]: UNREACHABLE! => Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.166.10' (ECDSA) to the list of known hosts.
+root@10.78.166.10: Permission denied (publickey,keyboard-interactive).
+error message:
+Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.166.10' (ECDSA) to the list of known hosts.
+root@10.78.166.10: Permission denied (publickey,keyboard-interactive).",,timestamp failed at play go sc cloud init dhcp timestamp task go sc cloud init dhcp get installed packages on ubuntu task path home worker workspace ansible cycle ubuntu number server iso ansible vsphere gos validation linux utilities install un install package yml number fatal localhost un reachable invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive error message invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive,retry,targetvm,202302071150,machine,relevant
+5832,8258,"2023-02-06 14:54:08,006 | Failed at Play [check_quiesce_snapshot] ********************
+2023-02-06 14:54:08,006 | TASK [check_quiesce_snapshot][Check VM snapshot took is quiesced snapshot] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_take_snapshot.yml:36
+fatal: [localhost]: FAILED! => Snapshot 'quiesce_2023-02-06-14-53-06' quiesced status is false.
+error message:
+Snapshot 'quiesce_2023-02-06-14-53-06' quiesced status is false.",,timestamp failed at play check quiesce snapshot timestamp task check quiesce snapshot check vm snapshot took is quiesced snapshot task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm take snapshot yml number fatal localhost failed snapshot quiesce timestamp number quiesced status is false error message snapshot quiesce timestamp number quiesced status is false,deepdive,targetvm,202302071150,environment,irrelevant
+5832,8258,"2023-02-06 14:54:08,006 | Failed at Play [check_quiesce_snapshot] ********************
+2023-02-06 14:54:08,006 | TASK [check_quiesce_snapshot][Check VM snapshot took is quiesced snapshot] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_take_snapshot.yml:36
+fatal: [localhost]: FAILED! => Snapshot 'quiesce_2023-02-06-14-53-06' quiesced status is false.
+error message:
+Snapshot 'quiesce_2023-02-06-14-53-06' quiesced status is false.",,timestamp failed at play check quiesce snapshot timestamp task check quiesce snapshot check vm snapshot took is quiesced snapshot task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm take snapshot yml number fatal localhost failed snapshot quiesce timestamp number quiesced status is false error message snapshot quiesce timestamp number quiesced status is false,deepdive,targetvm,202302071150,component,irrelevant
+5832,8258,"2023-02-06 14:54:08,006 | Failed at Play [check_quiesce_snapshot] ********************
+2023-02-06 14:54:08,006 | TASK [check_quiesce_snapshot][Check VM snapshot took is quiesced snapshot] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_take_snapshot.yml:36
+fatal: [localhost]: FAILED! => Snapshot 'quiesce_2023-02-06-14-53-06' quiesced status is false.
+error message:
+Snapshot 'quiesce_2023-02-06-14-53-06' quiesced status is false.",,timestamp failed at play check quiesce snapshot timestamp task check quiesce snapshot check vm snapshot took is quiesced snapshot task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm take snapshot yml number fatal localhost failed snapshot quiesce timestamp number quiesced status is false error message snapshot quiesce timestamp number quiesced status is false,deepdive,targetvm,202302071150,infrastructure,irrelevant
+5832,8258,"2023-02-06 14:54:08,006 | Failed at Play [check_quiesce_snapshot] ********************
+2023-02-06 14:54:08,006 | TASK [check_quiesce_snapshot][Check VM snapshot took is quiesced snapshot] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_take_snapshot.yml:36
+fatal: [localhost]: FAILED! => Snapshot 'quiesce_2023-02-06-14-53-06' quiesced status is false.
+error message:
+Snapshot 'quiesce_2023-02-06-14-53-06' quiesced status is false.",,timestamp failed at play check quiesce snapshot timestamp task check quiesce snapshot check vm snapshot took is quiesced snapshot task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm take snapshot yml number fatal localhost failed snapshot quiesce timestamp number quiesced status is false error message snapshot quiesce timestamp number quiesced status is false,deepdive,targetvm,202302071150,user,irrelevant
+5832,8258,"2023-02-06 14:54:08,006 | Failed at Play [check_quiesce_snapshot] ********************
+2023-02-06 14:54:08,006 | TASK [check_quiesce_snapshot][Check VM snapshot took is quiesced snapshot] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_take_snapshot.yml:36
+fatal: [localhost]: FAILED! => Snapshot 'quiesce_2023-02-06-14-53-06' quiesced status is false.
+error message:
+Snapshot 'quiesce_2023-02-06-14-53-06' quiesced status is false.",,timestamp failed at play check quiesce snapshot timestamp task check quiesce snapshot check vm snapshot took is quiesced snapshot task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm take snapshot yml number fatal localhost failed snapshot quiesce timestamp number quiesced status is false error message snapshot quiesce timestamp number quiesced status is false,deepdive,targetvm,202302071150,test,irrelevant
+5832,8258,"2023-02-06 14:54:08,006 | Failed at Play [check_quiesce_snapshot] ********************
+2023-02-06 14:54:08,006 | TASK [check_quiesce_snapshot][Check VM snapshot took is quiesced snapshot] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/vm_take_snapshot.yml:36
+fatal: [localhost]: FAILED! => Snapshot 'quiesce_2023-02-06-14-53-06' quiesced status is false.
+error message:
+Snapshot 'quiesce_2023-02-06-14-53-06' quiesced status is false.",,timestamp failed at play check quiesce snapshot timestamp task check quiesce snapshot check vm snapshot took is quiesced snapshot task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm take snapshot yml number fatal localhost failed snapshot quiesce timestamp number quiesced status is false error message snapshot quiesce timestamp number quiesced status is false,deepdive,targetvm,202302071150,product,irrelevant
+5831,8268,"2023-02-06 18:19:19,006 | Failed at Play [gosc_cloudinit_dhcp] ***********************
+2023-02-06 18:19:19,006 | TASK [gosc_cloudinit_dhcp][Get installed packages on Ubuntu] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_20.04_Server_ISO/ansible-vsphere-gos-validation/linux/utils/install_uninstall_package.yml:36
+fatal: [localhost]: UNREACHABLE! => Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.166.10' (ECDSA) to the list of known hosts.
+root@10.78.166.10: Permission denied (publickey,keyboard-interactive).
+error message:
+Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.166.10' (ECDSA) to the list of known hosts.
+root@10.78.166.10: Permission denied (publickey,keyboard-interactive).",,timestamp failed at play go sc cloud init dhcp timestamp task go sc cloud init dhcp get installed packages on ubuntu task path home worker workspace ansible cycle ubuntu number server iso ansible vsphere gos validation linux utilities install un install package yml number fatal localhost un reachable invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive error message invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive,retry,targetvm,202302071150,environment,irrelevant
+5831,8268,"2023-02-06 18:19:19,006 | Failed at Play [gosc_cloudinit_dhcp] ***********************
+2023-02-06 18:19:19,006 | TASK [gosc_cloudinit_dhcp][Get installed packages on Ubuntu] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_20.04_Server_ISO/ansible-vsphere-gos-validation/linux/utils/install_uninstall_package.yml:36
+fatal: [localhost]: UNREACHABLE! => Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.166.10' (ECDSA) to the list of known hosts.
+root@10.78.166.10: Permission denied (publickey,keyboard-interactive).
+error message:
+Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.166.10' (ECDSA) to the list of known hosts.
+root@10.78.166.10: Permission denied (publickey,keyboard-interactive).",,timestamp failed at play go sc cloud init dhcp timestamp task go sc cloud init dhcp get installed packages on ubuntu task path home worker workspace ansible cycle ubuntu number server iso ansible vsphere gos validation linux utilities install un install package yml number fatal localhost un reachable invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive error message invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive,retry,targetvm,202302071150,component,irrelevant
+5831,8268,"2023-02-06 18:19:19,006 | Failed at Play [gosc_cloudinit_dhcp] ***********************
+2023-02-06 18:19:19,006 | TASK [gosc_cloudinit_dhcp][Get installed packages on Ubuntu] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_20.04_Server_ISO/ansible-vsphere-gos-validation/linux/utils/install_uninstall_package.yml:36
+fatal: [localhost]: UNREACHABLE! => Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.166.10' (ECDSA) to the list of known hosts.
+root@10.78.166.10: Permission denied (publickey,keyboard-interactive).
+error message:
+Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.166.10' (ECDSA) to the list of known hosts.
+root@10.78.166.10: Permission denied (publickey,keyboard-interactive).",,timestamp failed at play go sc cloud init dhcp timestamp task go sc cloud init dhcp get installed packages on ubuntu task path home worker workspace ansible cycle ubuntu number server iso ansible vsphere gos validation linux utilities install un install package yml number fatal localhost un reachable invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive error message invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive,retry,targetvm,202302071150,infrastructure,irrelevant
+5831,8268,"2023-02-06 18:19:19,006 | Failed at Play [gosc_cloudinit_dhcp] ***********************
+2023-02-06 18:19:19,006 | TASK [gosc_cloudinit_dhcp][Get installed packages on Ubuntu] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_20.04_Server_ISO/ansible-vsphere-gos-validation/linux/utils/install_uninstall_package.yml:36
+fatal: [localhost]: UNREACHABLE! => Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.166.10' (ECDSA) to the list of known hosts.
+root@10.78.166.10: Permission denied (publickey,keyboard-interactive).
+error message:
+Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.166.10' (ECDSA) to the list of known hosts.
+root@10.78.166.10: Permission denied (publickey,keyboard-interactive).",,timestamp failed at play go sc cloud init dhcp timestamp task go sc cloud init dhcp get installed packages on ubuntu task path home worker workspace ansible cycle ubuntu number server iso ansible vsphere gos validation linux utilities install un install package yml number fatal localhost un reachable invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive error message invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive,retry,targetvm,202302071150,user,irrelevant
+5831,8268,"2023-02-06 18:19:19,006 | Failed at Play [gosc_cloudinit_dhcp] ***********************
+2023-02-06 18:19:19,006 | TASK [gosc_cloudinit_dhcp][Get installed packages on Ubuntu] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_20.04_Server_ISO/ansible-vsphere-gos-validation/linux/utils/install_uninstall_package.yml:36
+fatal: [localhost]: UNREACHABLE! => Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.166.10' (ECDSA) to the list of known hosts.
+root@10.78.166.10: Permission denied (publickey,keyboard-interactive).
+error message:
+Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.166.10' (ECDSA) to the list of known hosts.
+root@10.78.166.10: Permission denied (publickey,keyboard-interactive).",,timestamp failed at play go sc cloud init dhcp timestamp task go sc cloud init dhcp get installed packages on ubuntu task path home worker workspace ansible cycle ubuntu number server iso ansible vsphere gos validation linux utilities install un install package yml number fatal localhost un reachable invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive error message invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive,retry,targetvm,202302071150,test,irrelevant
+5831,8268,"2023-02-06 18:19:19,006 | Failed at Play [gosc_cloudinit_dhcp] ***********************
+2023-02-06 18:19:19,006 | TASK [gosc_cloudinit_dhcp][Get installed packages on Ubuntu] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_20.04_Server_ISO/ansible-vsphere-gos-validation/linux/utils/install_uninstall_package.yml:36
+fatal: [localhost]: UNREACHABLE! => Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.166.10' (ECDSA) to the list of known hosts.
+root@10.78.166.10: Permission denied (publickey,keyboard-interactive).
+error message:
+Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.166.10' (ECDSA) to the list of known hosts.
+root@10.78.166.10: Permission denied (publickey,keyboard-interactive).",,timestamp failed at play go sc cloud init dhcp timestamp task go sc cloud init dhcp get installed packages on ubuntu task path home worker workspace ansible cycle ubuntu number server iso ansible vsphere gos validation linux utilities install un install package yml number fatal localhost un reachable invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive error message invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive,retry,targetvm,202302071150,product,irrelevant

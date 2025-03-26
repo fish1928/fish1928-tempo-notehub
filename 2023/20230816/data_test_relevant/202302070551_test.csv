@@ -1,0 +1,351 @@
+id,name,raw,category,processed,solution,target,version,targetnew,label
+5826,8195,"2023-02-01 08:32:21,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:32:21,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_rockylinux8' on server '10.182.189.103'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:32:22,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_rockylinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_rockylinux8
+error message:
+Unable to gather information for non-existing VM test_rockylinux8",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test rocky linux number on server ip address task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test rocky linux number error message unable to gather information for non existing vm test rocky linux number,deepdive,usererror,202302070551,user,relevant
+5827,8197,"2023-02-01 08:33:25,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:33:25,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_almalinux8' on server '10.186.200.221'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_8.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:33:27,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_almalinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_8.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_almalinux8
+error message:
+Unable to gather information for non-existing VM test_almalinux8",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test alma linux number on server ip address task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test alma linux number task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test alma linux number error message unable to gather information for non existing vm test alma linux number,deepdive,usererror,202302070551,user,relevant
+5828,8198,"2023-02-01 08:35:31,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:35:31,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_almalinux9' on server '10.212.96.106'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_9.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:35:33,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_almalinux9'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_9.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_almalinux9
+error message:
+Unable to gather information for non-existing VM test_almalinux9",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test alma linux number on server ip address task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test alma linux number task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test alma linux number error message unable to gather information for non existing vm test alma linux number,deepdive,usererror,202302070551,user,relevant
+5829,8196,"2023-02-01 08:32:40,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:32:40,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_rockylinux9' on server '10.161.184.174'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:32:41,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_rockylinux9'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_rockylinux9
+error message:
+Unable to gather information for non-existing VM test_rockylinux9",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test rocky linux number on server ip address task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test rocky linux number error message unable to gather information for non existing vm test rocky linux number,deepdive,usererror,202302070551,user,relevant
+5830,8247,"2023-02-06 13:01:50,006 | Failed at Play [wintools_complete_install_verify] **********
+2023-02-06 13:01:50,006 | TASK [wintools_complete_install_verify][Check VMware Tools install task started] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_Server_2022_64/ansible-vsphere-gos-validation/windows/wintools_complete_install_verify/install_vmtools.yml:38
+fatal: [localhost]: FAILED! => The result of above VMware Tools installation task executed in guest OS is not returned.
+error message:
+The result of above VMware Tools installation task executed in guest OS is not returned.",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vmware tools install task started task path home worker workspace ansible cycle windows server number ansible vsphere gos validation windows win tools complete install verify install vm tools yml number fatal localhost failed the result of above vmware tools installation task executed in guest os is not returned error message the result of above vmware tools installation task executed in guest os is not returned,retry,targetvm,202302070551,machine,relevant
+5826,8195,"2023-02-01 08:32:21,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:32:21,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_rockylinux8' on server '10.182.189.103'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:32:22,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_rockylinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_rockylinux8
+error message:
+Unable to gather information for non-existing VM test_rockylinux8",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test rocky linux number on server ip address task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test rocky linux number error message unable to gather information for non existing vm test rocky linux number,deepdive,usererror,202302070551,environment,irrelevant
+5826,8195,"2023-02-01 08:32:21,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:32:21,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_rockylinux8' on server '10.182.189.103'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:32:22,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_rockylinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_rockylinux8
+error message:
+Unable to gather information for non-existing VM test_rockylinux8",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test rocky linux number on server ip address task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test rocky linux number error message unable to gather information for non existing vm test rocky linux number,deepdive,usererror,202302070551,component,irrelevant
+5826,8195,"2023-02-01 08:32:21,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:32:21,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_rockylinux8' on server '10.182.189.103'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:32:22,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_rockylinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_rockylinux8
+error message:
+Unable to gather information for non-existing VM test_rockylinux8",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test rocky linux number on server ip address task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test rocky linux number error message unable to gather information for non existing vm test rocky linux number,deepdive,usererror,202302070551,infrastructure,irrelevant
+5826,8195,"2023-02-01 08:32:21,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:32:21,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_rockylinux8' on server '10.182.189.103'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:32:22,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_rockylinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_rockylinux8
+error message:
+Unable to gather information for non-existing VM test_rockylinux8",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test rocky linux number on server ip address task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test rocky linux number error message unable to gather information for non existing vm test rocky linux number,deepdive,usererror,202302070551,test,irrelevant
+5826,8195,"2023-02-01 08:32:21,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:32:21,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_rockylinux8' on server '10.182.189.103'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:32:22,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_rockylinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_rockylinux8
+error message:
+Unable to gather information for non-existing VM test_rockylinux8",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test rocky linux number on server ip address task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test rocky linux number error message unable to gather information for non existing vm test rocky linux number,deepdive,usererror,202302070551,machine,irrelevant
+5826,8195,"2023-02-01 08:32:21,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:32:21,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_rockylinux8' on server '10.182.189.103'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:32:22,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_rockylinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_8.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_rockylinux8
+error message:
+Unable to gather information for non-existing VM test_rockylinux8",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test rocky linux number on server ip address task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test rocky linux number error message unable to gather information for non existing vm test rocky linux number,deepdive,usererror,202302070551,product,irrelevant
+5827,8197,"2023-02-01 08:33:25,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:33:25,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_almalinux8' on server '10.186.200.221'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_8.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:33:27,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_almalinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_8.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_almalinux8
+error message:
+Unable to gather information for non-existing VM test_almalinux8",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test alma linux number on server ip address task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test alma linux number task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test alma linux number error message unable to gather information for non existing vm test alma linux number,deepdive,usererror,202302070551,environment,irrelevant
+5827,8197,"2023-02-01 08:33:25,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:33:25,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_almalinux8' on server '10.186.200.221'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_8.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:33:27,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_almalinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_8.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_almalinux8
+error message:
+Unable to gather information for non-existing VM test_almalinux8",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test alma linux number on server ip address task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test alma linux number task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test alma linux number error message unable to gather information for non existing vm test alma linux number,deepdive,usererror,202302070551,component,irrelevant
+5827,8197,"2023-02-01 08:33:25,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:33:25,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_almalinux8' on server '10.186.200.221'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_8.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:33:27,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_almalinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_8.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_almalinux8
+error message:
+Unable to gather information for non-existing VM test_almalinux8",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test alma linux number on server ip address task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test alma linux number task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test alma linux number error message unable to gather information for non existing vm test alma linux number,deepdive,usererror,202302070551,infrastructure,irrelevant
+5827,8197,"2023-02-01 08:33:25,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:33:25,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_almalinux8' on server '10.186.200.221'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_8.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:33:27,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_almalinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_8.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_almalinux8
+error message:
+Unable to gather information for non-existing VM test_almalinux8",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test alma linux number on server ip address task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test alma linux number task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test alma linux number error message unable to gather information for non existing vm test alma linux number,deepdive,usererror,202302070551,test,irrelevant
+5827,8197,"2023-02-01 08:33:25,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:33:25,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_almalinux8' on server '10.186.200.221'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_8.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:33:27,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_almalinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_8.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_almalinux8
+error message:
+Unable to gather information for non-existing VM test_almalinux8",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test alma linux number on server ip address task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test alma linux number task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test alma linux number error message unable to gather information for non existing vm test alma linux number,deepdive,usererror,202302070551,machine,irrelevant
+5827,8197,"2023-02-01 08:33:25,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:33:25,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_almalinux8' on server '10.186.200.221'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_8.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:33:27,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_almalinux8'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_8.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_almalinux8
+error message:
+Unable to gather information for non-existing VM test_almalinux8",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test alma linux number on server ip address task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test alma linux number task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test alma linux number error message unable to gather information for non existing vm test alma linux number,deepdive,usererror,202302070551,product,irrelevant
+5828,8198,"2023-02-01 08:35:31,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:35:31,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_almalinux9' on server '10.212.96.106'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_9.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:35:33,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_almalinux9'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_9.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_almalinux9
+error message:
+Unable to gather information for non-existing VM test_almalinux9",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test alma linux number on server ip address task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test alma linux number task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test alma linux number error message unable to gather information for non existing vm test alma linux number,deepdive,usererror,202302070551,environment,irrelevant
+5828,8198,"2023-02-01 08:35:31,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:35:31,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_almalinux9' on server '10.212.96.106'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_9.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:35:33,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_almalinux9'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_9.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_almalinux9
+error message:
+Unable to gather information for non-existing VM test_almalinux9",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test alma linux number on server ip address task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test alma linux number task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test alma linux number error message unable to gather information for non existing vm test alma linux number,deepdive,usererror,202302070551,component,irrelevant
+5828,8198,"2023-02-01 08:35:31,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:35:31,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_almalinux9' on server '10.212.96.106'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_9.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:35:33,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_almalinux9'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_9.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_almalinux9
+error message:
+Unable to gather information for non-existing VM test_almalinux9",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test alma linux number on server ip address task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test alma linux number task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test alma linux number error message unable to gather information for non existing vm test alma linux number,deepdive,usererror,202302070551,infrastructure,irrelevant
+5828,8198,"2023-02-01 08:35:31,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:35:31,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_almalinux9' on server '10.212.96.106'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_9.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:35:33,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_almalinux9'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_9.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_almalinux9
+error message:
+Unable to gather information for non-existing VM test_almalinux9",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test alma linux number on server ip address task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test alma linux number task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test alma linux number error message unable to gather information for non existing vm test alma linux number,deepdive,usererror,202302070551,test,irrelevant
+5828,8198,"2023-02-01 08:35:31,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:35:31,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_almalinux9' on server '10.212.96.106'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_9.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:35:33,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_almalinux9'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_9.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_almalinux9
+error message:
+Unable to gather information for non-existing VM test_almalinux9",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test alma linux number on server ip address task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test alma linux number task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test alma linux number error message unable to gather information for non existing vm test alma linux number,deepdive,usererror,202302070551,machine,irrelevant
+5828,8198,"2023-02-01 08:35:31,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:35:31,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_almalinux9' on server '10.212.96.106'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_9.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:35:33,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_almalinux9'] 
+task path: /home/worker/workspace/Ansible_Regression_AlmaLinux_9.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_almalinux9
+error message:
+Unable to gather information for non-existing VM test_almalinux9",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test alma linux number on server ip address task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test alma linux number task path home worker workspace ansible regression alma linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test alma linux number error message unable to gather information for non existing vm test alma linux number,deepdive,usererror,202302070551,product,irrelevant
+5829,8196,"2023-02-01 08:32:40,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:32:40,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_rockylinux9' on server '10.161.184.174'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:32:41,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_rockylinux9'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_rockylinux9
+error message:
+Unable to gather information for non-existing VM test_rockylinux9",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test rocky linux number on server ip address task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test rocky linux number error message unable to gather information for non existing vm test rocky linux number,deepdive,usererror,202302070551,environment,irrelevant
+5829,8196,"2023-02-01 08:32:40,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:32:40,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_rockylinux9' on server '10.161.184.174'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:32:41,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_rockylinux9'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_rockylinux9
+error message:
+Unable to gather information for non-existing VM test_rockylinux9",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test rocky linux number on server ip address task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test rocky linux number error message unable to gather information for non existing vm test rocky linux number,deepdive,usererror,202302070551,component,irrelevant
+5829,8196,"2023-02-01 08:32:40,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:32:40,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_rockylinux9' on server '10.161.184.174'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:32:41,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_rockylinux9'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_rockylinux9
+error message:
+Unable to gather information for non-existing VM test_rockylinux9",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test rocky linux number on server ip address task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test rocky linux number error message unable to gather information for non existing vm test rocky linux number,deepdive,usererror,202302070551,infrastructure,irrelevant
+5829,8196,"2023-02-01 08:32:40,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:32:40,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_rockylinux9' on server '10.161.184.174'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:32:41,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_rockylinux9'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_rockylinux9
+error message:
+Unable to gather information for non-existing VM test_rockylinux9",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test rocky linux number on server ip address task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test rocky linux number error message unable to gather information for non existing vm test rocky linux number,deepdive,usererror,202302070551,test,irrelevant
+5829,8196,"2023-02-01 08:32:40,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:32:40,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_rockylinux9' on server '10.161.184.174'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:32:41,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_rockylinux9'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_rockylinux9
+error message:
+Unable to gather information for non-existing VM test_rockylinux9",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test rocky linux number on server ip address task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test rocky linux number error message unable to gather information for non existing vm test rocky linux number,deepdive,usererror,202302070551,machine,irrelevant
+5829,8196,"2023-02-01 08:32:40,001 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2023-02-01 08:32:40,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Create a new VM 'test_rockylinux9' on server '10.161.184.174'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_create.yml:30
+fatal: [localhost]: FAILED! => Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+error message:
+Failed to create a virtual machine : A specified parameter was not correct: configSpec.guestId
+2023-02-01 08:32:41,001 | TASK [deploy_vm_efi_paravirtual_vmxnet3][Get specified property info for VM 'test_rockylinux9'] 
+task path: /home/worker/workspace/Ansible_Regression_RockyLinux_9.x/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_rockylinux9
+error message:
+Unable to gather information for non-existing VM test_rockylinux9",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task deploy vm efi para virtual vmxnet number create a new vm test rocky linux number on server ip address task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm create yml number fatal localhost failed failed to create a virtual machine a specified parameter was not correct configuration spec guest id error message failed to create a virtual machine a specified parameter was not correct configuration spec guest id timestamp task deploy vm efi para virtual vmxnet number get specified property info for vm test rocky linux number task path home worker workspace ansible regression rocky linux number x ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test rocky linux number error message unable to gather information for non existing vm test rocky linux number,deepdive,usererror,202302070551,product,irrelevant
+5830,8247,"2023-02-06 13:01:50,006 | Failed at Play [wintools_complete_install_verify] **********
+2023-02-06 13:01:50,006 | TASK [wintools_complete_install_verify][Check VMware Tools install task started] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_Server_2022_64/ansible-vsphere-gos-validation/windows/wintools_complete_install_verify/install_vmtools.yml:38
+fatal: [localhost]: FAILED! => The result of above VMware Tools installation task executed in guest OS is not returned.
+error message:
+The result of above VMware Tools installation task executed in guest OS is not returned.",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vmware tools install task started task path home worker workspace ansible cycle windows server number ansible vsphere gos validation windows win tools complete install verify install vm tools yml number fatal localhost failed the result of above vmware tools installation task executed in guest os is not returned error message the result of above vmware tools installation task executed in guest os is not returned,retry,targetvm,202302070551,environment,irrelevant
+5830,8247,"2023-02-06 13:01:50,006 | Failed at Play [wintools_complete_install_verify] **********
+2023-02-06 13:01:50,006 | TASK [wintools_complete_install_verify][Check VMware Tools install task started] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_Server_2022_64/ansible-vsphere-gos-validation/windows/wintools_complete_install_verify/install_vmtools.yml:38
+fatal: [localhost]: FAILED! => The result of above VMware Tools installation task executed in guest OS is not returned.
+error message:
+The result of above VMware Tools installation task executed in guest OS is not returned.",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vmware tools install task started task path home worker workspace ansible cycle windows server number ansible vsphere gos validation windows win tools complete install verify install vm tools yml number fatal localhost failed the result of above vmware tools installation task executed in guest os is not returned error message the result of above vmware tools installation task executed in guest os is not returned,retry,targetvm,202302070551,component,irrelevant
+5830,8247,"2023-02-06 13:01:50,006 | Failed at Play [wintools_complete_install_verify] **********
+2023-02-06 13:01:50,006 | TASK [wintools_complete_install_verify][Check VMware Tools install task started] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_Server_2022_64/ansible-vsphere-gos-validation/windows/wintools_complete_install_verify/install_vmtools.yml:38
+fatal: [localhost]: FAILED! => The result of above VMware Tools installation task executed in guest OS is not returned.
+error message:
+The result of above VMware Tools installation task executed in guest OS is not returned.",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vmware tools install task started task path home worker workspace ansible cycle windows server number ansible vsphere gos validation windows win tools complete install verify install vm tools yml number fatal localhost failed the result of above vmware tools installation task executed in guest os is not returned error message the result of above vmware tools installation task executed in guest os is not returned,retry,targetvm,202302070551,infrastructure,irrelevant
+5830,8247,"2023-02-06 13:01:50,006 | Failed at Play [wintools_complete_install_verify] **********
+2023-02-06 13:01:50,006 | TASK [wintools_complete_install_verify][Check VMware Tools install task started] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_Server_2022_64/ansible-vsphere-gos-validation/windows/wintools_complete_install_verify/install_vmtools.yml:38
+fatal: [localhost]: FAILED! => The result of above VMware Tools installation task executed in guest OS is not returned.
+error message:
+The result of above VMware Tools installation task executed in guest OS is not returned.",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vmware tools install task started task path home worker workspace ansible cycle windows server number ansible vsphere gos validation windows win tools complete install verify install vm tools yml number fatal localhost failed the result of above vmware tools installation task executed in guest os is not returned error message the result of above vmware tools installation task executed in guest os is not returned,retry,targetvm,202302070551,user,irrelevant
+5830,8247,"2023-02-06 13:01:50,006 | Failed at Play [wintools_complete_install_verify] **********
+2023-02-06 13:01:50,006 | TASK [wintools_complete_install_verify][Check VMware Tools install task started] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_Server_2022_64/ansible-vsphere-gos-validation/windows/wintools_complete_install_verify/install_vmtools.yml:38
+fatal: [localhost]: FAILED! => The result of above VMware Tools installation task executed in guest OS is not returned.
+error message:
+The result of above VMware Tools installation task executed in guest OS is not returned.",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vmware tools install task started task path home worker workspace ansible cycle windows server number ansible vsphere gos validation windows win tools complete install verify install vm tools yml number fatal localhost failed the result of above vmware tools installation task executed in guest os is not returned error message the result of above vmware tools installation task executed in guest os is not returned,retry,targetvm,202302070551,test,irrelevant
+5830,8247,"2023-02-06 13:01:50,006 | Failed at Play [wintools_complete_install_verify] **********
+2023-02-06 13:01:50,006 | TASK [wintools_complete_install_verify][Check VMware Tools install task started] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_Server_2022_64/ansible-vsphere-gos-validation/windows/wintools_complete_install_verify/install_vmtools.yml:38
+fatal: [localhost]: FAILED! => The result of above VMware Tools installation task executed in guest OS is not returned.
+error message:
+The result of above VMware Tools installation task executed in guest OS is not returned.",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify check vmware tools install task started task path home worker workspace ansible cycle windows server number ansible vsphere gos validation windows win tools complete install verify install vm tools yml number fatal localhost failed the result of above vmware tools installation task executed in guest os is not returned error message the result of above vmware tools installation task executed in guest os is not returned,retry,targetvm,202302070551,product,irrelevant

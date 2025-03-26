@@ -1,0 +1,85 @@
+id,name,raw,category,processed,solution,target,version,targetnew,label
+5423,3189,"2022-07-20 13:42:04,020 | Failed at Play [vbs_enable_disable] ************************
+2022-07-20 13:42:04,020 | TASK [Check VBS and running security service status] *******
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/windows/vbs_enable_disable/vbs_enable_test.yml:41
+fatal: [localhost]: FAILED! => VBS is not running '2', or HVCI is not running '['1', ' 2']'.",,timestamp failed at play vbs enable disable timestamp task check vbs and running security service status task path home worker workspace ansible windows server lts c main lsi logic sas efi ansible vsphere gos validation windows vbs enable disable vbs enable test yml number fatal localhost failed vbs is not running number or h vci is not running number number,deepdive,testcase,202207260728,test,relevant
+5424,3190,"2022-07-20 14:38:04,020 | Failed at Play [vbs_enable_disable] ************************
+2022-07-20 14:38:04,020 | TASK [Check VBS and running security service status] *******
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/vbs_enable_disable/vbs_enable_test.yml:41
+fatal: [localhost]: FAILED! => VBS is not running '2', or HVCI is not running '['1', ' 2']'.",,timestamp failed at play vbs enable disable timestamp task check vbs and running security service status task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows vbs enable disable vbs enable test yml number fatal localhost failed vbs is not running number or h vci is not running number number,deepdive,testcase,202207260728,test,relevant
+5425,3187,"2022-07-20 04:27:02,020 | Failed at Play [env_setup] *********************************
+2022-07-20 04:27:02,020 | TASK [Check variables for new VM settings] *****************
+task path: /home/worker/workspace/Create_New_VMLibrary_Template/ansible-vsphere-gos-validation/env_setup/check_testing_vars.yml:57
+fatal: [localhost]: FAILED! => Invalid variables for new VM settings",,timestamp failed at play environment setup timestamp task check variables for new vm settings task path home worker workspace create new vm library template ansible vsphere gos validation environment setup check testing vars yml number fatal localhost failed invalid variables for new vm settings,deepdive,testcase,202207260728,test,relevant
+5423,3189,"2022-07-20 13:42:04,020 | Failed at Play [vbs_enable_disable] ************************
+2022-07-20 13:42:04,020 | TASK [Check VBS and running security service status] *******
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/windows/vbs_enable_disable/vbs_enable_test.yml:41
+fatal: [localhost]: FAILED! => VBS is not running '2', or HVCI is not running '['1', ' 2']'.",,timestamp failed at play vbs enable disable timestamp task check vbs and running security service status task path home worker workspace ansible windows server lts c main lsi logic sas efi ansible vsphere gos validation windows vbs enable disable vbs enable test yml number fatal localhost failed vbs is not running number or h vci is not running number number,deepdive,testcase,202207260728,environment,irrelevant
+5423,3189,"2022-07-20 13:42:04,020 | Failed at Play [vbs_enable_disable] ************************
+2022-07-20 13:42:04,020 | TASK [Check VBS and running security service status] *******
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/windows/vbs_enable_disable/vbs_enable_test.yml:41
+fatal: [localhost]: FAILED! => VBS is not running '2', or HVCI is not running '['1', ' 2']'.",,timestamp failed at play vbs enable disable timestamp task check vbs and running security service status task path home worker workspace ansible windows server lts c main lsi logic sas efi ansible vsphere gos validation windows vbs enable disable vbs enable test yml number fatal localhost failed vbs is not running number or h vci is not running number number,deepdive,testcase,202207260728,component,irrelevant
+5423,3189,"2022-07-20 13:42:04,020 | Failed at Play [vbs_enable_disable] ************************
+2022-07-20 13:42:04,020 | TASK [Check VBS and running security service status] *******
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/windows/vbs_enable_disable/vbs_enable_test.yml:41
+fatal: [localhost]: FAILED! => VBS is not running '2', or HVCI is not running '['1', ' 2']'.",,timestamp failed at play vbs enable disable timestamp task check vbs and running security service status task path home worker workspace ansible windows server lts c main lsi logic sas efi ansible vsphere gos validation windows vbs enable disable vbs enable test yml number fatal localhost failed vbs is not running number or h vci is not running number number,deepdive,testcase,202207260728,infrastructure,irrelevant
+5423,3189,"2022-07-20 13:42:04,020 | Failed at Play [vbs_enable_disable] ************************
+2022-07-20 13:42:04,020 | TASK [Check VBS and running security service status] *******
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/windows/vbs_enable_disable/vbs_enable_test.yml:41
+fatal: [localhost]: FAILED! => VBS is not running '2', or HVCI is not running '['1', ' 2']'.",,timestamp failed at play vbs enable disable timestamp task check vbs and running security service status task path home worker workspace ansible windows server lts c main lsi logic sas efi ansible vsphere gos validation windows vbs enable disable vbs enable test yml number fatal localhost failed vbs is not running number or h vci is not running number number,deepdive,testcase,202207260728,user,irrelevant
+5423,3189,"2022-07-20 13:42:04,020 | Failed at Play [vbs_enable_disable] ************************
+2022-07-20 13:42:04,020 | TASK [Check VBS and running security service status] *******
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/windows/vbs_enable_disable/vbs_enable_test.yml:41
+fatal: [localhost]: FAILED! => VBS is not running '2', or HVCI is not running '['1', ' 2']'.",,timestamp failed at play vbs enable disable timestamp task check vbs and running security service status task path home worker workspace ansible windows server lts c main lsi logic sas efi ansible vsphere gos validation windows vbs enable disable vbs enable test yml number fatal localhost failed vbs is not running number or h vci is not running number number,deepdive,testcase,202207260728,machine,irrelevant
+5423,3189,"2022-07-20 13:42:04,020 | Failed at Play [vbs_enable_disable] ************************
+2022-07-20 13:42:04,020 | TASK [Check VBS and running security service status] *******
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/windows/vbs_enable_disable/vbs_enable_test.yml:41
+fatal: [localhost]: FAILED! => VBS is not running '2', or HVCI is not running '['1', ' 2']'.",,timestamp failed at play vbs enable disable timestamp task check vbs and running security service status task path home worker workspace ansible windows server lts c main lsi logic sas efi ansible vsphere gos validation windows vbs enable disable vbs enable test yml number fatal localhost failed vbs is not running number or h vci is not running number number,deepdive,testcase,202207260728,product,irrelevant
+5424,3190,"2022-07-20 14:38:04,020 | Failed at Play [vbs_enable_disable] ************************
+2022-07-20 14:38:04,020 | TASK [Check VBS and running security service status] *******
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/vbs_enable_disable/vbs_enable_test.yml:41
+fatal: [localhost]: FAILED! => VBS is not running '2', or HVCI is not running '['1', ' 2']'.",,timestamp failed at play vbs enable disable timestamp task check vbs and running security service status task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows vbs enable disable vbs enable test yml number fatal localhost failed vbs is not running number or h vci is not running number number,deepdive,testcase,202207260728,environment,irrelevant
+5424,3190,"2022-07-20 14:38:04,020 | Failed at Play [vbs_enable_disable] ************************
+2022-07-20 14:38:04,020 | TASK [Check VBS and running security service status] *******
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/vbs_enable_disable/vbs_enable_test.yml:41
+fatal: [localhost]: FAILED! => VBS is not running '2', or HVCI is not running '['1', ' 2']'.",,timestamp failed at play vbs enable disable timestamp task check vbs and running security service status task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows vbs enable disable vbs enable test yml number fatal localhost failed vbs is not running number or h vci is not running number number,deepdive,testcase,202207260728,component,irrelevant
+5424,3190,"2022-07-20 14:38:04,020 | Failed at Play [vbs_enable_disable] ************************
+2022-07-20 14:38:04,020 | TASK [Check VBS and running security service status] *******
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/vbs_enable_disable/vbs_enable_test.yml:41
+fatal: [localhost]: FAILED! => VBS is not running '2', or HVCI is not running '['1', ' 2']'.",,timestamp failed at play vbs enable disable timestamp task check vbs and running security service status task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows vbs enable disable vbs enable test yml number fatal localhost failed vbs is not running number or h vci is not running number number,deepdive,testcase,202207260728,infrastructure,irrelevant
+5424,3190,"2022-07-20 14:38:04,020 | Failed at Play [vbs_enable_disable] ************************
+2022-07-20 14:38:04,020 | TASK [Check VBS and running security service status] *******
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/vbs_enable_disable/vbs_enable_test.yml:41
+fatal: [localhost]: FAILED! => VBS is not running '2', or HVCI is not running '['1', ' 2']'.",,timestamp failed at play vbs enable disable timestamp task check vbs and running security service status task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows vbs enable disable vbs enable test yml number fatal localhost failed vbs is not running number or h vci is not running number number,deepdive,testcase,202207260728,user,irrelevant
+5424,3190,"2022-07-20 14:38:04,020 | Failed at Play [vbs_enable_disable] ************************
+2022-07-20 14:38:04,020 | TASK [Check VBS and running security service status] *******
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/vbs_enable_disable/vbs_enable_test.yml:41
+fatal: [localhost]: FAILED! => VBS is not running '2', or HVCI is not running '['1', ' 2']'.",,timestamp failed at play vbs enable disable timestamp task check vbs and running security service status task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows vbs enable disable vbs enable test yml number fatal localhost failed vbs is not running number or h vci is not running number number,deepdive,testcase,202207260728,machine,irrelevant
+5424,3190,"2022-07-20 14:38:04,020 | Failed at Play [vbs_enable_disable] ************************
+2022-07-20 14:38:04,020 | TASK [Check VBS and running security service status] *******
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/vbs_enable_disable/vbs_enable_test.yml:41
+fatal: [localhost]: FAILED! => VBS is not running '2', or HVCI is not running '['1', ' 2']'.",,timestamp failed at play vbs enable disable timestamp task check vbs and running security service status task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows vbs enable disable vbs enable test yml number fatal localhost failed vbs is not running number or h vci is not running number number,deepdive,testcase,202207260728,product,irrelevant
+5425,3187,"2022-07-20 04:27:02,020 | Failed at Play [env_setup] *********************************
+2022-07-20 04:27:02,020 | TASK [Check variables for new VM settings] *****************
+task path: /home/worker/workspace/Create_New_VMLibrary_Template/ansible-vsphere-gos-validation/env_setup/check_testing_vars.yml:57
+fatal: [localhost]: FAILED! => Invalid variables for new VM settings",,timestamp failed at play environment setup timestamp task check variables for new vm settings task path home worker workspace create new vm library template ansible vsphere gos validation environment setup check testing vars yml number fatal localhost failed invalid variables for new vm settings,deepdive,testcase,202207260728,environment,irrelevant
+5425,3187,"2022-07-20 04:27:02,020 | Failed at Play [env_setup] *********************************
+2022-07-20 04:27:02,020 | TASK [Check variables for new VM settings] *****************
+task path: /home/worker/workspace/Create_New_VMLibrary_Template/ansible-vsphere-gos-validation/env_setup/check_testing_vars.yml:57
+fatal: [localhost]: FAILED! => Invalid variables for new VM settings",,timestamp failed at play environment setup timestamp task check variables for new vm settings task path home worker workspace create new vm library template ansible vsphere gos validation environment setup check testing vars yml number fatal localhost failed invalid variables for new vm settings,deepdive,testcase,202207260728,component,irrelevant
+5425,3187,"2022-07-20 04:27:02,020 | Failed at Play [env_setup] *********************************
+2022-07-20 04:27:02,020 | TASK [Check variables for new VM settings] *****************
+task path: /home/worker/workspace/Create_New_VMLibrary_Template/ansible-vsphere-gos-validation/env_setup/check_testing_vars.yml:57
+fatal: [localhost]: FAILED! => Invalid variables for new VM settings",,timestamp failed at play environment setup timestamp task check variables for new vm settings task path home worker workspace create new vm library template ansible vsphere gos validation environment setup check testing vars yml number fatal localhost failed invalid variables for new vm settings,deepdive,testcase,202207260728,infrastructure,irrelevant
+5425,3187,"2022-07-20 04:27:02,020 | Failed at Play [env_setup] *********************************
+2022-07-20 04:27:02,020 | TASK [Check variables for new VM settings] *****************
+task path: /home/worker/workspace/Create_New_VMLibrary_Template/ansible-vsphere-gos-validation/env_setup/check_testing_vars.yml:57
+fatal: [localhost]: FAILED! => Invalid variables for new VM settings",,timestamp failed at play environment setup timestamp task check variables for new vm settings task path home worker workspace create new vm library template ansible vsphere gos validation environment setup check testing vars yml number fatal localhost failed invalid variables for new vm settings,deepdive,testcase,202207260728,user,irrelevant
+5425,3187,"2022-07-20 04:27:02,020 | Failed at Play [env_setup] *********************************
+2022-07-20 04:27:02,020 | TASK [Check variables for new VM settings] *****************
+task path: /home/worker/workspace/Create_New_VMLibrary_Template/ansible-vsphere-gos-validation/env_setup/check_testing_vars.yml:57
+fatal: [localhost]: FAILED! => Invalid variables for new VM settings",,timestamp failed at play environment setup timestamp task check variables for new vm settings task path home worker workspace create new vm library template ansible vsphere gos validation environment setup check testing vars yml number fatal localhost failed invalid variables for new vm settings,deepdive,testcase,202207260728,machine,irrelevant
+5425,3187,"2022-07-20 04:27:02,020 | Failed at Play [env_setup] *********************************
+2022-07-20 04:27:02,020 | TASK [Check variables for new VM settings] *****************
+task path: /home/worker/workspace/Create_New_VMLibrary_Template/ansible-vsphere-gos-validation/env_setup/check_testing_vars.yml:57
+fatal: [localhost]: FAILED! => Invalid variables for new VM settings",,timestamp failed at play environment setup timestamp task check variables for new vm settings task path home worker workspace create new vm library template ansible vsphere gos validation environment setup check testing vars yml number fatal localhost failed invalid variables for new vm settings,deepdive,testcase,202207260728,product,irrelevant
