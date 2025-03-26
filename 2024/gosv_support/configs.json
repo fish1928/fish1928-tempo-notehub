@@ -1,0 +1,16 @@
+{
+    "vnlp": {
+        "entrance": "http://10.182.54.33/process"
+    },
+    "embedding": {
+        "entrance_embedding": "https://nla-embedding.vdp.oc.vmware.com/predicts",
+        "entrance_query": "https://nla-embedding.vdp.oc.vmware.com/query"
+    },
+    "database": {
+        "host": "9bea13-nimbus-stg.moneta.vmware.com",
+        "password": "h3NAYZBmk7oXdP6dQFQxCmGhd2UWtEcZwxMZxlrfTp8LyquqFC0CsM1jKJ5o9Yc1",
+        "user": "moneta-superuser",
+        "port": "5432",
+        "database": "gosv"
+    }
+}
