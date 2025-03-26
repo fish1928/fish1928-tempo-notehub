@@ -1,0 +1,10 @@
+server:
+  host: '0.0.0.0'
+  port: 8090
+auth:
+  enabled: 0
+  url: 'https://auth.esp-staging.vmware-aws.com/api/auth/v1'
+  clientType: 'esp-stg-279-noipo'
+model:
+  name: 'vBERT-base-20'
+  root: '/Workspace/server/models'

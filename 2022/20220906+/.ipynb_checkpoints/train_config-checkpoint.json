@@ -1,0 +1,12 @@
+[
+    {"folder_data": "data_555_0524","eval_size": 0, "round_current": 0, "round_max": 10},
+    {"folder_data": "data_555_0524","eval_size": 0.05, "round_current": 0, "round_max": 10},
+    {"folder_data": "data_555_0524","eval_size": 0.1, "round_current": 0, "round_max": 10},
+    {"folder_data": "data_555_0524","eval_size": 0.15, "round_current": 0, "round_max": 10},
+    {"folder_data": "data_555_0524","eval_size": 0.2, "round_current": 0, "round_max": 10},
+    {"folder_data": "data_639_0617","eval_size": 0, "round_current": 0, "round_max": 10},
+    {"folder_data": "data_639_0617","eval_size": 0.05, "round_current": 0, "round_max": 10},
+    {"folder_data": "data_639_0617","eval_size": 0.1, "round_current": 0, "round_max": 10},
+    {"folder_data": "data_639_0617","eval_size": 0.15, "round_current": 0, "round_max": 10},
+    {"folder_data": "data_639_0617","eval_size": 0.2, "round_current": 0, "round_max": 10}
+]
