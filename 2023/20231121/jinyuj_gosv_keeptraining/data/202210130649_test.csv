@@ -1,0 +1,28 @@
+id,name,raw,category,processed,solution,target,version
+5657,5946,"2022-10-12 12:23:44,012 | Failed at Play [deploy_vm_bios_nvme_e1000e] ****************
+2022-10-12 12:23:44,012 | TASK [deploy_vm_bios_nvme_e1000e][Wait for message 'Ubuntu autoinstall is started at 2022-10-12-10-32-53' appear in VM log serial-20221012120519.log] 
+task path: /home/worker/workspace/zyh_ansible_ubuntu_existing_testbed_3.1/ansible-vsphere-gos-validation/common/vm_wait_log_msg.yml:35
+fatal: [localhost]: FAILED! => {
+    ""attempts"": 150,
+    ""censored"": ""the output has been hidden due to the fact that 'no_log: true' was specified for this result"",
+    ""changed"": false
+}
+2022-10-12 12:25:21,012 | TASK [deploy_vm_bios_nvme_e1000e][Testing exit due to failure] 
+task path: /home/worker/workspace/zyh_ansible_ubuntu_existing_testbed_3.1/ansible-vsphere-gos-validation/common/test_rescue.yml:59
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_bios_nvme_e1000e",,timestamp failed at play deploy vm bios nvme timestamp task deploy vm bios nvme wait for message ubuntu auto install is started at timestamp number appear in vm log serial timestamp log task path home worker workspace zyh ansible ubuntu existing testbed number ansible vsphere gos validation common vm wait log message yml number fatal localhost failed attempts number censored the output has been hidden due to the fact that no log true was specified for this result changed false timestamp task deploy vm bios nvme testing exit due to failure task path home worker workspace zyh ansible ubuntu existing testbed number ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm bios nvme e number e,deepdive,targetvm,202210130649
+5658,5925,"2022-10-11 06:52:43,011 | Failed at Play [deploy_vm_bios_lsilogicsas_e1000e] *********
+2022-10-11 06:52:43,011 | TASK [deploy_vm_bios_lsilogicsas_e1000e][Wait for message 'Ubuntu autoinstall is started at 2022-10-11-06-27-43' appear in VM log serial-20221011063637.log] 
+task path: /home/worker/workspace/Ansible_Ubuntu_22.10_Server_ISO_70U1_LSILOGICSAS_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_wait_log_msg.yml:35
+fatal: [localhost]: FAILED! => {
+    ""attempts"": 150,
+    ""censored"": ""the output has been hidden due to the fact that 'no_log: true' was specified for this result"",
+    ""changed"": false
+}
+2022-10-11 06:53:36,011 | TASK [deploy_vm_bios_lsilogicsas_e1000e][Testing exit due to failure] 
+task path: /home/worker/workspace/Ansible_Ubuntu_22.10_Server_ISO_70U1_LSILOGICSAS_E1000E_BIOS/ansible-vsphere-gos-validation/common/test_rescue.yml:59
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_bios_lsilogicsas_e1000e",,timestamp failed at play deploy vm bios lsi logic sas timestamp task deploy vm bios lsi logic sas wait for message ubuntu auto install is started at timestamp number appear in vm log serial timestamp log task path home worker workspace ansible ubuntu number server iso lsi logic sas bios ansible vsphere gos validation common vm wait log message yml number fatal localhost failed attempts number censored the output has been hidden due to the fact that no log true was specified for this result changed false timestamp task deploy vm bios lsi logic sas testing exit due to failure task path home worker workspace ansible ubuntu number server iso lsi logic sas bios ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm bios lsi logic sas e number e,deepdive,targetvm,202210130649
+5659,5932,"2022-10-11 09:42:28,011 | Failed at Play [lsilogicsas_vhba_device_ops] ***************
+2022-10-11 09:42:28,011 | TASK [lsilogicsas_vhba_device_ops][Check file content] *****
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_PARAVIRTUAL_VMXNET3_EFI/ansible-vsphere-gos-validation/windows/vhba_hot_add_remove/create_new_file_read_write.yml:84
+fatal: [localhost]: FAILED! => The file content is 'Online
+', which should be: 'This is the test line to write to the file. '",,timestamp failed at play lsi logic sas v hba device ops timestamp task lsi logic sas v hba device ops check file content task path home worker workspace ansible windows server lts c main para virtual vmxnet number efi ansible vsphere gos validation windows v hba hot add remove create new file read write yml number fatal localhost failed the file content is online which should be this is the test line to write to the file,deepdive,targetvm,202210130649

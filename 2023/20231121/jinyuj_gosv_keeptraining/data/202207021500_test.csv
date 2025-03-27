@@ -1,0 +1,149 @@
+id,name,raw,category,processed,solution,target,version
+5419,log-3171,"2022-07-18 08:14:34,018 | Failed at Play [vbs_enable_disable] ************************
+2022-07-18 08:14:34,018 | TASK [Check VM 'dw0409_win10_v21H2' IP address] ************
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'dw0409_win10_v21H2' IP Address",,timestamp failed at play vbs enable disable timestamp task check vm v number h number ip address task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm v number h number ip address,deepdive,testcase,202207021500
+5395,log-2838,"2022-07-12 08:05:33,012 | Failed at Play [env_setup] *********************************
+2022-07-12 08:05:33,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_AlmaLinux_9.x/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle alma linux number x ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5396,log-2839,"2022-07-12 08:06:08,012 | Failed at Play [env_setup] *********************************
+2022-07-12 08:06:08,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_CentOS_8.x/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle centos number x ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5397,log-2841,"2022-07-12 08:06:47,012 | Failed at Play [env_setup] *********************************
+2022-07-12 08:06:47,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_Debian_11.x_64bit/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle debian number x number b it ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5398,log-2842,"2022-07-12 08:07:12,012 | Failed at Play [env_setup] *********************************
+2022-07-12 08:07:12,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_Flatcar_LTS/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle flatcar lts ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5399,log-2843,"2022-07-12 08:07:14,012 | Failed at Play [env_setup] *********************************
+2022-07-12 08:07:14,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_Flatcar_Stable/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle flatcar stable ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5400,log-2844,"2022-07-12 08:07:23,012 | Failed at Play [env_setup] *********************************
+2022-07-12 08:07:23,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_Photon_3.x_Update_OVA/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle photon number x update ova ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5401,log-2847,"2022-07-12 08:07:34,012 | Failed at Play [env_setup] *********************************
+2022-07-12 08:07:34,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_Photon_4.x_Update_ISO/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle photon number x update iso ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5402,log-2848,"2022-07-12 08:07:37,012 | Failed at Play [env_setup] *********************************
+2022-07-12 08:07:37,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_OracleLinux_8.x/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle oracle linux number x ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5403,log-2849,"2022-07-12 08:07:48,012 | Failed at Play [env_setup] *********************************
+2022-07-12 08:07:48,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_Photon_4.0_ISO/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle photon number iso ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5404,log-2932,"2022-07-12 14:01:09,012 | Failed at Play [env_setup] *********************************
+2022-07-12 14:01:09,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_RHEL_9.x/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle rhel number x ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5405,log-2852,"2022-07-12 08:09:46,012 | Failed at Play [env_setup] *********************************
+2022-07-12 08:09:46,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_SLED_15.x/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle sled number x ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5406,log-2853,"2022-07-12 08:10:51,012 | Failed at Play [env_setup] *********************************
+2022-07-12 08:10:51,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_RockyLinux_8.x/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle rocky linux number x ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5407,log-2854,"2022-07-12 08:11:06,012 | Failed at Play [env_setup] *********************************
+2022-07-12 08:11:06,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_SLES_15.x/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle sles number x ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5408,log-2931,"2022-07-12 14:00:27,012 | Failed at Play [env_setup] *********************************
+2022-07-12 14:00:27,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_20.04.4_ISO/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle ubuntu version id iso ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5409,log-2858,"2022-07-12 08:13:55,012 | Failed at Play [env_setup] *********************************
+2022-07-12 08:13:55,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_64/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle windows number ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5410,log-2930,"2022-07-12 14:00:23,012 | Failed at Play [env_setup] *********************************
+2022-07-12 14:00:23,012 | TASK [Check VM 'test_vm' does not exist] *******************
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_22.04_ISO/ansible-vsphere-gos-validation/env_setup/env_setup.yml:25
+fatal: [localhost]: FAILED! => Cann't deploy VM as a VM with same name 'test_vm' already exists. Please provide a new vm_name.",,timestamp failed at play environment setup timestamp task check vm test vm does not exist task path home worker workspace ansible cycle ubuntu number iso ansible vsphere gos validation environment setup environment setup yml number fatal localhost failed can n t deploy vm as a vm with same name test vm already exists please provide a new vm name,deepdive,usererror,202207021500
+5411,log-2944,"2022-07-13 02:02:56,013 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2022-07-13 02:02:56,013 | TASK [Wait for message 'Autoinstall is completed.' appear in VM log serial-20220713004650.log] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_22.04_ISO/ansible-vsphere-gos-validation/common/vm_wait_log_msg.yml:35
+fatal: [localhost]: FAILED! => {
+    ""attempts"": 720,
+    ""censored"": ""the output has been hidden due to the fact that 'no_log: true' was specified for this result"",
+    ""changed"": false
+}
+2022-07-13 02:03:06,013 | TASK [Fetch file /tmp/cloud-init_2022-07-13-02-02-59.tar.gz from VM guest] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_22.04_ISO/ansible-vsphere-gos-validation/common/vm_guest_file_operation.yml:93
+exception in /vmware_guest_file_operation.py when fetch in /SoapAdapter.py when InvokeMethod
+fatal: [localhost]: FAILED! => Invalid guest login for user root",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task wait for message auto install is completed appear in vm log serial timestamp log task path home worker workspace ansible cycle ubuntu number iso ansible vsphere gos validation common vm wait log message yml number fatal localhost failed attempts number censored the output has been hidden due to the fact that no log true was specified for this result changed false timestamp task fetch file tmp cloud init timestamp number tar gz from vm guest task path home worker workspace ansible cycle ubuntu number iso ansible vsphere gos validation common vm guest file operation yml number exception in vmware guest file operation python when fetch in soap adapter python when invoke method fatal localhost failed invalid guest login for user root,retry,testbed,202207021500
+5412,log-2962,"2022-07-13 04:18:23,013 | Failed at Play [sata_vhba_device_ops] **********************
+2022-07-13 04:18:23,013 | TASK [Create ext4 file system] *****************************
+task path: /home/worker/workspace/Ansible_Cycle_Photon_4.0_ISO/ansible-vsphere-gos-validation/linux/vhba_hot_add_remove/prepare_new_disk.yml:50
+fatal: [localhost]: FAILED! => Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.185.229.209' (ECDSA) to the list of known hosts.
+root@10.185.229.209: Permission denied (publickey,keyboard-interactive).",,timestamp failed at play sata v hba device ops timestamp task create ext number file system task path home worker workspace ansible cycle photon number iso ansible vsphere gos validation linux v hba hot add remove prepare new disk yml number fatal localhost failed invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive,retry,targetvm,202207021500
+5413,log-3007,"2022-07-13 05:05:25,013 | Failed at Play [nvme_vhba_device_ops] **********************
+2022-07-13 05:05:25,013 | TASK [Collect filtered guest information for '10.185.110.153'] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_22.04_ISO/ansible-vsphere-gos-validation/common/get_system_info.yml:22
+fatal: [localhost]: UNREACHABLE! => Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.185.110.153' (ED25519) to the list of known hosts.
+Permission denied, please try again.
+Permission denied, please try again.
+root@10.185.110.153: Permission denied (publickey,password).",,timestamp failed at play nvme v hba device ops timestamp task collect filtered guest information for ip address task path home worker workspace ansible cycle ubuntu number iso ansible vsphere gos validation common get system info yml number fatal localhost un reachable invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address to the list of known hosts permission denied please try again permission denied please try again root ip address permission denied public key password,retry,targetvm,202207021500
+5414,log-3046,"2022-07-13 08:57:53,013 | Failed at Play [sata_vhba_device_ops] **********************
+2022-07-13 08:57:53,013 | TASK [Create ext4 file system] *****************************
+task path: /home/worker/workspace/Ansible_Cycle_Photon_4.x_Update_OVA/ansible-vsphere-gos-validation/linux/vhba_hot_add_remove/prepare_new_disk.yml:50
+fatal: [localhost]: FAILED! => Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.78.116.253' (ECDSA) to the list of known hosts.
+root@10.78.116.253: Permission denied (publickey,keyboard-interactive).",,timestamp failed at play sata v hba device ops timestamp task create ext number file system task path home worker workspace ansible cycle photon number x update ova ansible vsphere gos validation linux v hba hot add remove prepare new disk yml number fatal localhost failed invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address ecdsa to the list of known hosts root ip address permission denied public key keyboard interactive,retry,targetvm,202207021500
+5415,log-3148,"2022-07-14 00:31:12,014 | Failed at Play [deploy_vm_efi_paravirtual_vmxnet3] *********
+2022-07-14 00:31:12,014 | TASK [Wait for message 'Autoinstall is completed.' appear in VM log serial-20220713231750.log] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_20.04.4_ISO/ansible-vsphere-gos-validation/common/vm_wait_log_msg.yml:35
+fatal: [localhost]: FAILED! => {
+    ""attempts"": 720,
+    ""censored"": ""the output has been hidden due to the fact that 'no_log: true' was specified for this result"",
+    ""changed"": false
+}
+2022-07-14 00:31:23,014 | TASK [Fetch file /tmp/cloud-init_2022-07-14-00-31-15.tar.gz from VM guest] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_20.04.4_ISO/ansible-vsphere-gos-validation/common/vm_guest_file_operation.yml:93
+exception in /vmware_guest_file_operation.py when fetch in /SoapAdapter.py when InvokeMethod
+fatal: [localhost]: FAILED! => Invalid guest login for user root",,timestamp failed at play deploy vm efi para virtual vmxnet number timestamp task wait for message auto install is completed appear in vm log serial timestamp log task path home worker workspace ansible cycle ubuntu version id iso ansible vsphere gos validation common vm wait log message yml number fatal localhost failed attempts number censored the output has been hidden due to the fact that no log true was specified for this result changed false timestamp task fetch file tmp cloud init timestamp number tar gz from vm guest task path home worker workspace ansible cycle ubuntu version id iso ansible vsphere gos validation common vm guest file operation yml number exception in vmware guest file operation python when fetch in soap adapter python when invoke method fatal localhost failed invalid guest login for user root,retry,testbed,202207021500
+5416,log-3150,"2022-07-14 13:39:59,014 | Failed at Play [nvme_vhba_device_ops] **********************
+2022-07-14 13:39:59,014 | TASK [Collect filtered guest information for '10.182.132.140'] 
+task path: /home/worker/workspace/Ansible_Cycle_Flatcar_Stable/ansible-vsphere-gos-validation/common/get_system_info.yml:22
+fatal: [localhost]: UNREACHABLE! => Invalid/incorrect username/password. Skipping remaining 5 retries to prevent account lockout: Warning: Permanently added '10.182.132.140' (ED25519) to the list of known hosts.
+Permission denied, please try again.
+Received disconnect from 10.182.132.140 port 22:2: Too many authentication failures
+Disconnected from 10.182.132.140 port 22",,timestamp failed at play nvme v hba device ops timestamp task collect filtered guest information for ip address task path home worker workspace ansible cycle flatcar stable ansible vsphere gos validation common get system info yml number fatal localhost un reachable invalid incorrect username password skipping remaining number retries to prevent account lockout warning permanently added ip address to the list of known hosts permission denied please try again received disconnect from ip address port number too many authentication failures disconnected from ip address port number,retry,targetvm,202207021500
+5417,log-3151,"2022-07-15 03:02:59,015 | Failed at Play [env_setup] *********************************
+2022-07-15 03:02:59,015 | TASK [Enable debug log by default] *************************
+task path: /home/worker/workspace/Ansible_Regression_RHEL_9.x/ansible-vsphere-gos-validation/env_setup/set_default_variables.yml:13
+fatal: [localhost]: FAILED! => The variable name 'enable_ansible.builtin.debug' is not valid. Variables must start with a letter or underscore character, and contain only letters, numbers and underscores.",,timestamp failed at play environment setup timestamp task enable debug log by default task path home worker workspace ansible regression rhel number x ansible vsphere gos validation environment setup set default variables yml number fatal localhost failed the variable name enable ansible builtin debug is not valid variables must start with a letter or underscore character and contain only letters numbers and underscores,deepdive,testcase,202207021500
+5418,log-3166,"2022-07-15 16:44:29,015 | Failed at Play [deploy_vm_efi_sata_e1000e] *****************
+2022-07-15 16:44:29,015 | TASK [Wait for VMware Tools collecting guest info] *********
+task path: /home/worker/workspace/Ansible_RockyLinux_9.x_70GA_SATA_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_wait_guest_ip.yml:22
+fatal: [localhost]: FAILED! => hardware configuration table
+2022-07-15 16:45:08,015 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_RockyLinux_9.x_70GA_SATA_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:55
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_sata_e1000e",,timestamp failed at play deploy vm efi sata timestamp task wait for vmware tools collecting guest info task path home worker workspace ansible rocky linux number x number ga sata efi ansible vsphere gos validation common vm wait guest ip yml number fatal localhost failed hardware configuration table timestamp task testing exit due to failure task path home worker workspace ansible rocky linux number x number ga sata efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi sata e number e,retry,targetvm,202207021500
+5420,log-3180,"2022-07-19 10:37:30,019 | Failed at Play [nvme_vhba_device_ops_spec13] ***************
+2022-07-19 10:37:30,019 | TASK [Hot add or remove VM disk controller] ****************
+task path: /home/worker/workspace/Ansible_Cycle_Windows_Server_2022_64/ansible-vsphere-gos-validation/common/vm_hot_add_remove_disk_ctrl.yml:12
+exception in /vmware_guest_controller.py when configure_disk_controllers in /vmware.py when wait_for_task
+fatal: [localhost]: FAILED! => ('The guest operating system did not respond to a hot-remove request for device nvme0 in a timely manner.', None)",,timestamp failed at play nvme v hba device ops spec number timestamp task hot add or remove vm disk controller task path home worker workspace ansible cycle windows server number ansible vsphere gos validation common vm hot add remove disk ctrl yml number exception in vmware guest controller python when configure disk controllers in vmware python when wait for task fatal localhost failed the guest operating system did not respond to a hot remove request for device nvme number in a timely manner none,deepdive,product,202207021500
+5421,log-3181,"2022-07-19 10:22:17,019 | Failed at Play [nvme_vhba_device_ops_spec13] ***************
+2022-07-19 10:22:17,019 | TASK [Hot add or remove VM disk controller] ****************
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_64/ansible-vsphere-gos-validation/common/vm_hot_add_remove_disk_ctrl.yml:12
+exception in /vmware_guest_controller.py when configure_disk_controllers in /vmware.py when wait_for_task
+fatal: [localhost]: FAILED! => ('The guest operating system did not respond to a hot-remove request for device nvme0 in a timely manner.', None)",,timestamp failed at play nvme v hba device ops spec number timestamp task hot add or remove vm disk controller task path home worker workspace ansible cycle windows number ansible vsphere gos validation common vm hot add remove disk ctrl yml number exception in vmware guest controller python when configure disk controllers in vmware python when wait for task fatal localhost failed the guest operating system did not respond to a hot remove request for device nvme number in a timely manner none,deepdive,product,202207021500
+5422,log-3184,"2022-07-20 02:50:38,020 | Failed at Play [vmlibrary_main] ****************************
+2022-07-20 02:50:38,020 | TASK [fail] ************************************************
+task path: /home/worker/workspace/Create_New_VMLibrary_Template/ansible-vsphere-gos-validation/common/vm_set_power_state.yml:69
+fatal: [localhost]: FAILED! => (vmodl.fault.SystemError) {
+   dynamicType = <unset>,
+   dynamicProperty = (vmodl.DynamicProperty) [],
+   msg = 'A general system error occurred: Invalid fault',
+   faultCause = <unset>,
+   faultMessage = (vmodl.LocalizableMessage) [],
+   reason = 'Invalid fault'
+} ",,timestamp failed at play vm library main timestamp task fail task path home worker workspace create new vm library template ansible vsphere gos validation common vm set power state yml number fatal localhost failed vmodl fault system error dynamic type un set dynamic property vmodl dynamic property message a general system error occurred invalid fault fault cause un set fault message vmodl localizable message reason invalid fault ,deepdive,testcase,202207021500

@@ -1,0 +1,30 @@
+{
+    "folder_structure": {
+        "data": "# folder for train/eval data",
+        "framework.json": "# jsonfile for framework configuration",
+        "checksum.md5": "# framework config checksum"
+    },
+    "defaults": {
+        "model_name": "distilbert-base-uncased",
+        "model": "DistilBertForSequenceClassification",
+        "tokenizer": "DistilBertTokenizerFast"
+    },
+    "model": {
+        "model_name": "jinyuj-dev/distilbert-base-uncased-pretrained-gosv",
+        "model": "DistilBertForSequenceClassification",
+        "tokenizer": "DistilBertTokenizerFast",
+        "tokenizer_name": "distilbert-base-uncased",
+        "labels": [
+            "product",
+            "testcase",
+            "testbed",
+            "usererror",
+            "targetvm",
+            "nimbus",
+            "infra"
+        ],
+        "model_version": "",
+        "historical_datasets": [
+        ]
+    }
+}

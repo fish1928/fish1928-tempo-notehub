@@ -1,0 +1,143 @@
+id,name,raw,category,processed,solution,target,version
+5427,3270,"2022-07-27 02:32:30,027 | Failed at Play [env_setup] *********************************
+2022-07-27 02:32:30,027 | TASK [Get all registerd VMs and templates on 10.78.127.86] *
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_check_exist.yml:14
+http.client.HTTPException: 503 Service Unavailable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error",,timestamp failed at play environment setup timestamp task get all register dv ms and templates on ip address task path home worker workspace ansible windows server lts c main lsi logic sas efi ansible vsphere gos validation common vm check exist yml number http client http exception number service unavailable fatal localhost failed module failure see stdout stderr for the exact error,retry,testbed,202208031141
+5426,3276,"2022-07-27 07:21:22,027 | Failed at Play [deploy_ova] ********************************
+2022-07-27 07:21:22,027 | TASK [Deploy VM from ovf template] *************************
+task path: /home/worker/workspace/Hyrule_OVF/ansible-vsphere-gos-validation/common/ovf_deploy.yml:4
+fatal: [localhost]: FAILED! => Datastore 'datasore2' could not be located on specified ESXi host or datacenter
+2022-07-27 07:21:24,027 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Hyrule_OVF/ansible-vsphere-gos-validation/common/test_rescue.yml:55
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_ova
+2022-07-27 07:21:26,027 | TASK [Get specified property info for VM 'test_hyrule_ovf'] 
+task path: /home/worker/workspace/Hyrule_OVF/ansible-vsphere-gos-validation/common/vm_get_config.yml:4
+fatal: [localhost]: FAILED! => Unable to gather information for non-existing VM test_hyrule_ovf",,timestamp failed at play deploy ova timestamp task deploy vm from ovf template task path home worker workspace hy rule ovf ansible vsphere gos validation common ovf deploy yml number fatal localhost failed data store data sore number could not be located on specified esxi host or data center timestamp task testing exit due to failure task path home worker workspace hy rule ovf ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy ova timestamp task get specified property info for vm test hy rule ovf task path home worker workspace hy rule ovf ansible vsphere gos validation common vm get configuration yml number fatal localhost failed unable to gather information for non existing vm test hy rule ovf,deepdive,usererror,202208031141
+5428,3336,"2022-08-02 08:30:39,002 | Failed at Play [deploy_vm_efi_lsilogicsas_e1000e] **********
+2022-08-02 08:30:39,002 | TASK [Check VM 'test_vm_1659424377814' IP address] *********
+task path: /home/worker/workspace/Ansible_Windows_10_32bit_70U3_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm_1659424377814' IP Address
+2022-08-02 08:31:15,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_32bit_70U3_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_lsilogicsas_e1000e",,timestamp failed at play deploy vm efi lsi logic sas timestamp task check vm test vm number ip address task path home worker workspace ansible windows number b it lsi logic sas efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm number ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it lsi logic sas efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi lsi logic sas e number e,retry,targetvm,202208031141
+5430,3337,"2022-08-02 08:30:27,002 | Failed at Play [deploy_vm_efi_sata_e1000e] *****************
+2022-08-02 08:30:27,002 | TASK [Check VM 'test_vm_1659424395015' IP address] *********
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67U2_SATA_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm_1659424395015' IP Address
+2022-08-02 08:31:17,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67U2_SATA_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_sata_e1000e",,timestamp failed at play deploy vm efi sata timestamp task check vm test vm number ip address task path home worker workspace ansible windows number b it sata efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm number ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it sata efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi sata e number e,retry,targetvm,202208031141
+5432,3310,"2022-08-02 06:43:58,002 | Failed at Play [deploy_vm_bios_ide_e1000e] *****************
+2022-08-02 06:43:58,002 | TASK [Check VM 'test_vm' IP address] ***********************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67U2_IDE_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address
+2022-08-02 06:44:51,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67U2_IDE_E1000E_BIOS/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_bios_ide_e1000e",,timestamp failed at play deploy vm bios ide timestamp task check vm test vm ip address task path home worker workspace ansible windows number b it ide bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it ide bios ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm bios ide e number e,retry,targetvm,202208031141
+5429,3313,"2022-08-02 06:46:05,002 | Failed at Play [deploy_vm_efi_ide_e1000e] ******************
+2022-08-02 06:46:05,002 | TASK [Check VM 'test_vm' IP address] ***********************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address
+2022-08-02 06:46:42,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_ide_e1000e",,timestamp failed at play deploy vm efi ide timestamp task check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi ide e number e,retry,targetvm,202208031141
+5431,3311,"2022-08-02 06:44:40,002 | Failed at Play [deploy_vm_efi_sata_e1000e] *****************
+2022-08-02 06:44:40,002 | TASK [Check VM 'test_vm' IP address] ***********************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67U2_SATA_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address
+2022-08-02 06:45:37,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67U2_SATA_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_sata_e1000e",,timestamp failed at play deploy vm efi sata timestamp task check vm test vm ip address task path home worker workspace ansible windows number b it sata efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it sata efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi sata e number e,retry,targetvm,202208031141
+5433,3324,"2022-08-02 08:28:35,002 | Failed at Play [deploy_vm_efi_sata_e1000e] *****************
+2022-08-02 08:28:35,002 | TASK [Check VM 'test_vm_1659424345087' IP address] *********
+task path: /home/worker/workspace/Ansible_Windows_10_32bit_70U1_SATA_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm_1659424345087' IP Address
+2022-08-02 08:29:17,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_32bit_70U1_SATA_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_sata_e1000e",,timestamp failed at play deploy vm efi sata timestamp task check vm test vm number ip address task path home worker workspace ansible windows number b it sata efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm number ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it sata efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi sata e number e,retry,targetvm,202208031141
+5435,3331,"2022-08-02 08:30:14,002 | Failed at Play [deploy_vm_bios_paravirtual_e1000e] *********
+2022-08-02 08:30:14,002 | TASK [Check VM 'test_vm_1659424394338' IP address] *********
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70U3_PARAVIRTUAL_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm_1659424394338' IP Address
+2022-08-02 08:30:42,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70U3_PARAVIRTUAL_E1000E_BIOS/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_bios_paravirtual_e1000e",,timestamp failed at play deploy vm bios para virtual timestamp task check vm test vm number ip address task path home worker workspace ansible windows number b it para virtual bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm number ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it para virtual bios ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm bios para virtual e number e,retry,targetvm,202208031141
+5434,3309,"2022-08-02 06:43:19,002 | Failed at Play [deploy_vm_efi_sata_e1000e] *****************
+2022-08-02 06:43:19,002 | TASK [Check VM 'test_vm' IP address] ***********************
+task path: /home/worker/workspace/Ansible_Windows_10_32bit_70U1_SATA_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address
+2022-08-02 06:43:56,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_32bit_70U1_SATA_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_sata_e1000e",,timestamp failed at play deploy vm efi sata timestamp task check vm test vm ip address task path home worker workspace ansible windows number b it sata efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it sata efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi sata e number e,retry,targetvm,202208031141
+5436,3307,"2022-08-02 06:43:46,002 | Failed at Play [deploy_vm_bios_paravirtual_e1000e] *********
+2022-08-02 06:43:46,002 | TASK [Check VM 'test_vm' IP address] ***********************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70U3_PARAVIRTUAL_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address
+2022-08-02 06:44:12,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70U3_PARAVIRTUAL_E1000E_BIOS/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_bios_paravirtual_e1000e",,timestamp failed at play deploy vm bios para virtual timestamp task check vm test vm ip address task path home worker workspace ansible windows number b it para virtual bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it para virtual bios ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm bios para virtual e number e,retry,targetvm,202208031141
+5439,3340,"2022-08-02 08:25:39,002 | Failed at Play [deploy_vm_efi_lsilogicsas_e1000e] **********
+2022-08-02 08:25:39,002 | TASK [Check VM 'test_vm_1659424562274' IP address] *********
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70U3_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm_1659424562274' IP Address
+2022-08-02 08:26:01,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70U3_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_lsilogicsas_e1000e",,timestamp failed at play deploy vm efi lsi logic sas timestamp task check vm test vm number ip address task path home worker workspace ansible windows number b it lsi logic sas efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm number ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it lsi logic sas efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi lsi logic sas e number e,retry,targetvm,202208031141
+5441,3302,"2022-08-02 06:41:24,002 | Failed at Play [deploy_vm_bios_nvme_e1000e] ****************
+2022-08-02 06:41:24,002 | TASK [Check VM 'test_vm' IP address] ***********************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_NVME_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address
+2022-08-02 06:42:10,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_NVME_E1000E_BIOS/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_bios_nvme_e1000e",,timestamp failed at play deploy vm bios nvme timestamp task check vm test vm ip address task path home worker workspace ansible windows number b it number ga nvme bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it number ga nvme bios ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm bios nvme e number e,retry,targetvm,202208031141
+5443,3325,"2022-08-02 08:29:32,002 | Failed at Play [deploy_vm_efi_ide_e1000e] ******************
+2022-08-02 08:29:32,002 | TASK [Check VM 'test_vm_1659424375453' IP address] *********
+task path: /home/worker/workspace/Ansible_Windows_10_32bit_67GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm_1659424375453' IP Address
+2022-08-02 08:29:42,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_32bit_67GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_ide_e1000e",,timestamp failed at play deploy vm efi ide timestamp task check vm test vm number ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm number ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi ide e number e,retry,targetvm,202208031141
+5437,3333,"2022-08-02 08:29:56,002 | Failed at Play [deploy_vm_efi_lsilogicsas_e1000e] **********
+2022-08-02 08:29:56,002 | TASK [Check VM 'test_vm_1659424423700' IP address] *********
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm_1659424423700' IP Address
+2022-08-02 08:30:48,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_lsilogicsas_e1000e",,timestamp failed at play deploy vm efi lsi logic sas timestamp task check vm test vm number ip address task path home worker workspace ansible windows number b it number ga lsi logic sas efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm number ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it number ga lsi logic sas efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi lsi logic sas e number e,retry,targetvm,202208031141
+5438,3304,"2022-08-02 06:41:54,002 | Failed at Play [deploy_vm_efi_lsilogicsas_e1000e] **********
+2022-08-02 06:41:54,002 | TASK [Check VM 'test_vm' IP address] ***********************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address
+2022-08-02 06:42:48,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_67GA_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_lsilogicsas_e1000e",,timestamp failed at play deploy vm efi lsi logic sas timestamp task check vm test vm ip address task path home worker workspace ansible windows number b it number ga lsi logic sas efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it number ga lsi logic sas efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi lsi logic sas e number e,retry,targetvm,202208031141
+5440,3326,"2022-08-02 08:29:38,002 | Failed at Play [deploy_vm_bios_nvme_e1000e] ****************
+2022-08-02 08:29:38,002 | TASK [Check VM 'test_vm_1659424419696' IP address] *********
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_NVME_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm_1659424419696' IP Address
+2022-08-02 08:30:22,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_64bit_70GA_NVME_E1000E_BIOS/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_bios_nvme_e1000e",,timestamp failed at play deploy vm bios nvme timestamp task check vm test vm number ip address task path home worker workspace ansible windows number b it number ga nvme bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm number ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it number ga nvme bios ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm bios nvme e number e,retry,targetvm,202208031141
+5442,3301,"2022-08-02 06:40:31,002 | Failed at Play [deploy_vm_bios_ide_e1000e] *****************
+2022-08-02 06:40:31,002 | TASK [Check VM 'test_vm' IP address] ***********************
+task path: /home/worker/workspace/Ansible_Windows_10_32bit_67U3_IDE_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address
+2022-08-02 06:41:24,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_32bit_67U3_IDE_E1000E_BIOS/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_bios_ide_e1000e",,timestamp failed at play deploy vm bios ide timestamp task check vm test vm ip address task path home worker workspace ansible windows number b it ide bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it ide bios ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm bios ide e number e,retry,targetvm,202208031141
+5444,3300,"2022-08-02 06:39:30,002 | Failed at Play [deploy_vm_efi_ide_e1000e] ******************
+2022-08-02 06:39:30,002 | TASK [Check VM 'test_vm' IP address] ***********************
+task path: /home/worker/workspace/Ansible_Windows_10_32bit_67GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address
+2022-08-02 06:40:48,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_32bit_67GA_IDE_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_ide_e1000e",,timestamp failed at play deploy vm efi ide timestamp task check vm test vm ip address task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it number ga ide efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi ide e number e,retry,targetvm,202208031141
+5445,3321,"2022-08-02 08:27:54,002 | Failed at Play [deploy_vm_efi_lsilogicsas_e1000e] **********
+2022-08-02 08:27:54,002 | TASK [Check VM 'test_vm_1659424362336' IP address] *********
+task path: /home/worker/workspace/Ansible_Windows_10_32bit_67U3_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_get_ip.yml:36
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm_1659424362336' IP Address
+2022-08-02 08:28:44,002 | TASK [Testing exit due to failure] *************************
+task path: /home/worker/workspace/Ansible_Windows_10_32bit_67U3_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_lsilogicsas_e1000e",,timestamp failed at play deploy vm efi lsi logic sas timestamp task check vm test vm number ip address task path home worker workspace ansible windows number b it lsi logic sas efi ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm number ip address timestamp task testing exit due to failure task path home worker workspace ansible windows number b it lsi logic sas efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy vm efi lsi logic sas e number e,retry,targetvm,202208031141
