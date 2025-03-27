@@ -1,0 +1,69 @@
+id,name,raw,category,processed,solution,target,version
+5928,46,"2023-04-26 10:00:50,026 | Failed at Play [3_check_quiesce_snapshot] ******************
+2023-04-26 10:00:50,026 | TASK [3_check_quiesce_snapshot][Create snapshot 'quiesce_2023-04-26-10-00-26' on 'test_vm'] 
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_PARAVIRTUAL_E1000E_EFI_HW15/ansible-vsphere-gos-validation/common/vm_take_snapshot.yml:4
+fatal: [localhost]: FAILED! => An error occurred while quiescing the virtual machine. See the virtual machine's event log for details.
+error message:
+An error occurred while quiescing the virtual machine. See the virtual machine's event log for details.",,timestamp failed at play number check quiesce snapshot timestamp task number check quiesce snapshot create snapshot quiesce timestamp number on test vm task path home worker workspace ansible windows number main para virtual efi ansible vsphere gos validation common vm take snapshot yml number fatal localhost failed an error occurred while quiescing the virtual machine see the virtual machine s event log for details error message an error occurred while quiescing the virtual machine see the virtual machine s event log for details,deepdive,targetvm,202304270449
+5922,46,"2023-04-26 11:55:08,026 | Failed at Play [17_nvme_disk_hot_extend_spec13] ************
+2023-04-26 11:55:08,026 | TASK [17_nvme_disk_hot_extend_spec13][Revert snapshot failed] 
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_PARAVIRTUAL_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_revert_snapshot.yml:47
+fatal: [localhost]: FAILED! => Revert to snapshot 'BaseSnapshot' failed
+error message:
+Revert to snapshot 'BaseSnapshot' failed",,timestamp failed at play number nvme disk hot extend spec number timestamp task number nvme disk hot extend spec number revert snapshot failed task path home worker workspace ansible windows server lts c main para virtual efi ansible vsphere gos validation common vm revert snapshot yml number fatal localhost failed revert to snapshot base snapshot failed error message revert to snapshot base snapshot failed,retry,targetvm,202304270449
+5923,46,"2023-04-19 07:57:00,019 | Failed at Play [1_deploy_vm] *******************************
+2023-04-19 07:57:00,019 | TASK [1_deploy_vm][Wait for message 'Autoinstall is completed.' appear in VM log serial-20230419065428.log] 
+task path: /home/worker/workspace/Ansible_Ubuntu_22.04_Server_ISO_MAIN_PARAVIRTUAL_VMXNET3_EFI/ansible-vsphere-gos-validation/common/vm_wait_log_msg.yml:40
+fatal: [localhost]: FAILED! => {
+    ""attempts"": 120,
+    ""censored"": ""the output has been hidden due to the fact that 'no_log: true' was specified for this result"",
+    ""changed"": false
+}
+error message:
+2023-04-19 07:57:30,019 | TASK [1_deploy_vm][Testing exit due to failure] ************
+task path: /home/worker/workspace/Ansible_Ubuntu_22.04_Server_ISO_MAIN_PARAVIRTUAL_VMXNET3_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:87
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_vmxnet3
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_vmxnet3",,timestamp failed at play number deploy vm timestamp task number deploy vm wait for message auto install is completed appear in vm log serial timestamp log task path home worker workspace ansible ubuntu number server iso main para virtual vmxnet number efi ansible vsphere gos validation common vm wait log message yml number fatal localhost failed attempts number censored the output has been hidden due to the fact that no log true was specified for this result changed false error message timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible ubuntu number server iso main para virtual vmxnet number efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm efi para virtual vmxnet number error message exit testing because exit testing when fail is set to true in test case deploy vm efi para virtual vmxnet number,deepdive,targetvm,202304270449
+5924,46,"2023-04-24 06:42:19,024 | Failed at Play [3_gosc_cloudinit_staticip] *****************
+2023-04-24 06:42:19,024 | TASK [3_gosc_cloudinit_staticip][Check VMware Tools is running and collects guest IPv4 address successfully] 
+task path: /home/worker/workspace/Ansible_Ubuntu_23.04_Server_OVA_MAIN/ansible-vsphere-gos-validation/common/vm_wait_guest_ip.yml:49
+fatal: [localhost]: FAILED! => [""It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds."", ""VMware Tools running status is 'guestToolsRunning'."", ""VM's IP address in guest info is ''."", ""VM's all IP addresses in guest info are '[]'.""]
+error message:
+It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds.
+VMware Tools running status is 'guestToolsRunning'.
+VM's IP address in guest info is ''.
+VM's all IP addresses in guest info are '[]'.",,timestamp failed at play number go sc cloud init static ip timestamp task number go sc cloud init static ip check vmware tools is running and collects guest ip v number address successfully task path home worker workspace ansible ubuntu number server ova main ansible vsphere gos validation common vm wait guest ip yml number fatal localhost failed it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is vm s all ip addresses in guest info are error message it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is vm s all ip addresses in guest info are,deepdive,targetvm,202304270449
+5925,46,"2023-04-26 11:56:34,026 | Failed at Play [23_cpu_multicores_per_socket] **************
+2023-04-26 11:56:34,026 | TASK [23_cpu_multicores_per_socket][Revert snapshot failed] 
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_PARAVIRTUAL_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_revert_snapshot.yml:47
+fatal: [localhost]: FAILED! => Revert to snapshot 'BaseSnapshot' failed
+error message:
+Revert to snapshot 'BaseSnapshot' failed",,timestamp failed at play number cpu multi cores per socket timestamp task number cpu multi cores per socket revert snapshot failed task path home worker workspace ansible windows server lts c main para virtual efi ansible vsphere gos validation common vm revert snapshot yml number fatal localhost failed revert to snapshot base snapshot failed error message revert to snapshot base snapshot failed,retry,targetvm,202304270449
+5927,46,"2023-04-26 13:59:14,026 | Failed at Play [1_check_quiesce_snapshot] ******************
+2023-04-26 13:59:14,026 | TASK [1_check_quiesce_snapshot][Check VM snapshot took is quiesced snapshot] 
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_NVME_E1000E_BIOS/ansible-vsphere-gos-validation/common/vm_take_snapshot.yml:36
+fatal: [localhost]: FAILED! => Snapshot 'quiesce_2023-04-26-13-58-44' quiesced status is false.
+error message:
+Snapshot 'quiesce_2023-04-26-13-58-44' quiesced status is false.",,timestamp failed at play number check quiesce snapshot timestamp task number check quiesce snapshot check vm snapshot took is quiesced snapshot task path home worker workspace ansible windows server lts c main nvme bios ansible vsphere gos validation common vm take snapshot yml number fatal localhost failed snapshot quiesce timestamp number quiesced status is false error message snapshot quiesce timestamp number quiesced status is false,deepdive,targetvm,202304270449
+5926,46,"2023-04-26 13:56:12,026 | Failed at Play [01_deploy_vm] ******************************
+2023-04-26 13:56:12,026 | TASK [01_deploy_vm][Upload local file to ESXi datastore] ***
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_PARAVIRTUAL_E1000E_EFI/ansible-vsphere-gos-validation/common/esxi_upload_datastore_file.yml:11
+exception in /vsphere_copy.py when main in /request.py when http_error_default
+fatal: [localhost]: FAILED! => HTTP Error 500: Internal Server Error
+error message:
+HTTP Error 500: Internal Server Error
+2023-04-26 13:56:13,026 | TASK [01_deploy_vm][Testing exit due to failure] ***********
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_PARAVIRTUAL_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:87
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_e1000e
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_e1000e",,timestamp failed at play number deploy vm timestamp task number deploy vm upload local file to esxi data store task path home worker workspace ansible windows server lts c main para virtual efi ansible vsphere gos validation common esxi upload data store file yml number exception in vsphere copy python when main in request python when http error default fatal localhost failed http error number internal server error error message http error number internal server error timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible windows server lts c main para virtual efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm efi para virtual e number e error message exit testing because exit testing when fail is set to true in test case deploy vm efi para virtual e number e,retry,testbed,202304270449
+5929,46,"2023-04-24 12:45:48,024 | Failed at Play [22_gosc_cloudinit_dhcp] ********************
+2023-04-24 12:45:48,024 | TASK [22_gosc_cloudinit_dhcp][Check VMware Tools is running and collects guest IPv4 address successfully] 
+task path: /home/worker/workspace/Ansible_Ubuntu_23.04_Desktop_ISO_80U1_LSILOGIC_VMXNET3_EFI/ansible-vsphere-gos-validation/common/vm_wait_guest_ip.yml:49
+fatal: [localhost]: FAILED! => [""It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds."", ""VMware Tools running status is 'guestToolsRunning'."", ""VM's IP address in guest info is '2620:124:6020:c307:250:56ff:fe9b:fa86'."", ""VM's all IP addresses in guest info are '['2620:124:6020:c307:250:56ff:fe9b:fa86', 'fe80::250:56ff:fe9b:fa86']'.""]
+error message:
+It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds.
+VMware Tools running status is 'guestToolsRunning'.
+VM's IP address in guest info is '2620:124:6020:c307:250:56ff:fe9b:fa86'.
+VM's all IP addresses in guest info are '['2620:124:6020:c307:250:56ff:fe9b:fa86', 'fe80::250:56ff:fe9b:fa86']'.",,timestamp failed at play number go sc cloud init dhcp timestamp task number go sc cloud init dhcp check vmware tools is running and collects guest ip v number address successfully task path home worker workspace ansible ubuntu number desktop iso lsi logic vmxnet number efi ansible vsphere gos validation common vm wait guest ip yml number fatal localhost failed it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is ip address vm s all ip addresses in guest info are ip address ip address error message it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is ip address vm s all ip addresses in guest info are ip address ip address,deepdive,targetvm,202304270449

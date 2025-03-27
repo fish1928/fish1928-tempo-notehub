@@ -1,0 +1,26 @@
+id,name,raw,category,processed,solution,target,version
+5656,5935,"2022-10-12 03:19:15,012 | Failed at Play [lsilogicsas_vhba_device_ops] ***************
+2022-10-12 03:19:15,012 | TASK [lsilogicsas_vhba_device_ops][Check file content] *****
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_PARAVIRTUAL_VMXNET3_EFI/ansible-vsphere-gos-validation/windows/vhba_hot_add_remove/create_new_file_read_write.yml:90
+fatal: [localhost]: FAILED! => The file content after guest restart is '', which is not the same as before guest restart: ' 'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. '  'This is the test line to write to the file. 
+This is the test line to write to the file. ' 
+'",,timestamp failed at play lsi logic sas v hba device ops timestamp task lsi logic sas v hba device ops check file content task path home worker workspace ansible windows server lts c main para virtual vmxnet number efi ansible vsphere gos validation windows v hba hot add remove create new file read write yml number fatal localhost failed the file content after guest restart is which is not the same as before guest restart this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file this is the test line to write to the file ,deepdive,targetvm,202210121247

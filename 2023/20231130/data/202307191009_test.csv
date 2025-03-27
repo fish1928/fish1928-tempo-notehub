@@ -1,0 +1,131 @@
+id,name,raw,category,processed,solution,target,version
+6062,88,"2023-07-11 02:00:28,011 | Failed at Play [02_e1000e_network_device_ops] **************
+2023-07-11 02:00:28,011 | TASK [02_e1000e_network_device_ops][Get DNS servers] *******
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_22.04_Server_ISO/ansible-vsphere-gos-validation/linux/setup/test_setup.yml:62
+fatal: [localhost]: UNREACHABLE! => Failed to connect to the host via ssh: Warning: Permanently added '10.78.86.210' (ED25519) to the list of known hosts.
+Received disconnect from 10.78.86.210 port 22:2: Too many authentication failures
+Disconnected from 10.78.86.210 port 22
+error message:
+Failed to connect to the host via ssh: Warning: Permanently added '10.78.86.210' (ED25519) to the list of known hosts.
+Received disconnect from 10.78.86.210 port 22:2: Too many authentication failures
+Disconnected from 10.78.86.210 port 22",,timestamp failed at play number network device ops timestamp task number network device ops get dns servers task path home worker workspace ansible cycle ubuntu number server iso ansible vsphere gos validation linux setup test setup yml number fatal localhost un reachable failed to connect to the host via ssh warning permanently added ip address to the list of known hosts received disconnect from ip address port number too many authentication failures disconnected from ip address port number error message failed to connect to the host via ssh warning permanently added ip address to the list of known hosts received disconnect from ip address port number too many authentication failures disconnected from ip address port number,retry,testbed,202307191009
+6063,88,"2023-07-13 01:33:11,013 | Failed at Play [01_deploy_vm] ******************************
+2023-07-13 01:33:11,013 | TASK [01_deploy_vm][Download ConfigureRemotingForAnsible.ps1 script from URL] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_Server_2022_64/ansible-vsphere-gos-validation/windows/deploy_vm/get_ansible_remote_config.yml:14
+fatal: [localhost]: FAILED! => Request failed HTTP Error 404: Not Found when get link
+error message:
+Request failed
+2023-07-13 01:33:13,013 | TASK [01_deploy_vm][Testing exit due to failure] ***********
+task path: /home/worker/workspace/Ansible_Cycle_Windows_Server_2022_64/ansible-vsphere-gos-validation/common/test_rescue.yml:86
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_e1000e
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_e1000e",,timestamp failed at play number deploy vm timestamp task number deploy vm download configure remoting for ansible ps number script from url task path home worker workspace ansible cycle windows server number ansible vsphere gos validation windows deploy vm get ansible remote configuration yml number fatal localhost failed request failed http error number not found when get link error message request failed timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible cycle windows server number ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm efi para virtual e number e error message exit testing because exit testing when fail is set to true in test case deploy vm efi para virtual e number e,deepdive,testcase,202307191009
+6064,88,"2023-07-17 13:40:46,017 | Failed at Play [01_deploy_vm] ******************************
+2023-07-17 13:40:46,017 | TASK [01_deploy_vm][Add IDE boot disk] *********************
+task path: /home/worker/workspace/Ansible_Windows_11_70GA_IDE_VMXNET3_EFI/ansible-vsphere-gos-validation/common/vm_create_with_ide_disk.yml:49
+fatal: [localhost -> 10.218.37.241]: FAILED! => non-zero return code when vim-cmd
+error message:
+non-zero return code: 1
+Reconfigure failed: (vim.fault.NoDiskSpace) {
+   faultCause = (vmodl.MethodFault) null, 
+   faultMessage = (vmodl.LocalizableMessage) [
+      (vmodl.LocalizableMessage) {
+         key = ""vob.fssvec.SetFileAttributes.file.failed"", 
+         arg = <unset>, 
+         message = ""File system specific implementation of SetFileAttributes[file] failed""
+      }
+   ], 
+   file = ""[datastore2] test_vm_1689601170422/test_vm_1689601170422_1.vmdk"", 
+   datastore = ""datastore2""
+   msg = ""Insufficient disk space on datastore 'datastore2'.""
+}
+2023-07-17 13:40:47,017 | TASK [01_deploy_vm][Testing exit due to failure] ***********
+task path: /home/worker/workspace/Ansible_Windows_11_70GA_IDE_VMXNET3_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:86
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_ide_vmxnet3
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_ide_vmxnet3",,timestamp failed at play number deploy vm timestamp task number deploy vm add ide boot disk task path home worker workspace ansible windows number ga ide vmxnet number efi ansible vsphere gos validation common vm create with ide disk yml number fatal localhost ip address failed nonzero return code when vim command error message nonzero return code number re configure failed vim fault no disk space fault cause vmodl method fault null fault message vmodl localizable message vmodl localizable message key vob fss vec set file attributes file failed arg un set message file system specific implementation of set file attributes file failed file data store number test vm number test vm number vmdk data store data store number message insufficient disk space on data store data store number timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible windows number ga ide vmxnet number efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm efi ide vmxnet number error message exit testing because exit testing when fail is set to true in test case deploy vm efi ide vmxnet number,retry,nimbus,202307191009
+6066,88,"2023-07-12 17:35:54,012 | Failed at Play [22_gosc_cloudinit_dhcp] ********************
+2023-07-12 17:35:54,012 | TASK [22_gosc_cloudinit_dhcp][Check ping IP address 10.184.85.113 is successful] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_22.10_Server_ISO/ansible-vsphere-gos-validation/common/vm_wait_ping.yml:28
+fatal: [localhost]: FAILED! => Pinging IP address 10.184.85.113 failed in 900 seconds.
+error message:
+Pinging IP address 10.184.85.113 failed in 900 seconds.",,timestamp failed at play number go sc cloud init dhcp timestamp task number go sc cloud init dhcp check ping ip address ip address is successful task path home worker workspace ansible cycle ubuntu number server iso ansible vsphere gos validation common vm wait ping yml number fatal localhost failed pinging ip address ip address failed in number seconds error message pinging ip address ip address failed in number seconds,deepdive,targetvm,202307191009
+6065,88,"2023-07-19 06:39:50,019 | Failed at Play [1_gosc_sanity_staticip] ********************
+2023-07-19 06:39:50,019 | TASK [1_gosc_sanity_staticip][Customize Windows guest OS] **
+task path: /home/worker/workspace/Ansible_Windows_11_Physical_VBS_70U3_PARAVIRTUAL_VMXNET3_EFI/ansible-vsphere-gos-validation/windows/guest_customization/win_gosc_execution.yml:4
+fatal: [localhost]: FAILED! => Customization failed. For detailed information see warnings Waiting for customization result event timed out.
+error message:
+Customization failed. For detailed information see warnings
+2023-07-19 06:42:30,019 | TASK [1_gosc_sanity_staticip][Fetch file C:\Windows\Temp\vmware-imc\guestcust.log from VM guest] 
+task path: /home/worker/workspace/Ansible_Windows_11_Physical_VBS_70U3_PARAVIRTUAL_VMXNET3_EFI/ansible-vsphere-gos-validation/common/vm_guest_file_operation.yml:91
+exception in /vmware_guest_file_operation.py when fetch in /SoapAdapter.py when InvokeMethod
+fatal: [localhost]: FAILED! => Invalid guest login for user Administrator
+error message:
+Invalid guest login for user Administrator",,timestamp failed at play number go sc sanity static ip timestamp task number go sc sanity static ip customize windows guest os task path home worker workspace ansible windows number physical vbs para virtual vmxnet number efi ansible vsphere gos validation windows guest customization win go sc execution yml number fatal localhost failed customization failed for detailed information see warnings waiting for customization result event timed out error message customization failed for detailed information see warnings timestamp task number go sc sanity static ip fetch file c windows temp vmware imc guest cust log from vm guest task path home worker workspace ansible windows number physical vbs para virtual vmxnet number efi ansible vsphere gos validation common vm guest file operation yml number exception in vmware guest file operation python when fetch in soap adapter python when invoke method fatal localhost failed invalid guest login for user administrator error message invalid guest login for user administrator,deepdive,targetvm,202307191009
+6069,88,"2023-07-19 06:14:47,019 | Failed at Play [1_nvdimm_cold_add_remove] ******************
+2023-07-19 06:14:47,019 | TASK [1_nvdimm_cold_add_remove][Check persistent memory disk status in guest OS] 
+task path: /home/worker/workspace/Ansible_Windows_11_Physical_VBS_70U3_PARAVIRTUAL_VMXNET3_EFI/ansible-vsphere-gos-validation/windows/nvdimm_cold_add_remove/cold_add_nvdimm_test.yml:103
+fatal: [localhost]: FAILED! => Persistent memory disk status got in guest OS '{}', which status is not 'Healthy', or the size got is not '256' MB.
+error message:
+Persistent memory disk status got in guest OS '{}', which status is not 'Healthy', or the size got is not '256' MB.",,timestamp failed at play number nvdimm cold add remove timestamp task number nvdimm cold add remove check persistent memory disk status in guest os task path home worker workspace ansible windows number physical vbs para virtual vmxnet number efi ansible vsphere gos validation windows nvdimm cold add remove cold add nvdimm test yml number fatal localhost failed persistent memory disk status got in guest os which status is not healthy or the size got is not number mb error message persistent memory disk status got in guest os which status is not healthy or the size got is not number mb,deepdive,targetvm,202307191009
+6073,88,"2023-07-12 20:44:47,012 | Failed at Play [29_nvdimm_cold_add_remove] *****************
+2023-07-12 20:44:47,012 | TASK [29_nvdimm_cold_add_remove][Run iozone test on new added disk pmem0] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_22.10_Server_ISO/ansible-vsphere-gos-validation/linux/vhba_hot_add_remove/test_disk_io.yml:24
+fatal: [localhost]: FAILED! => Failed to connect to the host via ssh: ssh: connect to host 10.184.85.113 port 22: Connection timed out
+error message:
+Failed to connect to the host via ssh: ssh: connect to host 10.184.85.113 port 22: Connection timed out",,timestamp failed at play number nvdimm cold add remove timestamp task number nvdimm cold add remove run io zone test on new added disk pmem number task path home worker workspace ansible cycle ubuntu number server iso ansible vsphere gos validation linux v hba hot add remove test disk io yml number fatal localhost failed failed to connect to the host via ssh ssh connect to host ip address port number connection timed out error message failed to connect to the host via ssh ssh connect to host ip address port number connection timed out,retry,nimbus,202307191009
+6067,88,"2023-07-11 01:49:00,011 | Failed at Play [16_secureboot_enable_disable] **************
+2023-07-11 01:49:00,011 | TASK [16_secureboot_enable_disable][Get DNS servers] *******
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_22.04_Server_ISO/ansible-vsphere-gos-validation/linux/setup/test_setup.yml:62
+fatal: [localhost]: UNREACHABLE! => Failed to connect to the host via ssh: Warning: Permanently added '10.78.86.210' (ED25519) to the list of known hosts.
+Received disconnect from 10.78.86.210 port 22:2: Too many authentication failures
+Disconnected from 10.78.86.210 port 22
+error message:
+Failed to connect to the host via ssh: Warning: Permanently added '10.78.86.210' (ED25519) to the list of known hosts.
+Received disconnect from 10.78.86.210 port 22:2: Too many authentication failures
+Disconnected from 10.78.86.210 port 22",,timestamp failed at play number secure boot enable disable timestamp task number secure boot enable disable get dns servers task path home worker workspace ansible cycle ubuntu number server iso ansible vsphere gos validation linux setup test setup yml number fatal localhost un reachable failed to connect to the host via ssh warning permanently added ip address to the list of known hosts received disconnect from ip address port number too many authentication failures disconnected from ip address port number error message failed to connect to the host via ssh warning permanently added ip address to the list of known hosts received disconnect from ip address port number too many authentication failures disconnected from ip address port number,retry,testbed,202307191009
+6071,88,"2023-07-17 06:45:20,017 | Failed at Play [01_deploy_vm] ******************************
+2023-07-17 06:45:20,017 | TASK [01_deploy_vm][Guest OS connection failure] ***********
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_80GA_NVME_VMXNET3_EFI/ansible-vsphere-gos-validation/windows/utils/win_check_winrm.yml:26
+fatal: [localhost]: FAILED! => Guest winrm is not connectable in 1800 seconds.
+error message:
+Guest winrm is not connectable in 1800 seconds.
+2023-07-17 06:45:49,017 | TASK [01_deploy_vm][Testing exit due to failure] ***********
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_80GA_NVME_VMXNET3_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:86
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_nvme_vmxnet3
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_nvme_vmxnet3",,timestamp failed at play number deploy vm timestamp task number deploy vm guest os connection failure task path home worker workspace ansible windows server lts c number ga nvme vmxnet number efi ansible vsphere gos validation windows utilities win check win rm yml number fatal localhost failed guest win rm is not connectable in number seconds error message guest win rm is not connectable in number seconds timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible windows server lts c number ga nvme vmxnet number efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm efi nvme vmxnet number error message exit testing because exit testing when fail is set to true in test case deploy vm efi nvme vmxnet number,retry,testbed,202307191009
+6068,88,"2023-07-13 01:33:51,013 | Failed at Play [01_deploy_vm] ******************************
+2023-07-13 01:33:51,013 | TASK [01_deploy_vm][Download ConfigureRemotingForAnsible.ps1 script from URL] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_11_64/ansible-vsphere-gos-validation/windows/deploy_vm/get_ansible_remote_config.yml:14
+fatal: [localhost]: FAILED! => Request failed HTTP Error 404: Not Found when get link
+error message:
+Request failed
+2023-07-13 01:33:52,013 | TASK [01_deploy_vm][Testing exit due to failure] ***********
+task path: /home/worker/workspace/Ansible_Cycle_Windows_11_64/ansible-vsphere-gos-validation/common/test_rescue.yml:86
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_e1000e
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_e1000e",,timestamp failed at play number deploy vm timestamp task number deploy vm download configure remoting for ansible ps number script from url task path home worker workspace ansible cycle windows number ansible vsphere gos validation windows deploy vm get ansible remote configuration yml number fatal localhost failed request failed http error number not found when get link error message request failed timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible cycle windows number ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm efi para virtual e number e error message exit testing because exit testing when fail is set to true in test case deploy vm efi para virtual e number e,deepdive,testcase,202307191009
+6072,88,"2023-07-19 06:56:32,019 | Failed at Play [1_deploy_vm] *******************************
+2023-07-19 06:56:32,019 | TASK [1_deploy_vm][Add virtual TPM device to VM] ***********
+task path: /home/worker/workspace/Ansible_Windows_11_Physical_80GA_PARAVIRTUAL_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_add_remove_vtpm.yml:14
+exception in /vmware_guest_tpm.py when vtpm_operation in /vmware.py when wait_for_task
+fatal: [localhost]: FAILED! => Failed to configure vTPM device on virtual machine due to '('RuntimeFault.summary', None)'
+error message:
+Failed to configure vTPM device on virtual machine due to '('RuntimeFault.summary', None)'
+2023-07-19 06:57:05,019 | TASK [1_deploy_vm][Testing exit due to failure] ************
+task path: /home/worker/workspace/Ansible_Windows_11_Physical_80GA_PARAVIRTUAL_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:86
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_e1000e
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_e1000e",,timestamp failed at play number deploy vm timestamp task number deploy vm add virtual tpm device to vm task path home worker workspace ansible windows number physical number ga para virtual efi ansible vsphere gos validation common vm add remove vtpm yml number exception in vmware guest tpm python when vtpm operation in vmware python when wait for task fatal localhost failed failed to configure vtpm device on virtual machine due to runtime fault summary none error message failed to configure vtpm device on virtual machine due to runtime fault summary none timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible windows number physical number ga para virtual efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm efi para virtual e number e error message exit testing because exit testing when fail is set to true in test case deploy vm efi para virtual e number e,deepdive,targetvm,202307191009
+6070,88,"2023-07-13 01:32:42,013 | Failed at Play [01_deploy_vm] ******************************
+2023-07-13 01:32:42,013 | TASK [01_deploy_vm][Download ConfigureRemotingForAnsible.ps1 script from URL] 
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/windows/deploy_vm/get_ansible_remote_config.yml:14
+fatal: [localhost]: FAILED! => Request failed HTTP Error 404: Not Found when get link
+error message:
+Request failed
+2023-07-13 01:32:43,013 | TASK [01_deploy_vm][Testing exit due to failure] ***********
+task path: /home/worker/workspace/Ansible_Cycle_Windows_10_32/ansible-vsphere-gos-validation/common/test_rescue.yml:86
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_e1000e
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_paravirtual_e1000e",,timestamp failed at play number deploy vm timestamp task number deploy vm download configure remoting for ansible ps number script from url task path home worker workspace ansible cycle windows number ansible vsphere gos validation windows deploy vm get ansible remote configuration yml number fatal localhost failed request failed http error number not found when get link error message request failed timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible cycle windows number ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm efi para virtual e number e error message exit testing because exit testing when fail is set to true in test case deploy vm efi para virtual e number e,deepdive,testcase,202307191009

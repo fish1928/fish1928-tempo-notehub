@@ -1,0 +1,142 @@
+id,name,raw,category,processed,solution,target,version
+6074,89,"2023-07-28 08:44:42,028 | Failed at Play [3_nvme_vhba_device_ops] ********************
+2023-07-28 08:44:42,028 | TASK [3_nvme_vhba_device_ops][Run iozone test on new added disk nvd0] 
+task path: /home/worker/workspace/Ansible_FreeBSD_13.x_32bit_MAIN_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/linux/vhba_hot_add_remove/test_disk_io.yml:24
+fatal: [localhost -> 10.218.129.205]: FAILED! => non-zero return code
+error message:
+non-zero return code: 1
+Shared connection to 10.218.129.205 closed.
+>>>>>>>>>>>>>Start to test /dev/nvd0<<<<<<<<<<<<<<<<<<
+Create mount point /mnt/nvd0p1
+Execute command: mkdir -p /mnt/nvd0p1
+Return Code: 0
+Execute command: mount  /dev/nvd0p1 /mnt/nvd0p1 >/dev/null 2>&1
+Return Code: 0
+Mount /dev/nvd0p1 to /mnt/nvd0p1: SUCCEED
+Create folder /mnt/nvd0p1/testdir:  Execute command: mkdir /mnt/nvd0p1/testdir
+/mnt/nvd0p1: create/symlink failed, no inodes free
+mkdir: /mnt/nvd0p1/testdir: No space left on device
+Return Code: 1
+FAIL",,timestamp failed at play number nvme v hba device ops timestamp task number nvme v hba device ops run io zone test on new added disk nvd number task path home worker workspace ansible freebsd number x number b it main sata bios ansible vsphere gos validation linux v hba hot add remove test disk io yml number fatal localhost ip address failed nonzero return code error message nonzero return code number shared connection to ip address closed start to test dev nvd number create mount point mount nvd number p number execute command mkdir p mount nvd number p number return code number execute command mount dev mount dev null number return code number mount dev to mount succeed create folder mount test directory execute command mkdir mount test directory mount create symlink failed no i nodes free mkdir mount test directory no space left on device return code number fail,deepdive,targetvm,202308030456
+6075,89,"2023-08-01 03:09:32,001 | Failed at Play [1_sata_vhba_device_ops] ********************
+2023-08-01 03:09:32,001 | TASK [1_sata_vhba_device_ops][Restart OS using win_reboot module] 
+task path: /home/worker/workspace/Ansible_Windows_11_70GA_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/windows/utils/win_shutdown_restart.yml:23
+TimeoutError: timed out
+The above exception was the direct cause of the following exception:
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f0a30624ee0>, 'Connection to 10.168.211.149 timed out. (connect timeout=5)')
+The above exception was the direct cause of the following exception:
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='10.168.211.149', port=5986): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0a30624ee0>, 'Connection to 10.168.211.149 timed out. (connect timeout=5)'))
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='10.168.211.149', port=5986): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0a30624ee0>, 'Connection to 10.168.211.149 timed out. (connect timeout=5)'))
+ansible.errors.AnsibleError: HTTPSConnectionPool(host='10.168.211.149', port=5986): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f0a30624ee0>, 'Connection to 10.168.211.149 timed out. (connect timeout=5)'))
+Exception: Timed out waiting for last boot time check (timeout=600.0)
+fatal: [localhost -> 10.168.211.149]: FAILED! => Timed out waiting for last boot time check (timeout=600.0)
+error message:
+Timed out waiting for last boot time check (timeout=600.0)",,timestamp failed at play number sata v hba device ops timestamp task number sata v hba device ops restart os using win reboot module task path home worker workspace ansible windows number ga lsi logic sas efi ansible vsphere gos validation windows utilities win shutdown restart yml number timeout error timed out the above exception was the direct cause of the following exception url library number exceptions connect timeout error url library number connection https connection object at hex id connection to ip address timed out connect timeout number the above exception was the direct cause of the following exception url library number exceptions max retry error https connection pool host ip address port number max retries exceeded with url wsman caused by connect timeout error url library number connection https connection object at hex id connection to ip address timed out connect timeout number requests exceptions connect timeout https connection pool host ip address port number max retries exceeded with url wsman caused by connect timeout error url library number connection https connection object at hex id connection to ip address timed out connect timeout number ansible errors ansible error https connection pool host ip address port number max retries exceeded with url wsman caused by connect timeout error url library number connection https connection object at hex id connection to ip address timed out connect timeout number exception timed out waiting for last boot time check timeout number fatal localhost ip address failed timed out waiting for last boot time check timeout number error message timed out waiting for last boot time check timeout number,retry,targetvm,202308030456
+6076,89,"2023-07-17 06:09:53,017 | Failed at Play [01_deploy_vm] ******************************
+2023-07-17 06:09:53,017 | TASK [01_deploy_vm][Check VM 'test_vm' IP address] *********
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_70GA_SATA_VMXNET3_BIOS/ansible-vsphere-gos-validation/common/vm_get_ip.yml:48
+fatal: [localhost]: FAILED! => Failed to get VM 'test_vm' IP Address
+error message:
+Failed to get VM 'test_vm' IP Address
+2023-07-17 06:10:29,017 | TASK [01_deploy_vm][Testing exit due to failure] ***********
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_70GA_SATA_VMXNET3_BIOS/ansible-vsphere-gos-validation/common/test_rescue.yml:86
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_bios_sata_vmxnet3
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_bios_sata_vmxnet3",,timestamp failed at play number deploy vm timestamp task number deploy vm check vm test vm ip address task path home worker workspace ansible windows server lts c number ga sata vmxnet number bios ansible vsphere gos validation common vm get ip yml number fatal localhost failed failed to get vm test vm ip address error message failed to get vm test vm ip address timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible windows server lts c number ga sata vmxnet number bios ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm bios sata vmxnet number error message exit testing because exit testing when fail is set to true in test case deploy vm bios sata vmxnet number,retry,nimbus,202308030456
+6077,89,"2023-07-26 07:23:17,026 | Failed at Play [01_wintools_complete_install_verify] *******
+2023-07-26 07:23:17,026 | TASK [01_wintools_complete_install_verify][Test tools failure] 
+task path: /home/worker/workspace/Ansible_Windows_11_Physical_VBS_70U3_PARAVIRTUAL_VMXNET3_EFI/ansible-vsphere-gos-validation/windows/wintools_complete_install_verify/wintools_complete_install_verify.yml:28
+fatal: [localhost]: FAILED! => VMware Tools installation failed
+error message:
+VMware Tools installation failed
+2023-07-26 07:25:03,026 | TASK [01_wintools_complete_install_verify][Testing exit due to failure] 
+task path: /home/worker/workspace/Ansible_Windows_11_Physical_VBS_70U3_PARAVIRTUAL_VMXNET3_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:86
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case wintools_complete_install_verify
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case wintools_complete_install_verify",,timestamp failed at play number win tools complete install verify timestamp task number win tools complete install verify test tools failure task path home worker workspace ansible windows number physical vbs para virtual vmxnet number efi ansible vsphere gos validation windows win tools complete install verify win tools complete install verify yml number fatal localhost failed vmware tools installation failed error message vmware tools installation failed timestamp task number win tools complete install verify testing exit due to failure task path home worker workspace ansible windows number physical vbs para virtual vmxnet number efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case win tools complete install verify error message exit testing because exit testing when fail is set to true in test case win tools complete install verify,deepdive,targetvm,202308030456
+6081,89,"2023-08-01 02:30:46,001 | Failed at Play [01_deploy_vm] ******************************
+2023-08-01 02:30:46,001 | TASK [01_deploy_vm][Check VMware Tools is running and collects guest IPv4 address successfully] 
+task path: /home/worker/workspace/Ansible_Flatcar_80GA/ansible-vsphere-gos-validation/common/vm_wait_guest_ip.yml:49
+fatal: [localhost]: FAILED! => [""It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds."", ""VMware Tools running status is 'guestToolsRunning'."", ""VM's IP address in guest info is '2620:124:6020:c302:250:56ff:fea3:c0b5'."", ""VM's all IP addresses in guest info are '['2620:124:6020:c302:250:56ff:fea3:c0b5', 'fe80::250:56ff:fea3:c0b5']'.""]
+error message:
+It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds.
+VMware Tools running status is 'guestToolsRunning'.
+VM's IP address in guest info is '2620:124:6020:c302:250:56ff:fea3:c0b5'.
+VM's all IP addresses in guest info are '['2620:124:6020:c302:250:56ff:fea3:c0b5', 'fe80::250:56ff:fea3:c0b5']'.
+2023-08-01 02:31:04,001 | TASK [01_deploy_vm][Testing exit due to failure] ***********
+task path: /home/worker/workspace/Ansible_Flatcar_80GA/ansible-vsphere-gos-validation/common/test_rescue.yml:86
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_ova
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_ova",,timestamp failed at play number deploy vm timestamp task number deploy vm check vmware tools is running and collects guest ip v number address successfully task path home worker workspace ansible flatcar number ga ansible vsphere gos validation common vm wait guest ip yml number fatal localhost failed it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is ip address vm s all ip addresses in guest info are ip address ip address error message it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is ip address vm s all ip addresses in guest info are ip address ip address timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible flatcar number ga ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm ova error message exit testing because exit testing when fail is set to true in test case deploy vm ova,retry,nimbus,202308030456
+6078,89,"2023-07-27 12:00:09,027 | Failed at Play [01_deploy_vm] ******************************
+2023-07-27 12:00:09,027 | TASK [01_deploy_vm][Guest OS connection failure] ***********
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_LSILOGICSAS_VMXNET3_EFI_HW17/ansible-vsphere-gos-validation/windows/utils/win_check_winrm.yml:26
+fatal: [localhost]: FAILED! => Guest winrm is not connectable in 1800 seconds.
+error message:
+Guest winrm is not connectable in 1800 seconds.
+2023-07-27 12:00:49,027 | TASK [01_deploy_vm][Testing exit due to failure] ***********
+task path: /home/worker/workspace/Ansible_Windows_Server_LTSC_MAIN_LSILOGICSAS_VMXNET3_EFI_HW17/ansible-vsphere-gos-validation/common/test_rescue.yml:86
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_lsilogicsas_vmxnet3
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_lsilogicsas_vmxnet3",,timestamp failed at play number deploy vm timestamp task number deploy vm guest os connection failure task path home worker workspace ansible windows server lts c main lsi logic sas vmxnet number efi ansible vsphere gos validation windows utilities win check win rm yml number fatal localhost failed guest win rm is not connectable in number seconds error message guest win rm is not connectable in number seconds timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible windows server lts c main lsi logic sas vmxnet number efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm efi lsi logic sas vmxnet number error message exit testing because exit testing when fail is set to true in test case deploy vm efi lsi logic sas vmxnet number,retry,testbed,202308030456
+6082,89,"2023-07-31 07:08:23,031 | Failed at Play [15_nvdimm_cold_add_remove] *****************
+2023-07-31 07:08:23,031 | TASK [15_nvdimm_cold_add_remove][Restart OS using win_reboot module] 
+task path: /home/worker/workspace/Ansible_Windows_11_70GA_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/windows/utils/win_shutdown_restart.yml:23
+TimeoutError: timed out
+The above exception was the direct cause of the following exception:
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f4022dcc370>, 'Connection to 10.168.211.149 timed out. (connect timeout=5)')
+The above exception was the direct cause of the following exception:
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='10.168.211.149', port=5986): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f4022dcc370>, 'Connection to 10.168.211.149 timed out. (connect timeout=5)'))
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='10.168.211.149', port=5986): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f4022dcc370>, 'Connection to 10.168.211.149 timed out. (connect timeout=5)'))
+ansible.errors.AnsibleError: HTTPSConnectionPool(host='10.168.211.149', port=5986): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f4022dcc370>, 'Connection to 10.168.211.149 timed out. (connect timeout=5)'))
+Exception: Timed out waiting for last boot time check (timeout=600.0)
+fatal: [localhost -> 10.168.211.149]: FAILED! => Timed out waiting for last boot time check (timeout=600.0)
+error message:
+Timed out waiting for last boot time check (timeout=600.0)",,timestamp failed at play number nvdimm cold add remove timestamp task number nvdimm cold add remove restart os using win reboot module task path home worker workspace ansible windows number ga lsi logic sas efi ansible vsphere gos validation windows utilities win shutdown restart yml number timeout error timed out the above exception was the direct cause of the following exception url library number exceptions connect timeout error url library number connection https connection object at hex id connection to ip address timed out connect timeout number the above exception was the direct cause of the following exception url library number exceptions max retry error https connection pool host ip address port number max retries exceeded with url wsman caused by connect timeout error url library number connection https connection object at hex id connection to ip address timed out connect timeout number requests exceptions connect timeout https connection pool host ip address port number max retries exceeded with url wsman caused by connect timeout error url library number connection https connection object at hex id connection to ip address timed out connect timeout number ansible errors ansible error https connection pool host ip address port number max retries exceeded with url wsman caused by connect timeout error url library number connection https connection object at hex id connection to ip address timed out connect timeout number exception timed out waiting for last boot time check timeout number fatal localhost ip address failed timed out waiting for last boot time check timeout number error message timed out waiting for last boot time check timeout number,retry,targetvm,202308030456
+6079,89,"2023-08-02 16:02:13,002 | Failed at Play [19_pvrdma_network_device_ops] **************
+2023-08-02 16:02:13,002 | TASK [19_pvrdma_network_device_ops][Check RDMA ping result from client VM to server VM] 
+task path: /home/worker/workspace/Ansible_BCLinux_8.x_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/linux/network_device_ops/pvrdma_network_device_ops.yml:161
+fatal: [localhost]: FAILED! => Failed to run RDMA ping from client VM 'test_vm_client_20230802155355' to server VM 'test_vm'. Hit error 'rdma_create_qp: Cannot allocate memory
+setup_qp failed: -1'
+error message:
+Failed to run RDMA ping from client VM 'test_vm_client_20230802155355' to server VM 'test_vm'. Hit error 'rdma_create_qp: Cannot allocate memory
+setup_qp failed: -1'",,timestamp failed at play number pvrdma network device ops timestamp task number pvrdma network device ops check remote direct memory access ping result from client vm to server vm task path home worker workspace ansible bc linux number x main nvme efi ansible vsphere gos validation linux network device ops pvrdma network device ops yml number fatal localhost failed failed to run remote direct memory access ping from client vm test vm client timestamp to server vm test vm hit error remote direct memory access create qp can not allocate memory setup qp failed number error message failed to run remote direct memory access ping from client vm test vm client timestamp to server vm test vm hit error remote direct memory access create qp can not allocate memory setup qp failed number,deepdive,targetvm,202308030456
+6083,89,"2023-07-28 18:10:06,028 | Failed at Play [14_lsilogic_vhba_device_ops] ***************
+2023-07-28 18:10:06,028 | TASK [14_lsilogic_vhba_device_ops][Run iozone test on new added disk da0] 
+task path: /home/worker/workspace/Ansible_FreeBSD_13.x_32bit_MAIN_SATA_E1000E_BIOS/ansible-vsphere-gos-validation/linux/vhba_hot_add_remove/test_disk_io.yml:24
+fatal: [localhost -> 10.78.225.14]: FAILED! => non-zero return code
+error message:
+non-zero return code: 1
+Warning: Permanently added '10.78.225.14' (ED25519) to the list of known hosts.
+Shared connection to 10.78.225.14 closed.
+>>>>>>>>>>>>>Start to test /dev/da0<<<<<<<<<<<<<<<<<<
+Execute command: mount  /dev/da0p1 /mnt/da0p1 >/dev/null 2>&1
+Return Code: 1
+Mount /dev/da0p1 to /mnt/da0p1: FAIL
+FAIL
+Could not mount /dev/da0p1 to /mnt/da0p1",,timestamp failed at play number lsi logic v hba device ops timestamp task number lsi logic v hba device ops run io zone test on new added disk da number task path home worker workspace ansible freebsd number x number b it main sata bios ansible vsphere gos validation linux v hba hot add remove test disk io yml number fatal localhost ip address failed nonzero return code error message nonzero return code number warning permanently added ip address to the list of known hosts shared connection to ip address closed start to test dev da number execute command mount dev mount dev null number return code number mount dev to mount fail fail could not mount dev to mount da number p number,deepdive,targetvm,202308030456
+6080,89,"2023-07-31 07:35:10,031 | Failed at Play [01_deploy_vm] ******************************
+2023-07-31 07:35:10,031 | TASK [01_deploy_vm][Guest OS connection failure] ***********
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/windows/utils/win_check_winrm.yml:26
+fatal: [localhost]: FAILED! => Guest winrm is not connectable in 1800 seconds.
+error message:
+Guest winrm is not connectable in 1800 seconds.
+2023-07-31 07:35:47,031 | TASK [01_deploy_vm][Testing exit due to failure] ***********
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_NVME_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:86
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_nvme_e1000e
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_nvme_e1000e",,timestamp failed at play number deploy vm timestamp task number deploy vm guest os connection failure task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation windows utilities win check win rm yml number fatal localhost failed guest win rm is not connectable in number seconds error message guest win rm is not connectable in number seconds timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible windows number main nvme efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm efi nvme e number e error message exit testing because exit testing when fail is set to true in test case deploy vm efi nvme e number e,retry,testbed,202308030456
+6084,89,"2023-07-31 09:41:56,031 | Failed at Play [1_paravirtual_vhba_device_ops] *************
+2023-07-31 09:41:56,031 | TASK [1_paravirtual_vhba_device_ops][Restart OS using win_reboot module] 
+task path: /home/worker/workspace/Ansible_Windows_11_70GA_LSILOGICSAS_E1000E_EFI/ansible-vsphere-gos-validation/windows/utils/win_shutdown_restart.yml:23
+TimeoutError: timed out
+The above exception was the direct cause of the following exception:
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f409e1b2590>, 'Connection to 10.168.211.149 timed out. (connect timeout=5)')
+The above exception was the direct cause of the following exception:
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='10.168.211.149', port=5986): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f409e1b2590>, 'Connection to 10.168.211.149 timed out. (connect timeout=5)'))
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='10.168.211.149', port=5986): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f409e1b2590>, 'Connection to 10.168.211.149 timed out. (connect timeout=5)'))
+ansible.errors.AnsibleError: HTTPSConnectionPool(host='10.168.211.149', port=5986): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f409e1b2590>, 'Connection to 10.168.211.149 timed out. (connect timeout=5)'))
+Exception: Timed out waiting for last boot time check (timeout=600.0)
+fatal: [localhost -> 10.168.211.149]: FAILED! => Timed out waiting for last boot time check (timeout=600.0)
+error message:
+Timed out waiting for last boot time check (timeout=600.0)",,timestamp failed at play number para virtual v hba device ops timestamp task number para virtual v hba device ops restart os using win reboot module task path home worker workspace ansible windows number ga lsi logic sas efi ansible vsphere gos validation windows utilities win shutdown restart yml number timeout error timed out the above exception was the direct cause of the following exception url library number exceptions connect timeout error url library number connection https connection object at hex id connection to ip address timed out connect timeout number the above exception was the direct cause of the following exception url library number exceptions max retry error https connection pool host ip address port number max retries exceeded with url wsman caused by connect timeout error url library number connection https connection object at hex id connection to ip address timed out connect timeout number requests exceptions connect timeout https connection pool host ip address port number max retries exceeded with url wsman caused by connect timeout error url library number connection https connection object at hex id connection to ip address timed out connect timeout number ansible errors ansible error https connection pool host ip address port number max retries exceeded with url wsman caused by connect timeout error url library number connection https connection object at hex id connection to ip address timed out connect timeout number exception timed out waiting for last boot time check timeout number fatal localhost ip address failed timed out waiting for last boot time check timeout number error message timed out waiting for last boot time check timeout number,retry,targetvm,202308030456

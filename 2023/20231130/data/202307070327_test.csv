@@ -1,0 +1,61 @@
+id,name,raw,category,processed,solution,target,version
+6056,87,"2023-07-04 13:16:54,004 | Failed at Play [11_gosc_cloudinit_staticip] ****************
+2023-07-04 13:16:54,004 | TASK [11_gosc_cloudinit_staticip][Check VMware Tools is running and collects guest IPv4 address successfully] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_23.04_OVA/ansible-vsphere-gos-validation/common/vm_wait_guest_ip.yml:49
+fatal: [localhost]: FAILED! => [""It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds."", ""VMware Tools running status is 'guestToolsRunning'."", ""VM's IP address in guest info is ''."", ""VM's all IP addresses in guest info are '[]'.""]
+error message:
+It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds.
+VMware Tools running status is 'guestToolsRunning'.
+VM's IP address in guest info is ''.
+VM's all IP addresses in guest info are '[]'.",,timestamp failed at play number go sc cloud init static ip timestamp task number go sc cloud init static ip check vmware tools is running and collects guest ip v number address successfully task path home worker workspace ansible regression ubuntu number ova ansible vsphere gos validation common vm wait guest ip yml number fatal localhost failed it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is vm s all ip addresses in guest info are error message it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is vm s all ip addresses in guest info are,deepdive,targetvm,202307070327
+6057,87,"2023-07-04 15:13:00,004 | Failed at Play [22_gosc_cloudinit_dhcp] ********************
+2023-07-04 15:13:00,004 | TASK [22_gosc_cloudinit_dhcp][Check VMware Tools is running and collects guest IPv4 address successfully] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_20.04_Server_OVA/ansible-vsphere-gos-validation/common/vm_wait_guest_ip.yml:49
+fatal: [localhost]: FAILED! => [""It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds."", ""VMware Tools running status is 'guestToolsRunning'."", ""VM's IP address in guest info is ''."", ""VM's all IP addresses in guest info are '[]'.""]
+error message:
+It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds.
+VMware Tools running status is 'guestToolsRunning'.
+VM's IP address in guest info is ''.
+VM's all IP addresses in guest info are '[]'.",,timestamp failed at play number go sc cloud init dhcp timestamp task number go sc cloud init dhcp check vmware tools is running and collects guest ip v number address successfully task path home worker workspace ansible regression ubuntu number server ova ansible vsphere gos validation common vm wait guest ip yml number fatal localhost failed it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is vm s all ip addresses in guest info are error message it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is vm s all ip addresses in guest info are,deepdive,targetvm,202307070327
+6058,87,"2023-07-04 15:32:14,004 | Failed at Play [23_gosc_cloudinit_staticip] ****************
+2023-07-04 15:32:14,004 | TASK [23_gosc_cloudinit_staticip][Check VMware Tools is running and collects guest IPv4 address successfully] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_20.04_Server_OVA/ansible-vsphere-gos-validation/common/vm_wait_guest_ip.yml:49
+fatal: [localhost]: FAILED! => [""It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds."", ""VMware Tools running status is 'guestToolsRunning'."", ""VM's IP address in guest info is ''."", ""VM's all IP addresses in guest info are '[]'.""]
+error message:
+It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds.
+VMware Tools running status is 'guestToolsRunning'.
+VM's IP address in guest info is ''.
+VM's all IP addresses in guest info are '[]'.",,timestamp failed at play number go sc cloud init static ip timestamp task number go sc cloud init static ip check vmware tools is running and collects guest ip v number address successfully task path home worker workspace ansible regression ubuntu number server ova ansible vsphere gos validation common vm wait guest ip yml number fatal localhost failed it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is vm s all ip addresses in guest info are error message it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is vm s all ip addresses in guest info are,deepdive,targetvm,202307070327
+6059,87,"2023-07-04 12:58:29,004 | Failed at Play [10_gosc_cloudinit_dhcp] ********************
+2023-07-04 12:58:29,004 | TASK [10_gosc_cloudinit_dhcp][Check VMware Tools is running and collects guest IPv4 address successfully] 
+task path: /home/worker/workspace/Ansible_Regression_Ubuntu_23.04_OVA/ansible-vsphere-gos-validation/common/vm_wait_guest_ip.yml:49
+fatal: [localhost]: FAILED! => [""It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds."", ""VMware Tools running status is 'guestToolsRunning'."", ""VM's IP address in guest info is ''."", ""VM's all IP addresses in guest info are '[]'.""]
+error message:
+It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds.
+VMware Tools running status is 'guestToolsRunning'.
+VM's IP address in guest info is ''.
+VM's all IP addresses in guest info are '[]'.",,timestamp failed at play number go sc cloud init dhcp timestamp task number go sc cloud init dhcp check vmware tools is running and collects guest ip v number address successfully task path home worker workspace ansible regression ubuntu number ova ansible vsphere gos validation common vm wait guest ip yml number fatal localhost failed it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is vm s all ip addresses in guest info are error message it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is vm s all ip addresses in guest info are,deepdive,targetvm,202307070327
+6060,87,"2023-04-14 03:35:09,014 | Failed at Play [01_deploy_vm] ******************************
+2023-04-14 03:35:09,014 | TASK [01_deploy_vm][Deploy VM from ovf template] ***********
+task path: /home/worker/workspace/Ansible_Cycle_Flatcar_Stable/ansible-vsphere-gos-validation/common/ovf_deploy.yml:4
+exception in /vmware_deploy_ovf.py when run in /ssl.py when read
+fatal: [localhost]: FAILED! => The read operation timed out Problem validating OVF import spec: Line 192: Unable to parse 'enableMPTSupport' for attribute 'key' on element 'Config'.
+error message:
+The read operation timed out
+2023-04-14 03:35:10,014 | TASK [01_deploy_vm][Testing exit due to failure] ***********
+task path: /home/worker/workspace/Ansible_Cycle_Flatcar_Stable/ansible-vsphere-gos-validation/common/test_rescue.yml:87
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_ova
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_ova",,timestamp failed at play number deploy vm timestamp task number deploy vm deploy vm from ovf template task path home worker workspace ansible cycle flatcar stable ansible vsphere gos validation common ovf deploy yml number exception in vmware deploy ovf python when run in ssl python when read fatal localhost failed the read operation timed out problem validating ovf import spec line number unable to parse enable mpt support for attribute key on element configuration error message the read operation timed out timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible cycle flatcar stable ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm ova error message exit testing because exit testing when fail is set to true in test case deploy vm ova,retry,nimbus,202307070327
+6061,87,"2023-05-19 01:18:31,019 | Failed at Play [1_deploy_vm] *******************************
+2023-05-19 01:18:31,019 | TASK [1_deploy_vm][Deploy VM from ovf template] ************
+task path: /home/worker/workspace/Ansible_Windows_MS_Template_Physical_70U3/ansible-vsphere-gos-validation/common/ovf_deploy.yml:4
+exception in /vmware_deploy_ovf.py when run in /request.py when http_error_default
+fatal: [localhost]: FAILED! => HTTP Error 500: Internal Server Error Problem validating OVF import spec: Line 98: Invalid value 'hostonly' for element 'Connection'.
+error message:
+HTTP Error 500: Internal Server Error
+2023-05-19 01:18:32,019 | TASK [1_deploy_vm][Testing exit due to failure] ************
+task path: /home/worker/workspace/Ansible_Windows_MS_Template_Physical_70U3/ansible-vsphere-gos-validation/common/test_rescue.yml:86
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_ovf
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_ovf",,timestamp failed at play number deploy vm timestamp task number deploy vm deploy vm from ovf template task path home worker workspace ansible windows ms template physical ansible vsphere gos validation common ovf deploy yml number exception in vmware deploy ovf python when run in request python when http error default fatal localhost failed http error number internal server error problem validating ovf import spec line number invalid value host only for element connection error message http error number internal server error timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible windows ms template physical ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm ovf error message exit testing because exit testing when fail is set to true in test case deploy vm ovf,retry,nimbus,202307070327
