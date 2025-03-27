@@ -1,0 +1,64 @@
+{
+    "folder_structure": {
+        "data": "# folder for train/eval data",
+        "framework.json": "# jsonfile for framework configuration",
+        "checksum.md5": "# framework config checksum"
+    },
+    "defaults": {
+        "model_name": "distilbert-base-uncased",
+        "model": "DistilBertForSequenceClassification",
+        "tokenizer": "DistilBertTokenizerFast"
+    },
+    "model": {
+        "model_name": "distilbert-base-uncased",
+        "model": "DistilBertForSequenceClassification",
+        "tokenizer": "DistilBertTokenizerFast",
+        "labels": [
+            "product",
+            "testcase",
+            "testbed",
+            "usererror",
+            "targetvm",
+            "nimbus",
+            "infra"
+        ],
+        "model_version": 202308030456,
+        "historical_datasets": [
+            "",
+            202206171000,
+            202207021500,
+            202207041600,
+            202207151000,
+            202207221500,
+            202207260728,
+            202208031141,
+            202208172100,
+            202208190706,
+            202208240500,
+            202209081034,
+            202209081634,
+            202209151400,
+            202210102130,
+            202210110644,
+            202210121247,
+            202210130649,
+            202210181310,
+            202210200116,
+            202212132000,
+            202302070551,
+            202302071150,
+            202304102150,
+            202304110353,
+            202304110953,
+            202304140402,
+            202304191023,
+            202304270449,
+            202305091133,
+            202305221222,
+            202307030930,
+            202307050919,
+            202307070327,
+            202307191009
+        ]
+    }
+}
