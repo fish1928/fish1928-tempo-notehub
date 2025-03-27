@@ -1,0 +1,1 @@
+[{"info_sc": {"pred": 4, "label": 5, "conf": 0.35544073581695557}, "info_s2s": {"num": 83, "corrects": 63}, "info_greedy": {"greedy": [{"num": 40, "corrects": 29}]}}, {"info_sc": {"pred": 4, "label": 5, "conf": 0.37306270003318787}, "info_s2s": {"num": 83, "corrects": 62}, "info_greedy": {"greedy": [{"num": 40, "corrects": 27}]}}]

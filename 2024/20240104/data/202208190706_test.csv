@@ -1,0 +1,19 @@
+id,name,raw,category,processed,solution,target,version
+5477,3522,"2022-08-15 14:06:09,015 | Failed at Play [wintools_complete_install_verify] **********
+2022-08-15 14:06:09,015 | TASK [wintools_complete_install_verify][Create snapshot 'BaseSnapshot' on 'test_vm'] 
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_PARAVIRTUAL_VMXNET3_EFI/ansible-vsphere-gos-validation/common/vm_take_snapshot.yml:4
+fatal: [localhost]: FAILED! => An error occurred while communicating with the remote host.",,timestamp failed at play win tools complete install verify timestamp task win tools complete install verify create snapshot base snapshot on test vm task path home worker workspace ansible windows number main para virtual vmxnet number efi ansible vsphere gos validation common vm take snapshot yml number fatal localhost failed an error occurred while communicating with the remote host,deepdive,targetvm,202208190706
+5478,3510,"2022-08-15 10:02:25,015 | Failed at Play [deploy_ubuntu_ova] *************************
+2022-08-15 10:02:25,015 | TASK [deploy_ubuntu_ova][Wait for VMware Tools collecting guest OS fullname] 
+task path: /home/worker/workspace/Ansible_Ubuntu_LTS_Server_OVA_70U1/ansible-vsphere-gos-validation/common/vm_wait_guest_fullname.yml:17
+fatal: [localhost]: FAILED! => hardware configuration table
+2022-08-15 10:02:49,015 | TASK [deploy_ubuntu_ova][Testing exit due to failure] ******
+task path: /home/worker/workspace/Ansible_Ubuntu_LTS_Server_OVA_70U1/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_ubuntu_ova",,timestamp failed at play deploy ubuntu ova timestamp task deploy ubuntu ova wait for vmware tools collecting guest os full name task path home worker workspace ansible ubuntu lts server ova ansible vsphere gos validation common vm wait guest full name yml number fatal localhost failed hardware configuration table timestamp task deploy ubuntu ova testing exit due to failure task path home worker workspace ansible ubuntu lts server ova ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy ubuntu ova,retry,targetvm,202208190706
+5479,3515,"2022-08-15 12:12:35,015 | Failed at Play [deploy_ubuntu_ova] *************************
+2022-08-15 12:12:35,015 | TASK [deploy_ubuntu_ova][Wait for VMware Tools collecting guest OS fullname] 
+task path: /home/worker/workspace/Ansible_Ubuntu_LTS_Server_OVA_70U1/ansible-vsphere-gos-validation/common/vm_wait_guest_fullname.yml:17
+fatal: [localhost]: FAILED! => hardware configuration table
+2022-08-15 12:12:58,015 | TASK [deploy_ubuntu_ova][Testing exit due to failure] ******
+task path: /home/worker/workspace/Ansible_Ubuntu_LTS_Server_OVA_70U1/ansible-vsphere-gos-validation/common/test_rescue.yml:54
+fatal: [localhost]: FAILED! => Exit testing when 'exit_testing_when_fail' is set to True in test case deploy_ubuntu_ova",,timestamp failed at play deploy ubuntu ova timestamp task deploy ubuntu ova wait for vmware tools collecting guest os full name task path home worker workspace ansible ubuntu lts server ova ansible vsphere gos validation common vm wait guest full name yml number fatal localhost failed hardware configuration table timestamp task deploy ubuntu ova testing exit due to failure task path home worker workspace ansible ubuntu lts server ova ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing when exit testing when fail is set to true in test case deploy ubuntu ova,retry,targetvm,202208190706

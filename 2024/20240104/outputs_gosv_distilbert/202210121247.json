@@ -1,0 +1,1 @@
+[{"info_sc": {"pred": 5, "label": 3, "conf": 0.9772717952728271}, "info_s2s": {"num": 255, "corrects": 105}, "info_greedy": {"greedy": [{"num": 57, "corrects": 44}]}}]

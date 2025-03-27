@@ -1,0 +1,81 @@
+id,name,raw,category,processed,solution,target,version
+5955,79,"2023-04-28 05:37:04,028 | Failed at Play [1_wintools_complete_install_verify] ********
+2023-04-28 05:37:04,028 | TASK [1_wintools_complete_install_verify][Upload local file to ESXi datastore] 
+task path: /home/worker/workspace/Ansible_Windows_11_MAIN_PARAVIRTUAL_VMXNET3_EFI/ansible-vsphere-gos-validation/common/esxi_upload_datastore_file.yml:11
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2384)
+urllib.error.URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:2384)>
+TypeError: 'URLError' object is not subscriptable
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error
+error message:
+MODULE FAILURE
+See stdout/stderr for the exact error
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2384)
+urllib.error.URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:2384)>
+TypeError: 'URLError' object is not subscriptable",,timestamp failed at play number win tools complete install verify timestamp task number win tools complete install verify upload local file to esxi data store task path home worker workspace ansible windows number main para virtual vmxnet number efi ansible vsphere gos validation common esxi upload data store file yml number ssl ssl eof error eof occurred in violation of protocol ssl c number url library error url error url open error eof occurred in violation of protocol ssl c number type error url error object is not sub scriptable fatal localhost failed module failure see stdout stderr for the exact error error message module failure see stdout stderr for the exact error ssl ssl eof error eof occurred in violation of protocol ssl c number url library error url error url open error eof occurred in violation of protocol ssl c number type error url error object is not sub scriptable,retry,nimbus,202305091133
+5956,79,"2023-05-05 13:31:06,005 | Failed at Play [29_nvdimm_cold_add_remove] *****************
+2023-05-05 13:31:06,005 | TASK [29_nvdimm_cold_add_remove][Get installed packages on SLES] 
+task path: /home/worker/workspace/Ansible_SLES_15SP4_70U1_LSILOGICSAS_VMXNET3_BIOS/ansible-vsphere-gos-validation/linux/utils/install_uninstall_package.yml:36
+fatal: [localhost]: UNREACHABLE! => Failed to connect to the host via ssh: ssh: connect to host 10.168.167.102 port 22: Connection timed out
+error message:
+Failed to connect to the host via ssh: ssh: connect to host 10.168.167.102 port 22: Connection timed out",,timestamp failed at play number nvdimm cold add remove timestamp task number nvdimm cold add remove get installed packages on sles task path home worker workspace ansible sles lsi logic sas vmxnet number bios ansible vsphere gos validation linux utilities install un install package yml number fatal localhost un reachable failed to connect to the host via ssh ssh connect to host ip address port number connection timed out error message failed to connect to the host via ssh ssh connect to host ip address port number connection timed out,retry,testbed,202305091133
+5957,79,"2023-05-04 04:48:13,004 | Failed at Play [03_ovt_verify_install] *********************
+2023-05-04 04:48:13,004 | TASK [03_ovt_verify_install][Assert command is executed successfully] 
+task path: /home/worker/workspace/Ansible_Photon_5.x_OVA_70GA/ansible-vsphere-gos-validation/linux/open_vm_tools/install_ovt.yml:47
+fatal: [localhost]: FAILED! => Failed to install open-vm-tools by executing command: tdnf install -y open-vm-tools.
+error message:
+Failed to install open-vm-tools by executing command: tdnf install -y open-vm-tools.
+2023-05-04 04:48:43,004 | TASK [03_ovt_verify_install][Testing exit due to failure] **
+task path: /home/worker/workspace/Ansible_Photon_5.x_OVA_70GA/ansible-vsphere-gos-validation/common/test_rescue.yml:87
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case ovt_verify_install
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case ovt_verify_install",,timestamp failed at play number ovt verify install timestamp task number ovt verify install assert command is executed successfully task path home worker workspace ansible photon number x ova number ga ansible vsphere gos validation linux open vm tools install ovt yml number fatal localhost failed failed to install open vm tools by executing command tdnf install y open vm tools error message failed to install open vm tools by executing command tdnf install y open vm tools timestamp task number ovt verify install testing exit due to failure task path home worker workspace ansible photon number x ova number ga ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case ovt verify install error message exit testing because exit testing when fail is set to true in test case ovt verify install,deepdive,targetvm,202305091133
+5958,79,"2023-05-06 01:38:23,006 | Failed at Play [2_gosc_cloudinit_staticip] *****************
+2023-05-06 01:38:23,006 | TASK [2_gosc_cloudinit_staticip][Deploy VM from ovf template] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_20.04_Desktop_ISO/ansible-vsphere-gos-validation/common/ovf_deploy.yml:4
+exception in /AnsiballZ_vmware_deploy_ovf.py when _ansiballz_main in /SoapAdapter.py when InvokeMethod
+fatal: [localhost]: FAILED! => MODULE FAILURE
+See stdout/stderr for the exact error
+error message:
+MODULE FAILURE
+See stdout/stderr for the exact error
+pyVmomi.VmomiSupport.SystemError: (vmodl.fault.SystemError) {
+   dynamicType = <unset>,
+   dynamicProperty = (vmodl.DynamicProperty) [],
+   msg = 'A general system error occurred: HTTP error response: Service Unavailable',
+   faultCause = <unset>,
+   faultMessage = (vmodl.LocalizableMessage) [],
+   reason = 'HTTP error response: Service Unavailable'
+}",,timestamp failed at play number go sc cloud init static ip timestamp task number go sc cloud init static ip deploy vm from ovf template task path home worker workspace ansible cycle ubuntu number desktop iso ansible vsphere gos validation common ovf deploy yml number exception in ansi ball z vmware deploy ovf python when ansi ball z main in soap adapter python when invoke method fatal localhost failed module failure see stdout stderr for the exact error error message module failure see stdout stderr for the exact error python vmomi vmomi support system error vmodl fault system error dynamic type un set dynamic property vmodl dynamic property message a general system error occurred http error response service unavailable fault cause un set fault message vmodl localizable message reason http error response service unavailable ,retry,targetvm,202305091133
+5960,79,"2023-05-02 17:24:00,002 | Failed at Play [01_deploy_vm] ******************************
+2023-05-02 17:24:00,002 | TASK [01_deploy_vm][Wait for message 'Autoinstall is completed.' appear in VM log serial-20230502162114.log] 
+task path: /home/worker/workspace/Ansible_SLED_15SP4_70U1_SATA_E1000E_EFI/ansible-vsphere-gos-validation/common/vm_wait_log_msg.yml:40
+fatal: [localhost]: FAILED! => {
+    ""attempts"": 120,
+    ""censored"": ""the output has been hidden due to the fact that 'no_log: true' was specified for this result"",
+    ""changed"": false
+}
+error message:
+2023-05-02 17:24:12,002 | TASK [01_deploy_vm][Testing exit due to failure] ***********
+task path: /home/worker/workspace/Ansible_SLED_15SP4_70U1_SATA_E1000E_EFI/ansible-vsphere-gos-validation/common/test_rescue.yml:87
+fatal: [localhost]: FAILED! => Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_sata_e1000e
+error message:
+Exit testing because 'exit_testing_when_fail' is set to True in test case deploy_vm_efi_sata_e1000e",,timestamp failed at play number deploy vm timestamp task number deploy vm wait for message auto install is completed appear in vm log serial timestamp log task path home worker workspace ansible sled sata efi ansible vsphere gos validation common vm wait log message yml number fatal localhost failed attempts number censored the output has been hidden due to the fact that no log true was specified for this result changed false error message timestamp task number deploy vm testing exit due to failure task path home worker workspace ansible sled sata efi ansible vsphere gos validation common test rescue yml number fatal localhost failed exit testing because exit testing when fail is set to true in test case deploy vm efi sata e number e error message exit testing because exit testing when fail is set to true in test case deploy vm efi sata e number e,deepdive,targetvm,202305091133
+5959,79,"2023-05-05 12:10:18,005 | Failed at Play [10_device_list] ****************************
+2023-05-05 12:10:18,005 | TASK [10_device_list][Check VMware Tools is running and collects guest IPv4 address successfully] 
+task path: /home/worker/workspace/Ansible_SLES_15SP4_MAIN_NVME_E1000E_BIOS_HW17/ansible-vsphere-gos-validation/common/vm_wait_guest_ip.yml:49
+fatal: [localhost]: FAILED! => [""It's timed out for VMware Tools collecting guest IPv4 address in 900 seconds."", ""VMware Tools running status is 'guestToolsRunning'."", ""VM's IP address in guest info is '2620:124:6020:c70b:7d9f:4870:317:7ee8'."", ""VM's all IP addresses in guest info are '['2620:124:6020:c70b:7d9f:4870:317:7ee8', '2620:124:6020:c70b:250:56ff:fe80:59d5', 'fe80::250:56ff:fe80:59d5']'.""]
+error message:
+It's timed out for VMware Tools collecting guest IPv4 address in 900 seconds.
+VMware Tools running status is 'guestToolsRunning'.
+VM's IP address in guest info is '2620:124:6020:c70b:7d9f:4870:317:7ee8'.
+VM's all IP addresses in guest info are '['2620:124:6020:c70b:7d9f:4870:317:7ee8', '2620:124:6020:c70b:250:56ff:fe80:59d5', 'fe80::250:56ff:fe80:59d5']'.",,timestamp failed at play number device list timestamp task number device list check vmware tools is running and collects guest ip v number address successfully task path home worker workspace ansible sles main nvme bios ansible vsphere gos validation common vm wait guest ip yml number fatal localhost failed it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is ip address vm s all ip addresses in guest info are ip address ip address ip address error message it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is ip address vm s all ip addresses in guest info are ip address ip address ip address,deepdive,targetvm,202305091133
+5961,79,"2023-05-07 13:17:54,007 | Failed at Play [4_gosc_cloudinit_dhcp] *********************
+2023-05-07 13:17:54,007 | TASK [4_gosc_cloudinit_dhcp][Check VMware Tools is running and collects guest IPv4 address successfully] 
+task path: /home/worker/workspace/Ansible_Cycle_Ubuntu_23.04_Desktop_ISO/ansible-vsphere-gos-validation/common/vm_wait_guest_ip.yml:49
+fatal: [localhost]: FAILED! => [""It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds."", ""VMware Tools running status is 'guestToolsRunning'."", ""VM's IP address in guest info is 'fd01:0:106:3:250:56ff:feb4:3da3'."", ""VM's all IP addresses in guest info are '['fd01:0:106:3:250:56ff:feb4:3da3', 'fe80::250:56ff:feb4:3da3']'.""]
+error message:
+It's timed out for VMware Tools collecting guest IPv4 address in 300 seconds.
+VMware Tools running status is 'guestToolsRunning'.
+VM's IP address in guest info is 'fd01:0:106:3:250:56ff:feb4:3da3'.
+VM's all IP addresses in guest info are '['fd01:0:106:3:250:56ff:feb4:3da3', 'fe80::250:56ff:feb4:3da3']'.",,timestamp failed at play number go sc cloud init dhcp timestamp task number go sc cloud init dhcp check vmware tools is running and collects guest ip v number address successfully task path home worker workspace ansible cycle ubuntu number desktop iso ansible vsphere gos validation common vm wait guest ip yml number fatal localhost failed it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is ip address vm s all ip addresses in guest info are ip address ip address error message it s timed out for vmware tools collecting guest ip v number address in number seconds vmware tools running status is guest tools running vm sip address in guest info is ip address vm s all ip addresses in guest info are ip address ip address,deepdive,targetvm,202305091133
